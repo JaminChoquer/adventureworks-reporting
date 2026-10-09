@@ -1,0 +1,20 @@
+# Export AdventureWorks téléchargé par le pipeline
+aw/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Identifiants : ne jamais versionner une clé de compte de service
+*.json
+!**/package.json
+.env
+
+# macOS
+.DS_Store
+
+# dbt
+target/
+dbt_packages/
+logs/

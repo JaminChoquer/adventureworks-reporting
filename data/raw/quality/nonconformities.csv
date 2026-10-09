@@ -1,0 +1,1087 @@
+nc_id,detected_on,source,severity,description,work_center,location_id,work_order_id,purchase_order_id,purchase_order_detail_id,vendor_id,audit_id,rma_id,sales_order_id,product_id,scrap_reason_id,qty_affected,estimated_cost_usd,root_cause_category,status,closed_on
+NC-00001,2022-06-02,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00006,,,,,,,Method,Closed,2022-07-18
+NC-00002,2022-06-02,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00006,,,,,,,Method,Closed,2022-07-22
+NC-00003,2022-06-02,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00006,,,,,,,Method,Closed,2022-06-18
+NC-00004,2022-06-02,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00006,,,,,,,Human factor,Closed,2022-07-12
+NC-00005,2022-06-09,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00003,,,,,,,Human factor,Closed,2022-08-01
+NC-00006,2022-06-09,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00003,,,,,,,Human factor,Closed,2022-06-19
+NC-00007,2022-06-09,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00003,,,,,,,Method,Closed,2022-07-26
+NC-00008,2022-06-09,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00003,,,,,,,Work environment,Closed,2022-07-08
+NC-00009,2022-06-27,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00007,,,,,,,Method,Closed,2022-09-18
+NC-00010,2022-06-29,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00005,,,,,,,Organization,Closed,2022-08-10
+NC-00011,2022-07-03,Production,Minor,Scrap above threshold on work order,WC50,50,1358,,,,,,,401,10,42,0.0,Human factor,Closed,2022-07-13
+NC-00012,2022-07-04,Production,Minor,Scrap above threshold on work order,WC40,40,1352,,,,,,,327,9,42,0.0,Equipment,Closed,2022-07-21
+NC-00013,2022-07-05,Production,Minor,Scrap above threshold on work order,WC50,50,1302,,,,,,,517,1,12,1185.24,Human factor,Closed,2022-08-01
+NC-00014,2022-07-05,Production,Minor,Scrap above threshold on work order,WC60,60,1344,,,,,,,945,7,21,853.05,Equipment,Closed,2022-07-19
+NC-00015,2022-07-06,Production,Minor,Scrap above threshold on work order,WC20,20,1365,,,,,,,804,11,12,1222.72,Material,Closed,2022-08-01
+NC-00016,2022-07-19,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00013,,,,,,,Method,Closed,2022-08-21
+NC-00017,2022-07-28,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00015,,,,,,,Organization,Closed,2022-09-19
+NC-00018,2022-07-28,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00015,,,,,,,Organization,Closed,2022-09-28
+NC-00019,2022-07-28,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00015,,,,,,,Method,Closed,2022-08-28
+NC-00020,2022-08-01,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00024,,,,,,,Work environment,Closed,2022-09-09
+NC-00021,2022-08-03,Production,Minor,Scrap above threshold on work order,WC10,10,2593,,,,,,,996,15,14,755.18,Human factor,Closed,2022-08-29
+NC-00022,2022-08-03,Production,Minor,Scrap above threshold on work order,WC10,10,2589,,,,,,,950,15,12,1366.58,Equipment,Closed,2022-08-24
+NC-00023,2022-08-04,Production,Minor,Scrap above threshold on work order,WC40,40,2607,,,,,,,802,2,10,658.1,Equipment,Closed,2022-08-16
+NC-00024,2022-08-04,Production,Minor,Scrap above threshold on work order,WC50,50,2595,,,,,,,324,16,41,0.0,Method,Closed,2022-08-15
+NC-00025,2022-08-05,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000004,43883,768,,1,452.71,Method,Closed,2022-08-24
+NC-00026,2022-08-05,Production,Minor,Scrap above threshold on work order,WC10,10,2573,,,,,,,806,12,14,635.84,Material,Closed,2022-09-02
+NC-00027,2022-08-06,Production,Minor,Scrap above threshold on work order,WC50,50,2600,,,,,,,399,1,26,0.0,Human factor,Closed,2022-08-17
+NC-00028,2022-08-16,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00022,,,,,,,Method,Closed,2022-09-25
+NC-00029,2022-08-16,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00022,,,,,,,Method,Closed,2022-09-25
+NC-00030,2022-08-16,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00022,,,,,,,Organization,Closed,2022-09-26
+NC-00031,2022-08-18,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00018,,,,,,,Work environment,Closed,2022-09-30
+NC-00032,2022-09-02,Production,Minor,Scrap above threshold on work order,WC50,50,3703,,,,,,,516,1,6,875.22,Human factor,Closed,2022-09-14
+NC-00033,2022-09-03,Production,Minor,Scrap above threshold on work order,WC50,50,3761,,,,,,,328,10,7,0.0,Method,Closed,2022-09-14
+NC-00034,2022-09-03,Production,Minor,Scrap above threshold on work order,WC40,40,3755,,,,,,,994,9,7,167.8,Material,Closed,2022-09-15
+NC-00035,2022-09-04,Production,Minor,Scrap above threshold on work order,WC10,10,3739,,,,,,,810,6,5,267.0,Method,Closed,2022-09-18
+NC-00036,2022-09-06,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00039,,,,,,,Organization,Closed,2022-11-08
+NC-00037,2022-09-08,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00038,,,,,,,Method,Closed,2022-10-24
+NC-00038,2022-09-10,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000011,44210,749,,1,3622.54,Method,Closed,2022-10-01
+NC-00039,2022-09-15,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00032,,,,,,,Human factor,Closed,2022-11-18
+NC-00040,2022-09-15,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00029,,,,,,,Work environment,Closed,2022-10-17
+NC-00041,2022-09-15,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00036,,,,,,,Organization,Closed,2022-10-06
+NC-00042,2022-09-19,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00034,,,,,,,Organization,Closed,2022-10-26
+NC-00043,2022-09-19,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00034,,,,,,,Organization,Closed,2022-10-28
+NC-00044,2022-09-20,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00025,,,,,,,Method,Closed,2022-11-02
+NC-00045,2022-09-20,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00035,,,,,,,Method,Closed,2022-10-29
+NC-00046,2022-09-27,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00026,,,,,,,Method,Closed,2022-11-06
+NC-00047,2022-09-27,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00026,,,,,,,Method,Closed,2022-11-29
+NC-00048,2022-09-27,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00037,,,,,,,Human factor,Closed,2022-11-24
+NC-00049,2022-09-27,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00037,,,,,,,Method,Closed,2022-10-27
+NC-00050,2022-09-27,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00037,,,,,,,Organization,Closed,2022-11-02
+NC-00051,2022-09-27,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00037,,,,,,,Organization,Closed,2022-11-11
+NC-00052,2022-09-27,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00026,,,,,,,Organization,Closed,2022-10-11
+NC-00053,2022-09-29,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00033,,,,,,,Organization,Closed,2022-12-01
+NC-00054,2022-09-29,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00033,,,,,,,Organization,Closed,2022-10-22
+NC-00055,2022-09-30,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00028,,,,,,,Method,Closed,2022-11-24
+NC-00056,2022-09-30,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00028,,,,,,,Organization,Closed,2022-11-28
+NC-00057,2022-10-03,Production,Major,Scrap above threshold on work order,WC50,50,5058,,,,,,,531,10,65,0.0,Material,Closed,2022-11-24
+NC-00058,2022-10-03,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000013,44350,751,,1,44.82,Method,Closed,2022-10-22
+NC-00059,2022-10-12,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00043,,,,,,,Method,Closed,2022-12-08
+NC-00060,2022-10-14,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00042,,,,,,,Method,Closed,2022-10-24
+NC-00061,2022-10-19,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00040,,,,,,,Organization,Closed,2022-11-29
+NC-00062,2022-10-19,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00040,,,,,,,Method,Closed,2022-11-20
+NC-00063,2022-10-19,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000021,44527,774,,1,2078.69,Equipment,Closed,2022-12-07
+NC-00064,2022-10-20,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00046,,,,,,,Method,Closed,2022-12-20
+NC-00065,2022-10-20,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000017,44504,750,,1,2189.03,Method,Closed,2022-11-05
+NC-00066,2022-10-20,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000016,44501,770,,1,452.07,Method,Closed,2022-11-02
+NC-00067,2022-10-28,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00045,,,,,,,Method,Closed,2022-12-30
+NC-00068,2022-10-28,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000024,44551,776,,1,2065.58,Equipment,Closed,2022-11-04
+NC-00069,2022-11-02,Production,Minor,Scrap above threshold on work order,WC10,10,6330,,,,,,,819,5,5,551.41,Method,Closed,2022-11-17
+NC-00070,2022-11-04,Production,Minor,Scrap above threshold on work order,WC10,10,6333,,,,,,,826,5,17,849.64,Equipment,Closed,2022-11-28
+NC-00071,2022-11-04,Production,Minor,Scrap above threshold on work order,WC40,40,6355,,,,,,,534,9,32,0.0,Method,Closed,2022-11-30
+NC-00072,2022-11-10,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00055,,,,,,,Method,Closed,2022-11-18
+NC-00073,2022-11-14,External audit,Minor,External audit finding,WC45,45,,,,,AUD-00060,,,,,,,Human factor,Closed,2022-12-10
+NC-00074,2022-11-14,External audit,Minor,External audit finding,WC20,20,,,,,AUD-00057,,,,,,,Method,Closed,2022-12-01
+NC-00075,2022-11-14,External audit,Major,External audit finding,WC30,30,,,,,AUD-00058,,,,,,,Organization,Closed,2022-12-05
+NC-00076,2022-11-14,External audit,Minor,External audit finding,WC60,60,,,,,AUD-00062,,,,,,,Method,Closed,2022-12-05
+NC-00077,2022-11-14,External audit,Minor,External audit finding,WC60,60,,,,,AUD-00062,,,,,,,Human factor,Closed,2022-12-12
+NC-00078,2022-11-14,External audit,Minor,External audit finding,WC50,50,,,,,AUD-00061,,,,,,,Organization,Closed,2022-12-06
+NC-00079,2022-11-14,External audit,Major,External audit finding,WC50,50,,,,,AUD-00061,,,,,,,Organization,Closed,2022-12-27
+NC-00080,2022-11-14,External audit,Major,External audit finding,WC20,20,,,,,AUD-00057,,,,,,,Human factor,Closed,2022-12-11
+NC-00081,2022-11-14,External audit,Major,External audit finding,WC30,30,,,,,AUD-00058,,,,,,,Human factor,Closed,2022-12-19
+NC-00082,2022-11-14,External audit,Minor,External audit finding,WC40,40,,,,,AUD-00059,,,,,,,Human factor,Closed,2022-12-11
+NC-00083,2022-11-16,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000022,44528,709,,5,67.68,Method,Closed,2022-12-04
+NC-00084,2022-11-21,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00050,,,,,,,Method,Closed,2022-12-22
+NC-00085,2022-11-22,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00048,,,,,,,Organization,Closed,2022-12-19
+NC-00086,2022-12-03,Production,Minor,Scrap above threshold on work order,WC10,10,7771,,,,,,,328,12,6,0.0,Equipment,Closed,2022-12-31
+NC-00087,2022-12-03,Production,Minor,Scrap above threshold on work order,WC40,40,7749,,,,,,,810,8,5,267.0,Equipment,Closed,2022-12-30
+NC-00088,2022-12-03,Production,Minor,Scrap above threshold on work order,WC40,40,7713,,,,,,,516,2,5,729.35,Method,Closed,2022-12-17
+NC-00089,2022-12-04,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000034,44891,749,,1,3606.83,Equipment,Closed,2022-12-18
+NC-00090,2022-12-05,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00064,,,,,,,Organization,Closed,2023-01-30
+NC-00091,2022-12-05,Production,Minor,Scrap above threshold on work order,WC20,20,7765,,,,,,,994,11,6,143.83,Human factor,Closed,2022-12-29
+NC-00092,2022-12-12,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00065,,,,,,,Method,Closed,2023-01-23
+NC-00093,2022-12-27,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,12,28,1628,,,,941,,82,774.77,Material,Closed,2023-01-04
+NC-00094,2022-12-27,Supplier,Major,Parts rejected at goods receipt,LOG,5,,14,32,1690,,,,504,,3,21.94,Material,Closed,2023-02-18
+NC-00095,2022-12-28,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,21,50,1544,,,,679,,27,23.39,Material,Closed,2023-01-02
+NC-00096,2022-12-28,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,22,51,1530,,,,507,,82,287.75,Organization,Closed,2023-01-17
+NC-00097,2022-12-28,Supplier,Major,Parts rejected at goods receipt,LOG,2,,24,56,1694,,,,351,,550,511.09,Organization,Closed,2023-02-01
+NC-00098,2022-12-28,Supplier,Major,Parts rejected at goods receipt,LOG,6,,24,57,1694,,,,352,,550,121.27,Material,Closed,2023-02-11
+NC-00099,2023-01-03,Production,Major,Scrap above threshold on work order,WC40,40,9157,,,,,,,532,9,181,0.0,Method,Closed,2023-02-14
+NC-00100,2023-01-05,Production,Major,Scrap above threshold on work order,WC50,50,9163,,,,,,,316,10,117,0.0,Equipment,Closed,2023-01-23
+NC-00101,2023-01-06,Production,Minor,Scrap above threshold on work order,WC10,10,9132,,,,,,,817,5,14,1866.14,Equipment,Closed,2023-01-12
+NC-00102,2023-01-07,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000038,45043,773,,1,31.75,Material,Closed,2023-03-02
+NC-00103,2023-01-13,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00076,,,,,,,Method,Closed,2023-03-05
+NC-00104,2023-01-13,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00076,,,,,,,Method,Closed,2023-03-20
+NC-00105,2023-01-14,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000041,45274,778,,1,28.48,Method,Closed,2023-02-23
+NC-00106,2023-01-20,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00073,,,,,,,Human factor,Closed,2023-03-18
+NC-00107,2023-01-20,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00073,,,,,,,Method,Closed,2023-03-01
+NC-00108,2023-01-21,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,32,78,1646,,,,510,,82,283.87,Method,Closed,2023-02-19
+NC-00109,2023-01-21,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,30,75,1568,,,,477,,55,96.24,Method,Closed,2023-02-12
+NC-00110,2023-01-29,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,40,94,1542,,,,912,,55,251.13,Organization,Closed,2023-02-10
+NC-00111,2023-01-29,Supplier,Major,Parts rejected at goods receipt,LOG,2,,44,100,1510,,,,462,,3,21.46,Method,Closed,2023-03-25
+NC-00112,2023-01-29,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,42,96,1638,,,,937,,82,774.77,Material,Closed,2023-02-11
+NC-00113,2023-01-29,Supplier,Major,Parts rejected at goods receipt,LOG,5,,34,83,1600,,,,525,,550,191.44,Material,Closed,2023-03-05
+NC-00114,2023-01-30,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00071,,,,,,,Organization,Closed,2023-02-11
+NC-00115,2023-02-02,Production,Minor,Scrap above threshold on work order,WC60,60,10345,,,,,,,534,7,25,0.0,Equipment,Closed,2023-02-08
+NC-00116,2023-02-02,Production,Minor,Scrap above threshold on work order,WC10,10,10323,,,,,,,826,4,14,699.7,Human factor,Closed,2023-02-14
+NC-00117,2023-02-03,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00080,,,,,,,Method,Closed,2023-04-16
+NC-00118,2023-02-03,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00080,,,,,,,Method,Closed,2023-02-08
+NC-00119,2023-02-06,Supplier,Major,Parts rejected at goods receipt,LOG,5,,64,145,1614,,,,341,,3,21.41,Material,Closed,2023-03-20
+NC-00120,2023-02-06,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,62,140,1684,,,,931,,82,428.91,Material,Closed,2023-02-25
+NC-00121,2023-02-06,Supplier,Major,Parts rejected at goods receipt,LOG,2,,54,121,1586,,,,939,,550,3983.88,Material,Closed,2023-03-28
+NC-00122,2023-02-06,Supplier,Major,Parts rejected at goods receipt,LOG,5,,54,120,1586,,,,938,,550,2597.88,Method,Closed,2023-03-10
+NC-00123,2023-02-06,Supplier,Major,Parts rejected at goods receipt,LOG,6,,64,146,1614,,,,342,,3,20.46,Method,Closed,2023-03-09
+NC-00124,2023-02-07,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,71,163,1514,,,,322,,3,12.91,Material,Closed,2023-02-20
+NC-00125,2023-02-07,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,70,160,1590,,,,326,,125,3.94,Material,Closed,2023-02-14
+NC-00126,2023-02-07,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,72,164,1498,,,,930,,82,522.93,Method,Closed,2023-03-02
+NC-00127,2023-02-08,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00085,,,,,,,Method,Closed,2023-03-14
+NC-00128,2023-02-08,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00085,,,,,,,Organization,Closed,2023-03-30
+NC-00129,2023-02-08,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00085,,,,,,,Organization,Closed,2023-04-07
+NC-00130,2023-02-14,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00081,,,,,,,Organization,Closed,2023-03-04
+NC-00131,2023-02-21,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000045,45299,763,,1,457.7,Human factor,Closed,2023-04-10
+NC-00132,2023-02-22,Supplier,Major,Parts rejected at goods receipt,LOG,2,,74,167,1652,,,,933,,550,3585.41,Material,Closed,2023-03-14
+NC-00133,2023-02-22,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,82,186,1494,,,,530,,82,197.86,Organization,Closed,2023-03-07
+NC-00134,2023-02-22,Supplier,Major,Parts rejected at goods receipt,LOG,2,,74,168,1652,,,,934,,550,3103.77,Material,Closed,2023-03-12
+NC-00135,2023-02-22,Supplier,Major,Parts rejected at goods receipt,LOG,5,,84,188,1654,,,,512,,550,3059.59,Organization,Closed,2023-04-17
+NC-00136,2023-02-24,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00083,,,,,,,Organization,Closed,2023-03-19
+NC-00137,2023-02-24,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000050,45442,753,,1,38.52,Human factor,Closed,2023-03-11
+NC-00138,2023-02-24,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00083,,,,,,,Method,Closed,2023-03-03
+NC-00139,2023-03-02,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00089,,,,,,,Work environment,Closed,2023-03-27
+NC-00140,2023-03-03,Production,Major,Scrap above threshold on work order,WC40,40,11748,,,,,,,331,8,56,0.0,Material,Closed,2023-03-20
+NC-00141,2023-03-03,Production,Minor,Scrap above threshold on work order,WC10,10,11740,,,,,,,529,6,19,0.0,Material,Closed,2023-04-01
+NC-00142,2023-03-06,Production,Minor,Scrap above threshold on work order,WC40,40,11749,,,,,,,350,8,29,0.0,Human factor,Closed,2023-03-15
+NC-00143,2023-03-08,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00100,,,,,,,Work environment,Closed,2023-05-09
+NC-00144,2023-03-10,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00099,,,,,,,Human factor,Closed,2023-04-21
+NC-00145,2023-03-12,Supplier,Major,Parts rejected at goods receipt,LOG,6,,94,214,1566,,,,497,,3,15.38,Material,Closed,2023-05-03
+NC-00146,2023-03-13,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00098,,,,,,,Organization,Closed,2023-04-15
+NC-00147,2023-03-13,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00098,,,,,,,Human factor,Closed,2023-05-14
+NC-00148,2023-03-13,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00098,,,,,,,Organization,Closed,2023-04-27
+NC-00149,2023-03-15,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00095,,,,,,,Method,Closed,2023-05-21
+NC-00150,2023-03-15,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00087,,,,,,,Method,Closed,2023-04-23
+NC-00151,2023-03-16,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00097,,,,,,,Method,Closed,2023-04-17
+NC-00152,2023-03-16,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00097,,,,,,,Organization,Closed,2023-03-30
+NC-00153,2023-03-16,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00096,,,,,,,Work environment,Closed,2023-06-09
+NC-00154,2023-03-16,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00096,,,,,,,Organization,Closed,2023-04-28
+NC-00155,2023-03-17,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00101,,,,,,,Method,Closed,2023-05-04
+NC-00156,2023-03-22,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,100,229,1544,,,,352,,55,9.53,Method,Closed,2023-04-08
+NC-00157,2023-03-22,Supplier,Major,Parts rejected at goods receipt,LOG,2,,104,237,1624,,,,508,,550,2415.97,Material,Closed,2023-04-24
+NC-00158,2023-03-22,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,102,233,1508,,,,355,,82,16.79,Material,Closed,2023-04-07
+NC-00159,2023-03-22,Supplier,Major,Parts rejected at goods receipt,LOG,2,,104,236,1624,,,,507,,550,1828.65,Material,Closed,2023-05-13
+NC-00160,2023-03-23,Supplier,Major,Parts rejected at goods receipt,LOG,6,,114,259,1522,,,,526,,550,300.59,Material,Closed,2023-04-26
+NC-00161,2023-03-23,Supplier,Major,Parts rejected at goods receipt,LOG,6,,124,275,1526,,,,510,,550,1930.87,Material,Closed,2023-04-09
+NC-00162,2023-03-23,Supplier,Major,Parts rejected at goods receipt,LOG,2,,124,276,1526,,,,511,,550,2299.03,Material,Closed,2023-04-12
+NC-00163,2023-03-24,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00091,,,,,,,Organization,Closed,2023-05-28
+NC-00164,2023-03-24,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00091,,,,,,,Work environment,Closed,2023-04-10
+NC-00165,2023-03-28,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00092,,,,,,,Work environment,Closed,2023-05-08
+NC-00166,2023-03-30,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000060,45936,776,,1,3415.53,Method,Closed,2023-04-25
+NC-00167,2023-04-03,Production,Minor,Scrap above threshold on work order,WC30,30,13119,,,,,,,820,3,5,732.73,Human factor,Closed,2023-04-28
+NC-00168,2023-04-03,Production,Major,Scrap above threshold on work order,WC40,40,13149,,,,,,,350,8,66,0.0,Equipment,Closed,2023-05-01
+NC-00169,2023-04-04,Production,Minor,Scrap above threshold on work order,WC10,10,13140,,,,,,,529,6,42,0.0,Material,Closed,2023-04-13
+NC-00170,2023-04-04,Production,Major,Scrap above threshold on work order,WC40,40,13148,,,,,,,331,8,128,0.0,Equipment,Closed,2023-05-26
+NC-00171,2023-04-04,Production,Minor,Scrap above threshold on work order,WC10,10,13122,,,,,,,827,4,7,855.9,Human factor,Closed,2023-04-12
+NC-00172,2023-04-11,Supplier,Major,Parts rejected at goods receipt,LOG,2,,134,298,1500,,,,358,,60,62.84,Material,Closed,2023-05-17
+NC-00173,2023-04-13,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00102,,,,,,,Human factor,Closed,2023-06-14
+NC-00174,2023-04-13,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00102,,,,,,,Human factor,Closed,2023-06-01
+NC-00175,2023-04-13,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00102,,,,,,,Human factor,Closed,2023-05-19
+NC-00176,2023-04-15,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000059,45916,773,,1,3435.27,Equipment,Closed,2023-05-10
+NC-00177,2023-04-15,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000064,46079,775,,1,41.85,Material,Closed,2023-04-27
+NC-00178,2023-04-18,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00109,,,,,,,Human factor,Closed,2023-05-22
+NC-00179,2023-04-18,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00104,,,,,,,Human factor,Closed,2023-06-04
+NC-00180,2023-04-19,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00105,,,,,,,Human factor,Closed,2023-05-17
+NC-00181,2023-04-25,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,152,365,1674,,,,952,,9,21.25,Material,Closed,2023-05-15
+NC-00182,2023-04-25,Supplier,Major,Parts rejected at goods receipt,LOG,6,,144,346,1588,,,,932,,550,3237.18,Material,Closed,2023-06-23
+NC-00183,2023-04-25,Supplier,Major,Parts rejected at goods receipt,LOG,6,,144,345,1588,,,,931,,550,2833.5,Material,Closed,2023-06-22
+NC-00184,2023-04-26,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00106,,,,,,,Method,Closed,2023-05-07
+NC-00185,2023-04-26,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00106,,,,,,,Work environment,Closed,2023-06-15
+NC-00186,2023-05-01,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00121,,,,,,,Organization,Closed,2023-05-10
+NC-00187,2023-05-01,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00121,,,,,,,Organization,Closed,2023-06-13
+NC-00188,2023-05-03,Production,Minor,Scrap above threshold on work order,WC50,50,14600,,,,,,,529,1,30,0.0,Material,Closed,2023-05-11
+NC-00189,2023-05-03,Production,Major,Scrap above threshold on work order,WC40,40,14608,,,,,,,331,2,94,0.0,Human factor,Closed,2023-06-16
+NC-00190,2023-05-04,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00123,,,,,,,Organization,Closed,2023-06-26
+NC-00191,2023-05-04,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00123,,,,,,,Human factor,Closed,2023-06-13
+NC-00192,2023-05-04,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00123,,,,,,,Method,Closed,2023-06-16
+NC-00193,2023-05-05,Production,Minor,Scrap above threshold on work order,WC40,40,14609,,,,,,,350,2,48,0.0,Equipment,Closed,2023-05-25
+NC-00194,2023-05-06,Production,Minor,Scrap above threshold on work order,WC10,10,14582,,,,,,,827,14,6,733.63,Human factor,Closed,2023-05-13
+NC-00195,2023-05-11,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00120,,,,,,,Organization,Closed,2023-06-04
+NC-00196,2023-05-11,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00120,,,,,,,Organization,Closed,2023-07-13
+NC-00197,2023-05-11,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00120,,,,,,,Method,Closed,2023-07-26
+NC-00198,2023-05-11,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00120,,,,,,,Method,Closed,2023-07-29
+NC-00199,2023-05-11,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00120,,,,,,,Organization,Closed,2023-05-31
+NC-00200,2023-05-15,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00115,,,,,,,Organization,Closed,2023-06-21
+NC-00201,2023-05-15,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000067,46253,750,,1,31.42,Method,Closed,2023-06-04
+NC-00202,2023-05-16,Supplier,Major,Parts rejected at goods receipt,LOG,2,,154,368,1578,,,,317,,550,2440.23,Method,Closed,2023-06-17
+NC-00203,2023-05-16,Supplier,Major,Parts rejected at goods receipt,LOG,2,,154,369,1578,,,,318,,550,2978.17,Material,Closed,2023-05-31
+NC-00204,2023-05-16,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00116,,,,,,,Organization,Closed,2023-05-23
+NC-00205,2023-05-16,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00114,,,,,,,Organization,Closed,2023-06-25
+NC-00206,2023-05-16,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00116,,,,,,,Organization,Closed,2023-07-05
+NC-00207,2023-05-17,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00119,,,,,,,Organization,Closed,2023-07-14
+NC-00208,2023-05-17,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00119,,,,,,,Human factor,Closed,2023-07-04
+NC-00209,2023-05-17,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00119,,,,,,,Organization,Closed,2023-06-12
+NC-00210,2023-05-19,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00111,,,,,,,Human factor,Closed,2023-08-13
+NC-00211,2023-05-24,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00124,,,,,,,Organization,Closed,2023-06-22
+NC-00212,2023-05-24,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00124,,,,,,,Work environment,Closed,2023-08-22
+NC-00213,2023-06-02,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00130,,,,,,,Method,Closed,2023-06-14
+NC-00214,2023-06-02,Production,Major,Scrap above threshold on work order,WC50,50,16095,,,,,,,534,16,70,0.0,Material,Closed,2023-07-27
+NC-00215,2023-06-02,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00130,,,,,,,Method,Closed,2023-08-06
+NC-00216,2023-06-05,Production,Major,Scrap above threshold on work order,WC10,10,16079,,,,,,,950,13,73,8313.36,Human factor,Closed,2023-07-26
+NC-00217,2023-06-05,Production,Minor,Scrap above threshold on work order,WC50,50,16060,,,,,,,819,10,6,661.7,Material,Closed,2023-06-17
+NC-00218,2023-06-05,Production,Minor,Scrap above threshold on work order,WC40,40,16056,,,,,,,813,9,10,534.0,Method,Closed,2023-06-21
+NC-00219,2023-06-08,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00132,,,,,,,Method,Closed,2023-07-09
+NC-00220,2023-06-13,Supplier,Major,Parts rejected at goods receipt,LOG,6,,164,387,1664,,,,513,,550,2194.21,Organization,Closed,2023-07-21
+NC-00221,2023-06-19,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00129,,,,,,,Method,Closed,2023-08-04
+NC-00222,2023-06-21,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00127,,,,,,,Method,Closed,2023-08-23
+NC-00223,2023-06-23,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00128,,,,,,,Human factor,Closed,2023-08-06
+NC-00224,2023-06-25,Supplier,Major,Parts rejected at goods receipt,LOG,2,,174,413,1698,,,,323,,3,22.62,Material,Closed,2023-07-11
+NC-00225,2023-06-27,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000081,46662,762,,1,29.75,Method,Closed,2023-08-14
+NC-00226,2023-06-27,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000082,46663,708,,1,8.18,Method,Closed,2023-07-16
+NC-00227,2023-07-04,Production,Major,Scrap above threshold on work order,WC10,10,17740,,,,,,,399,6,126,0.0,Material,Closed,2023-08-25
+NC-00228,2023-07-04,Production,Critical,Scrap above threshold on work order,WC10,10,17735,,,,,,,324,6,202,0.0,Human factor,Closed,2023-08-07
+NC-00229,2023-07-04,Production,Minor,Scrap above threshold on work order,WC10,10,17733,,,,,,,996,5,20,1078.83,Equipment,Closed,2023-07-12
+NC-00230,2023-07-04,Production,Major,Scrap above threshold on work order,WC40,40,17747,,,,,,,802,8,54,3553.72,Equipment,Closed,2023-08-26
+NC-00231,2023-07-05,Production,Minor,Scrap above threshold on work order,WC10,10,17674,,,,,,,515,12,5,544.95,Human factor,Closed,2023-07-23
+NC-00232,2023-07-06,Production,Minor,Scrap above threshold on work order,WC30,30,17619,,,,,,,770,3,5,2433.53,Human factor,Closed,2023-07-16
+NC-00233,2023-07-06,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,191,466,1672,,,,914,,27,85.43,Material,Closed,2023-07-21
+NC-00234,2023-07-06,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,190,462,1646,,,,511,,55,241.51,Material,Closed,2023-07-25
+NC-00235,2023-07-06,Supplier,Major,Parts rejected at goods receipt,LOG,2,,184,437,1548,,,,491,,3,8.99,Material,Closed,2023-08-06
+NC-00236,2023-07-06,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,192,468,1600,,,,525,,82,28.54,Material,Closed,2023-07-16
+NC-00237,2023-07-06,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,180,431,1530,,,,508,,55,228.08,Material,Closed,2023-07-13
+NC-00238,2023-07-06,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,182,433,1694,,,,351,,82,76.2,Material,Closed,2023-07-19
+NC-00239,2023-07-09,Supplier,Major,Parts rejected at goods receipt,LOG,5,,194,470,1570,,,,908,,550,1740.3,Method,Closed,2023-08-19
+NC-00240,2023-07-09,Supplier,Major,Parts rejected at goods receipt,LOG,2,,194,471,1570,,,,909,,550,2511.26,Material,Closed,2023-07-25
+NC-00241,2023-07-11,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00137,,,,,,,Human factor,Closed,2023-08-11
+NC-00242,2023-07-17,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00136,,,,,,,Method,Closed,2023-09-01
+NC-00243,2023-07-20,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000108,47041,712,,1,7.84,Human factor,Closed,2023-08-05
+NC-00244,2023-07-21,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00138,,,,,,,Human factor,Closed,2023-09-02
+NC-00245,2023-07-26,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00134,,,,,,,Organization,Closed,2023-08-22
+NC-00246,2023-08-01,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000100,47011,819,,1,158.8,Equipment,Closed,2023-08-28
+NC-00247,2023-08-03,Production,Major,Scrap above threshold on work order,WC10,10,19489,,,,,,,350,15,123,0.0,Method,Closed,2023-08-26
+NC-00248,2023-08-03,Production,Major,Scrap above threshold on work order,WC10,10,19480,,,,,,,529,13,72,0.0,Method,Closed,2023-09-03
+NC-00249,2023-08-03,Production,Major,Scrap above threshold on work order,WC20,20,19465,,,,,,,894,11,51,2750.34,Material,Closed,2023-09-17
+NC-00250,2023-08-04,Production,Minor,Scrap above threshold on work order,WC40,40,19449,,,,,,,820,8,12,1758.56,Equipment,Closed,2023-08-28
+NC-00251,2023-08-04,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000090,46967,711,,1,27.22,Method,Closed,2023-09-01
+NC-00252,2023-08-05,Production,Critical,Scrap above threshold on work order,WC10,10,19488,,,,,,,331,15,239,0.0,Equipment,Closed,2023-09-11
+NC-00253,2023-08-06,Production,Minor,Scrap above threshold on work order,WC10,10,19440,,,,,,,809,6,7,192.45,Equipment,Closed,2023-08-14
+NC-00254,2023-08-10,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00147,,,,,,,Organization,Closed,2023-09-02
+NC-00255,2023-08-10,Supplier,Major,Parts rejected at goods receipt,LOG,6,,204,488,1644,,,,527,,550,557.0,Material,Closed,2023-09-08
+NC-00256,2023-08-11,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00144,,,,,,,Work environment,Closed,2023-10-08
+NC-00257,2023-08-14,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,212,506,1586,,,,938,,82,387.32,Organization,Closed,2023-08-29
+NC-00258,2023-08-29,Supplier,Major,Parts rejected at goods receipt,LOG,5,,214,509,1656,,,,375,,3,19.47,Material,Closed,2023-09-29
+NC-00259,2023-08-29,Supplier,Major,Parts rejected at goods receipt,LOG,6,,214,510,1656,,,,376,,3,21.39,Organization,Closed,2023-09-25
+NC-00260,2023-08-29,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,220,525,1684,,,,932,,55,328.05,Material,Closed,2023-09-09
+NC-00261,2023-08-30,Supplier,Major,Parts rejected at goods receipt,LOG,5,,224,535,1622,,,,341,,3,21.36,Method,Closed,2023-10-24
+NC-00262,2023-08-30,Supplier,Major,Parts rejected at goods receipt,LOG,2,,224,536,1622,,,,342,,3,20.42,Material,Closed,2023-09-14
+NC-00263,2023-09-03,Production,Major,Scrap above threshold on work order,WC50,50,21063,,,,,,,316,10,180,0.0,Equipment,Closed,2023-10-01
+NC-00264,2023-09-03,Production,Critical,Scrap above threshold on work order,WC40,40,21057,,,,,,,532,9,274,0.0,Method,Closed,2023-11-23
+NC-00265,2023-09-04,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000121,47434,748,,1,753.08,Method,Closed,2023-10-02
+NC-00266,2023-09-05,Production,Minor,Scrap above threshold on work order,WC30,30,21018,,,,,,,811,3,25,494.39,Equipment,Closed,2023-10-02
+NC-00267,2023-09-07,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,232,551,1652,,,,933,,82,534.55,Organization,Closed,2023-09-30
+NC-00268,2023-09-07,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00160,,,,,,,Method,Closed,2023-11-01
+NC-00269,2023-09-07,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00160,,,,,,,Human factor,Closed,2023-09-18
+NC-00270,2023-09-07,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,230,549,1498,,,,921,,55,46.08,Material,Closed,2023-09-30
+NC-00271,2023-09-11,Supplier,Major,Parts rejected at goods receipt,LOG,2,,234,555,1538,,,,929,,550,3016.28,Material,Closed,2023-10-21
+NC-00272,2023-09-11,Supplier,Major,Parts rejected at goods receipt,LOG,2,,234,554,1538,,,,928,,550,2660.25,Organization,Closed,2023-10-04
+NC-00273,2023-09-14,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000112,47193,763,,1,32.24,Equipment,Closed,2023-09-28
+NC-00274,2023-09-15,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000130,47673,788,,1,680.11,Human factor,Closed,2023-10-13
+NC-00275,2023-09-19,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000134,47683,796,,1,1352.87,Human factor,Closed,2023-10-10
+NC-00276,2023-09-20,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00159,,,,,,,Organization,Closed,2023-10-02
+NC-00277,2023-09-20,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00159,,,,,,,Organization,Closed,2023-10-05
+NC-00278,2023-09-20,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00151,,,,,,,Method,Closed,2023-10-06
+NC-00279,2023-09-25,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00163,,,,,,,Work environment,Closed,2023-11-16
+NC-00280,2023-09-27,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00161,,,,,,,Method,Closed,2023-11-13
+NC-00281,2023-09-27,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00161,,,,,,,Organization,Closed,2023-10-13
+NC-00282,2023-09-27,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00161,,,,,,,Method,Closed,2023-11-17
+NC-00283,2023-10-03,Production,Minor,Scrap above threshold on work order,WC50,50,22705,,,,,,,994,1,30,719.15,Method,Closed,2023-10-14
+NC-00284,2023-10-04,Production,Minor,Scrap above threshold on work order,WC40,40,22711,,,,,,,328,2,42,0.0,Method,Closed,2023-10-25
+NC-00285,2023-10-04,Production,Minor,Scrap above threshold on work order,WC10,10,22691,,,,,,,828,15,10,1585.35,Equipment,Closed,2023-10-28
+NC-00286,2023-10-05,Production,Minor,Scrap above threshold on work order,WC10,10,22683,,,,,,,816,14,32,2969.83,Equipment,Closed,2023-11-02
+NC-00287,2023-10-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,242,570,1654,,,,512,,82,456.16,Material,Closed,2023-10-17
+NC-00288,2023-10-05,Supplier,Major,Parts rejected at goods receipt,LOG,5,,244,572,1678,,,,317,,550,2232.33,Method,Closed,2023-11-21
+NC-00289,2023-10-05,Supplier,Major,Parts rejected at goods receipt,LOG,6,,244,573,1678,,,,318,,550,2770.27,Method,Closed,2023-11-03
+NC-00290,2023-10-05,Supplier,Major,Parts rejected at goods receipt,LOG,6,,254,597,1560,,,,523,,550,885.31,Organization,Closed,2023-11-08
+NC-00291,2023-10-05,Supplier,Major,Parts rejected at goods receipt,LOG,5,,254,598,1560,,,,524,,550,1165.11,Material,Closed,2023-12-02
+NC-00292,2023-10-06,Production,Minor,Scrap above threshold on work order,WC40,40,22651,,,,,,,518,8,7,762.93,Method,Closed,2023-10-11
+NC-00293,2023-10-16,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,260,610,1508,,,,940,,55,519.66,Organization,Closed,2023-11-06
+NC-00294,2023-10-19,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00170,,,,,,,Method,Closed,2023-12-12
+NC-00295,2023-10-20,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000146,47960,863,,1,32.44,Material,Closed,2023-10-28
+NC-00296,2023-10-24,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00166,,,,,,,Method,Closed,2023-12-01
+NC-00297,2023-10-24,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00166,,,,,,,Human factor,Closed,2023-11-15
+NC-00298,2023-10-24,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00166,,,,,,,Human factor,Closed,2023-11-18
+NC-00299,2023-10-24,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00166,,,,,,,Method,Closed,2023-12-21
+NC-00300,2023-10-25,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,262,613,1624,,,,507,,82,272.64,Material,Closed,2023-11-01
+NC-00301,2023-10-25,Supplier,Major,Parts rejected at goods receipt,LOG,6,,264,616,1598,,,,341,,3,18.53,Material,Closed,2023-12-20
+NC-00302,2023-10-25,Supplier,Major,Parts rejected at goods receipt,LOG,6,,264,617,1598,,,,342,,3,17.58,Material,Closed,2023-12-01
+NC-00303,2023-10-27,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00171,,,,,,,Organization,Closed,2023-11-10
+NC-00304,2023-10-27,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00169,,,,,,,Organization,Closed,2023-11-16
+NC-00305,2023-10-27,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00169,,,,,,,Organization,Closed,2023-12-18
+NC-00306,2023-10-31,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,272,631,1522,,,,526,,82,44.82,Material,Closed,2023-11-19
+NC-00307,2023-10-31,Supplier,Major,Parts rejected at goods receipt,LOG,6,,274,633,1516,,,,356,,60,32.41,Organization,Closed,2023-11-22
+NC-00308,2023-10-31,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00167,,,,,,,Human factor,Closed,2023-12-02
+NC-00309,2023-10-31,Supplier,Major,Parts rejected at goods receipt,LOG,6,,274,634,1516,,,,357,,60,35.82,Material,Closed,2023-11-24
+NC-00310,2023-11-01,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000153,48016,801,,1,635.89,Equipment,Closed,2023-11-17
+NC-00311,2023-11-03,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00178,,,,,,,Organization,Closed,2023-11-19
+NC-00312,2023-11-03,Production,Minor,Scrap above threshold on work order,WC50,50,24259,,,,,,,810,10,16,854.4,Equipment,Closed,2023-12-01
+NC-00313,2023-11-05,Production,Major,Scrap above threshold on work order,WC40,40,24308,,,,,,,531,2,90,0.0,Equipment,Closed,2023-12-10
+NC-00314,2023-11-05,Production,Minor,Scrap above threshold on work order,WC10,10,24284,,,,,,,945,14,40,1624.86,Material,Closed,2023-11-19
+NC-00315,2023-11-14,External audit,Major,External audit finding,WC20,20,,,,,AUD-00181,,,,,,,Work environment,Closed,2023-12-28
+NC-00316,2023-11-14,External audit,Minor,External audit finding,WC60,60,,,,,AUD-00186,,,,,,,Organization,Closed,2023-11-28
+NC-00317,2023-11-14,External audit,Minor,External audit finding,WC60,60,,,,,AUD-00186,,,,,,,Organization,Closed,2023-12-05
+NC-00318,2023-11-14,External audit,Minor,External audit finding,WC45,45,,,,,AUD-00184,,,,,,,Method,Closed,2023-12-02
+NC-00319,2023-11-14,External audit,Major,External audit finding,WC40,40,,,,,AUD-00183,,,,,,,Organization,Closed,2023-12-19
+NC-00320,2023-11-14,External audit,Minor,External audit finding,WC30,30,,,,,AUD-00182,,,,,,,Method,Closed,2023-11-30
+NC-00321,2023-11-14,External audit,Minor,External audit finding,WC30,30,,,,,AUD-00182,,,,,,,Method,Closed,2023-11-19
+NC-00322,2023-11-14,External audit,Minor,External audit finding,WC20,20,,,,,AUD-00181,,,,,,,Human factor,Closed,2023-12-08
+NC-00323,2023-11-14,External audit,Minor,External audit finding,WC20,20,,,,,AUD-00181,,,,,,,Work environment,Closed,2023-12-02
+NC-00324,2023-11-14,External audit,Major,External audit finding,WC30,30,,,,,AUD-00182,,,,,,,Organization,Closed,2024-01-10
+NC-00325,2023-11-14,External audit,Major,External audit finding,WC10,10,,,,,AUD-00180,,,,,,,Work environment,Closed,2023-12-12
+NC-00326,2023-11-14,External audit,Major,External audit finding,WC10,10,,,,,AUD-00180,,,,,,,Method,Closed,2023-12-15
+NC-00327,2023-11-14,External audit,Major,External audit finding,WC10,10,,,,,AUD-00180,,,,,,,Method,Closed,2024-01-09
+NC-00328,2023-11-14,External audit,Major,External audit finding,WC10,10,,,,,AUD-00180,,,,,,,Organization,Closed,2023-12-23
+NC-00329,2023-11-21,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00175,,,,,,,Method,Closed,2023-12-03
+NC-00330,2023-11-21,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00177,,,,,,,Human factor,Closed,2024-01-03
+NC-00331,2023-11-26,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000172,48349,836,,3,995.45,Equipment,Closed,2023-12-05
+NC-00332,2023-11-27,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00172,,,,,,,Method,Closed,2023-12-28
+NC-00333,2023-11-29,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00179,,,,,,,Method,Closed,2023-12-11
+NC-00334,2023-11-29,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00179,,,,,,,Human factor,Closed,2023-12-12
+NC-00335,2023-11-29,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00179,,,,,,,Method,Closed,2023-12-24
+NC-00336,2023-12-04,Production,Minor,Scrap above threshold on work order,WC10,10,26123,,,,,,,816,4,17,1577.72,Equipment,Closed,2023-12-13
+NC-00337,2023-12-05,Production,Minor,Scrap above threshold on work order,WC40,40,26151,,,,,,,328,8,21,0.0,Equipment,Closed,2024-01-02
+NC-00338,2023-12-05,Production,Minor,Scrap above threshold on work order,WC60,60,26145,,,,,,,994,7,16,383.55,Equipment,Closed,2023-12-30
+NC-00339,2023-12-15,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00187,,,,,,,Human factor,Closed,2023-12-20
+NC-00340,2023-12-26,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00189,,,,,,,Organization,Closed,2024-02-22
+NC-00341,2024-01-03,Production,Major,Scrap above threshold on work order,WC10,10,27783,,,,,,,806,14,92,4178.35,Method,Closed,2024-01-25
+NC-00342,2024-01-04,Production,Minor,Scrap above threshold on work order,WC50,50,27795,,,,,,,824,16,15,1571.93,Human factor,Closed,2024-01-22
+NC-00343,2024-01-05,Production,Major,Scrap above threshold on work order,WC10,10,27826,,,,,,,533,4,92,0.0,Human factor,Closed,2024-01-29
+NC-00344,2024-01-05,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00197,,,,,,,Organization,Closed,2024-02-03
+NC-00345,2024-01-06,Production,Minor,Scrap above threshold on work order,WC10,10,27787,,,,,,,812,14,8,219.94,Human factor,Closed,2024-01-27
+NC-00346,2024-01-06,Production,Minor,Scrap above threshold on work order,WC10,10,27791,,,,,,,818,15,21,797.81,Human factor,Closed,2024-01-14
+NC-00347,2024-01-08,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000191,48999,795,,1,28.44,Method,Closed,2024-01-14
+NC-00348,2024-01-16,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000184,48761,854,,1,53.71,Method,Closed,2024-01-29
+NC-00349,2024-01-16,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00201,,,,,,,Method,Closed,2024-02-22
+NC-00350,2024-01-16,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00201,,,,,,,Method,Closed,2024-02-13
+NC-00351,2024-01-26,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000206,49167,797,,1,32.62,Material,Closed,2024-02-08
+NC-00352,2024-01-26,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000201,49122,763,,1,32.86,Method,Closed,2024-02-12
+NC-00353,2024-01-30,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000205,49149,742,,1,9.91,Equipment,Closed,2024-02-26
+NC-00354,2024-01-31,Production,Minor,Scrap above threshold on work order,WC10,10,29425,,,,,,,534,4,41,0.0,Material,Closed,2024-02-21
+NC-00355,2024-01-31,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00196,,,,,,,Method,Closed,2024-03-29
+NC-00356,2024-02-01,Production,Major,Scrap above threshold on work order,WC40,40,29409,,,,,,,950,2,52,5921.84,Human factor,Closed,2024-02-23
+NC-00357,2024-02-03,Production,Minor,Scrap above threshold on work order,WC10,10,29386,,,,,,,813,14,7,373.8,Material,Closed,2024-02-10
+NC-00358,2024-02-05,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00210,,,,,,,Organization,Closed,2024-02-13
+NC-00359,2024-02-07,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000199,49104,763,,1,33.86,Method,Closed,2024-03-06
+NC-00360,2024-02-08,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000212,49533,856,,1,62.87,Material,Closed,2024-03-07
+NC-00361,2024-02-22,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,282,646,1526,,,,510,,82,287.88,Method,Closed,2024-02-27
+NC-00362,2024-02-22,Supplier,Major,Parts rejected at goods receipt,LOG,2,,284,649,1680,,,,938,,550,2597.88,Material,Closed,2024-03-15
+NC-00363,2024-02-22,Supplier,Major,Parts rejected at goods receipt,LOG,2,,284,650,1680,,,,939,,550,3983.88,Method,Closed,2024-03-24
+NC-00364,2024-02-27,Supplier,Major,Parts rejected at goods receipt,LOG,2,,294,666,1572,,,,356,,60,30.43,Organization,Closed,2024-04-23
+NC-00365,2024-02-27,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,292,662,1500,,,,358,,9,9.43,Material,Closed,2024-03-19
+NC-00366,2024-02-27,Supplier,Major,Parts rejected at goods receipt,LOG,5,,294,667,1572,,,,357,,60,38.84,Material,Closed,2024-04-18
+NC-00367,2024-02-29,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00203,,,,,,,Method,Closed,2024-03-24
+NC-00368,2024-03-02,Production,Minor,Scrap above threshold on work order,WC40,40,31151,,,,,,,328,8,29,0.0,Equipment,Closed,2024-03-08
+NC-00369,2024-03-03,Production,Minor,Scrap above threshold on work order,WC10,10,31123,,,,,,,816,4,22,2041.76,Equipment,Closed,2024-03-12
+NC-00370,2024-03-03,Production,Minor,Scrap above threshold on work order,WC10,10,31131,,,,,,,828,5,5,792.67,Material,Closed,2024-03-15
+NC-00371,2024-03-04,Production,Minor,Scrap above threshold on work order,WC60,60,31145,,,,,,,994,7,20,479.43,Equipment,Closed,2024-03-20
+NC-00372,2024-03-11,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00213,,,,,,,Method,Closed,2024-04-22
+NC-00373,2024-03-11,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00213,,,,,,,Human factor,Closed,2024-04-22
+NC-00374,2024-03-14,Production,Minor,Scrap above threshold on work order,WC50,50,31796,,,,,,,3,16,5,0.0,Human factor,Closed,2024-04-08
+NC-00375,2024-03-20,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00225,,,,,,,Organization,Closed,2024-04-15
+NC-00376,2024-03-20,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00215,,,,,,,Work environment,Closed,2024-04-11
+NC-00377,2024-03-20,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00214,,,,,,,Organization,Closed,2024-04-12
+NC-00378,2024-03-27,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00217,,,,,,,Organization,Closed,2024-04-09
+NC-00379,2024-03-28,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00221,,,,,,,Human factor,Closed,2024-04-30
+NC-00380,2024-03-29,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00218,,,,,,,Organization,Closed,2024-04-19
+NC-00381,2024-03-29,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00218,,,,,,,Human factor,Closed,2024-04-13
+NC-00382,2024-03-29,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00212,,,,,,,Organization,Closed,2024-04-15
+NC-00383,2024-04-02,Production,Minor,Scrap above threshold on work order,WC10,10,32872,,,,,,,827,12,10,1222.71,Equipment,Closed,2024-04-21
+NC-00384,2024-04-02,Production,Minor,Scrap above threshold on work order,WC10,10,32832,,,,,,,517,5,35,3456.95,Method,Closed,2024-04-30
+NC-00385,2024-04-03,Production,Major,Scrap above threshold on work order,WC50,50,32898,,,,,,,401,16,112,0.0,Method,Closed,2024-05-25
+NC-00386,2024-04-04,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00231,,,,,,,Method,Closed,2024-04-16
+NC-00387,2024-04-04,Production,Major,Scrap above threshold on work order,WC10,10,32892,,,,,,,327,15,117,0.0,Equipment,Closed,2024-04-24
+NC-00388,2024-04-04,Production,Minor,Scrap above threshold on work order,WC50,50,32905,,,,,,,804,1,26,2649.23,Method,Closed,2024-04-27
+NC-00389,2024-04-08,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000219,49838,715,,1,35.65,Human factor,Closed,2024-05-05
+NC-00390,2024-04-13,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000257,50310,712,,1,13.14,Material,Closed,2024-04-24
+NC-00391,2024-04-19,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00226,,,,,,,Method,Closed,2024-05-02
+NC-00392,2024-04-22,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000254,50294,816,,2,266.9,Method,Closed,2024-05-19
+NC-00393,2024-04-23,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000236,50214,763,,1,28.76,Material,Closed,2024-05-20
+NC-00394,2024-04-25,Supplier,Major,Parts rejected at goods receipt,LOG,6,,304,695,1632,,,,929,,550,3059.59,Material,Closed,2024-05-19
+NC-00395,2024-04-25,Supplier,Major,Parts rejected at goods receipt,LOG,2,,304,694,1632,,,,928,,550,2703.57,Material,Closed,2024-05-23
+NC-00396,2024-04-25,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,302,689,1588,,,,931,,82,422.45,Material,Closed,2024-04-30
+NC-00397,2024-04-26,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00232,,,,,,,Work environment,Closed,2024-05-25
+NC-00398,2024-04-26,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00232,,,,,,,Method,Closed,2024-05-27
+NC-00399,2024-04-29,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000250,50272,854,,1,7.68,Material,Closed,2024-05-26
+NC-00400,2024-05-01,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00242,,,,,,,Method,Closed,2024-05-16
+NC-00401,2024-05-01,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00242,,,,,,,Organization,Closed,2024-05-16
+NC-00402,2024-05-01,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00242,,,,,,,Method,Closed,2024-06-28
+NC-00403,2024-05-01,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00242,,,,,,,Work environment,Closed,2024-05-30
+NC-00404,2024-05-01,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00242,,,,,,,Method,Closed,2024-05-06
+NC-00405,2024-05-02,Production,Critical,Scrap above threshold on work order,WC30,30,34817,,,,,,,532,3,297,0.0,Method,Closed,2024-06-05
+NC-00406,2024-05-03,Production,Major,Scrap above threshold on work order,WC10,10,34823,,,,,,,316,4,197,0.0,Material,Closed,2024-06-20
+NC-00407,2024-05-03,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00238,,,,,,,Method,Closed,2024-05-25
+NC-00408,2024-05-05,Production,Minor,Scrap above threshold on work order,WC10,10,34778,,,,,,,811,13,24,474.62,Human factor,Closed,2024-05-12
+NC-00409,2024-05-05,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000259,50321,764,,1,32.13,Human factor,Closed,2024-05-15
+NC-00410,2024-05-07,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,312,709,1578,,,,317,,82,363.82,Organization,Closed,2024-05-19
+NC-00411,2024-05-07,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00246,,,,,,,Organization,Closed,2024-06-30
+NC-00412,2024-05-07,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00246,,,,,,,Human factor,Closed,2024-06-11
+NC-00413,2024-05-07,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00246,,,,,,,Method,Closed,2024-06-19
+NC-00414,2024-05-07,Supplier,Major,Parts rejected at goods receipt,LOG,6,,314,713,1556,,,,319,,550,3829.69,Material,Closed,2024-06-19
+NC-00415,2024-05-08,Supplier,Major,Parts rejected at goods receipt,LOG,6,,324,725,1616,,,,404,,3,20.42,Method,Closed,2024-07-03
+NC-00416,2024-05-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,334,756,1692,,,,492,,60,452.37,Method,Closed,2024-06-11
+NC-00417,2024-05-08,Supplier,Major,Parts rejected at goods receipt,LOG,6,,334,757,1692,,,,493,,60,514.36,Material,Closed,2024-05-23
+NC-00418,2024-05-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,324,724,1616,,,,403,,3,21.36,Material,Closed,2024-07-01
+NC-00419,2024-05-08,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,322,722,1664,,,,513,,82,327.14,Material,Closed,2024-06-03
+NC-00420,2024-05-10,Production,Minor,Scrap above threshold on work order,WC10,10,35226,,,,,,,3,4,5,0.0,Material,Closed,2024-06-05
+NC-00421,2024-05-13,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00244,,,,,,,Method,Closed,2024-06-06
+NC-00422,2024-05-13,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00244,,,,,,,Organization,Closed,2024-05-25
+NC-00423,2024-05-15,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00245,,,,,,,Work environment,Closed,2024-06-11
+NC-00424,2024-05-15,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00245,,,,,,,Human factor,Closed,2024-07-01
+NC-00425,2024-05-16,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00241,,,,,,,Method,Closed,2024-06-23
+NC-00426,2024-05-21,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00234,,,,,,,Method,Closed,2024-07-19
+NC-00427,2024-05-22,Supplier,Major,Parts rejected at goods receipt,LOG,6,,344,786,1658,,,,936,,550,3983.88,Material,Closed,2024-06-22
+NC-00428,2024-05-22,Supplier,Major,Parts rejected at goods receipt,LOG,2,,344,785,1658,,,,935,,550,2597.88,Material,Closed,2024-07-03
+NC-00429,2024-05-22,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,340,777,1694,,,,352,,55,12.13,Material,Closed,2024-05-29
+NC-00430,2024-05-25,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000282,50737,760,,1,502.28,Method,Closed,2024-06-05
+NC-00431,2024-05-29,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000286,50745,788,,1,39.09,Human factor,Closed,2024-06-27
+NC-00432,2024-06-02,Production,Major,Scrap above threshold on work order,WC40,40,36755,,,,,,,534,9,78,0.0,Method,Closed,2024-07-09
+NC-00433,2024-06-03,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00253,,,,,,,Human factor,Closed,2024-06-25
+NC-00434,2024-06-03,Production,Minor,Scrap above threshold on work order,WC10,10,36738,,,,,,,951,6,9,1618.34,Human factor,Closed,2024-06-18
+NC-00435,2024-06-04,Production,Minor,Scrap above threshold on work order,WC10,10,36673,,,,,,,806,12,44,1998.34,Human factor,Closed,2024-06-18
+NC-00436,2024-06-04,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,352,805,1570,,,,908,,82,259.46,Material,Closed,2024-06-24
+NC-00437,2024-06-04,Supplier,Major,Parts rejected at goods receipt,LOG,5,,354,809,1506,,,,935,,550,2597.88,Material,Closed,2024-07-12
+NC-00438,2024-06-04,Supplier,Major,Parts rejected at goods receipt,LOG,6,,354,810,1506,,,,936,,550,3983.88,Material,Closed,2024-06-30
+NC-00439,2024-06-04,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,362,820,1644,,,,527,,82,83.04,Organization,Closed,2024-07-02
+NC-00440,2024-06-04,Supplier,Major,Parts rejected at goods receipt,LOG,2,,364,822,1584,,,,492,,60,456.72,Material,Closed,2024-07-11
+NC-00441,2024-06-04,Supplier,Major,Parts rejected at goods receipt,LOG,6,,364,823,1584,,,,493,,60,524.38,Material,Closed,2024-06-22
+NC-00442,2024-06-05,Supplier,Major,Parts rejected at goods receipt,LOG,2,,374,841,1562,,,,376,,3,18.53,Material,Closed,2024-07-05
+NC-00443,2024-06-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,370,834,1586,,,,939,,55,398.39,Material,Closed,2024-06-26
+NC-00444,2024-06-05,Supplier,Major,Parts rejected at goods receipt,LOG,2,,374,840,1562,,,,375,,3,19.47,Method,Closed,2024-07-23
+NC-00445,2024-06-09,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000280,50726,820,,1,207.81,Material,Closed,2024-06-29
+NC-00446,2024-06-11,Supplier,Major,Parts rejected at goods receipt,LOG,2,,384,862,1608,,,,332,,550,892.24,Material,Closed,2024-08-04
+NC-00447,2024-06-11,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,390,874,1652,,,,934,,55,310.38,Method,Closed,2024-06-24
+NC-00448,2024-06-11,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,392,877,1538,,,,928,,82,396.62,Organization,Closed,2024-07-03
+NC-00449,2024-06-11,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00249,,,,,,,Organization,Closed,2024-06-29
+NC-00450,2024-06-13,Production,Minor,Scrap above threshold on work order,WC10,10,37536,,,,,,,3,6,6,0.0,Human factor,Closed,2024-06-19
+NC-00451,2024-06-19,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00255,,,,,,,Human factor,Closed,2024-07-13
+NC-00452,2024-06-23,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000306,51151,974,,2,2107.59,Material,Closed,2024-07-02
+NC-00453,2024-06-24,Supplier,Major,Parts rejected at goods receipt,LOG,2,,394,880,1554,,,,359,,3,21.39,Organization,Closed,2024-07-21
+NC-00454,2024-06-24,Supplier,Major,Parts rejected at goods receipt,LOG,5,,394,881,1554,,,,360,,3,20.44,Method,Closed,2024-08-05
+NC-00455,2024-06-24,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00251,,,,,,,Organization,Closed,2024-07-06
+NC-00456,2024-06-24,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00251,,,,,,,Human factor,Closed,2024-07-20
+NC-00457,2024-06-24,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000307,51154,940,,1,7.87,Human factor,Closed,2024-07-12
+NC-00458,2024-06-26,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00256,,,,,,,Organization,Closed,2024-07-04
+NC-00459,2024-06-27,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000300,51108,859,,1,23.11,Equipment,Closed,2024-07-24
+NC-00460,2024-07-02,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00260,,,,,,,Human factor,Closed,2024-07-30
+NC-00461,2024-07-02,Production,Minor,Scrap above threshold on work order,WC50,50,39363,,,,,,,816,10,20,1856.14,Method,Closed,2024-07-18
+NC-00462,2024-07-03,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000305,51148,960,,1,36.87,Material,Closed,2024-07-30
+NC-00463,2024-07-03,Production,Critical,Scrap above threshold on work order,WC10,10,39425,,,,,,,324,4,241,0.0,Human factor,Closed,2024-09-26
+NC-00464,2024-07-04,Production,Major,Scrap above threshold on work order,WC10,10,39429,,,,,,,330,5,89,0.0,Method,Closed,2024-07-26
+NC-00465,2024-07-04,Production,Minor,Scrap above threshold on work order,WC10,10,39423,,,,,,,996,4,30,1618.25,Material,Closed,2024-07-14
+NC-00466,2024-07-04,Production,Minor,Scrap above threshold on work order,WC10,10,39372,,,,,,,827,12,20,2445.42,Equipment,Closed,2024-07-24
+NC-00467,2024-07-04,Production,Minor,Scrap above threshold on work order,WC40,40,39354,,,,,,,805,9,25,379.62,Material,Closed,2024-08-01
+NC-00468,2024-07-05,Production,Major,Scrap above threshold on work order,WC30,30,39419,,,,,,,950,3,59,6719.01,Method,Closed,2024-07-23
+NC-00469,2024-07-05,Production,Major,Scrap above threshold on work order,WC10,10,39436,,,,,,,533,6,180,0.0,Equipment,Closed,2024-08-16
+NC-00470,2024-07-08,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,402,894,1678,,,,317,,82,332.82,Material,Closed,2024-07-29
+NC-00471,2024-07-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,404,900,1492,,,,423,,3,20.44,Material,Closed,2024-08-23
+NC-00472,2024-07-08,Supplier,Major,Parts rejected at goods receipt,LOG,5,,404,899,1492,,,,422,,3,21.39,Method,Closed,2024-08-12
+NC-00473,2024-07-10,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000303,51132,835,,1,364.17,Material,Closed,2024-08-01
+NC-00474,2024-07-12,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000320,51498,800,,1,1164.89,Human factor,Closed,2024-08-05
+NC-00475,2024-07-15,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00264,,,,,,,Work environment,Closed,2024-08-31
+NC-00476,2024-07-16,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000344,51762,835,,1,363.44,Equipment,Closed,2024-08-08
+NC-00477,2024-07-17,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00259,,,,,,,Work environment,Closed,2024-08-09
+NC-00478,2024-07-25,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00258,,,,,,,Human factor,Closed,2024-08-20
+NC-00479,2024-07-26,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00263,,,,,,,Method,Closed,2024-08-16
+NC-00480,2024-07-27,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000353,51820,999,,1,358.12,Method,Closed,2024-08-04
+NC-00481,2024-08-02,Production,Major,Scrap above threshold on work order,WC10,10,42071,,,,,,,398,12,83,0.0,Material,Closed,2024-08-26
+NC-00482,2024-08-02,Production,Minor,Scrap above threshold on work order,WC30,30,42016,,,,,,,833,3,5,1804.71,Material,Closed,2024-08-25
+NC-00483,2024-08-03,Production,Minor,Scrap above threshold on work order,WC50,50,41999,,,,,,,810,16,17,907.8,Human factor,Closed,2024-09-01
+NC-00484,2024-08-03,Production,Minor,Scrap above threshold on work order,WC40,40,42008,,,,,,,821,2,47,4549.43,Equipment,Closed,2024-08-22
+NC-00485,2024-08-04,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,412,912,1560,,,,523,,82,131.99,Material,Closed,2024-08-14
+NC-00486,2024-08-05,Production,Minor,Scrap above threshold on work order,WC10,10,41975,,,,,,,514,12,11,1086.47,Method,Closed,2024-08-20
+NC-00487,2024-08-05,Production,Minor,Scrap above threshold on work order,WC60,60,42246,,,,,,,3,7,6,0.0,Human factor,Closed,2024-09-02
+NC-00488,2024-08-06,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000383,53112,876,,1,8.28,Equipment,Closed,2024-09-04
+NC-00489,2024-08-06,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000380,52842,873,,1,6.72,Material,Closed,2024-08-12
+NC-00490,2024-08-12,Supplier,Major,Parts rejected at goods receipt,LOG,6,,414,917,1696,,,,908,,550,1740.3,Method,Closed,2024-10-02
+NC-00491,2024-08-12,Supplier,Major,Parts rejected at goods receipt,LOG,2,,414,918,1696,,,,909,,550,2511.26,Material,Closed,2024-09-16
+NC-00492,2024-08-12,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000393,53398,801,,1,1161.09,Equipment,Closed,2024-08-31
+NC-00493,2024-08-14,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000375,52511,929,,1,37.41,Human factor,Closed,2024-09-05
+NC-00494,2024-08-14,Production,Minor,Scrap above threshold on work order,WC30,30,43016,,,,,,,3,3,7,0.0,Material,Closed,2024-09-02
+NC-00495,2024-08-17,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,421,932,1578,,,,319,,27,196.76,Material,Closed,2024-08-25
+NC-00496,2024-08-17,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,422,933,1538,,,,928,,82,396.62,Material,Closed,2024-09-12
+NC-00497,2024-08-17,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,432,950,1678,,,,319,,82,566.58,Material,Closed,2024-09-09
+NC-00498,2024-08-18,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,442,970,1560,,,,523,,82,131.99,Material,Closed,2024-08-28
+NC-00499,2024-08-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,462,1020,1516,,,,356,,9,4.86,Material,Closed,2024-09-06
+NC-00500,2024-08-19,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,450,990,1624,,,,508,,55,241.6,Material,Closed,2024-08-24
+NC-00501,2024-08-20,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,470,1036,1526,,,,511,,55,229.9,Method,Closed,2024-09-05
+NC-00502,2024-08-20,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,472,1038,1680,,,,938,,82,387.32,Material,Closed,2024-09-03
+NC-00503,2024-08-21,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000355,51855,875,,1,11.43,Human factor,Closed,2024-08-31
+NC-00504,2024-08-21,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,482,1067,1572,,,,356,,9,4.56,Material,Closed,2024-08-30
+NC-00505,2024-08-21,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,490,1093,1588,,,,932,,55,323.72,Method,Closed,2024-08-26
+NC-00506,2024-08-21,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,492,1096,1632,,,,928,,82,403.08,Material,Closed,2024-09-18
+NC-00507,2024-08-23,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00272,,,,,,,Method,Closed,2024-09-01
+NC-00508,2024-08-23,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,500,1114,1578,,,,318,,55,297.82,Material,Closed,2024-09-08
+NC-00509,2024-08-23,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,502,1118,1556,,,,319,,82,570.97,Material,Closed,2024-09-16
+NC-00510,2024-08-24,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,511,1134,1678,,,,319,,27,186.56,Material,Closed,2024-09-05
+NC-00511,2024-08-25,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,532,1193,1658,,,,935,,82,387.32,Material,Closed,2024-09-01
+NC-00512,2024-08-25,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,522,1171,1692,,,,495,,9,85.99,Organization,Closed,2024-09-01
+NC-00513,2024-08-26,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,540,1213,1624,,,,508,,55,241.6,Material,Closed,2024-09-11
+NC-00514,2024-08-26,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,542,1218,1600,,,,525,,82,28.54,Material,Closed,2024-09-11
+NC-00515,2024-08-27,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00270,,,,,,,Method,Closed,2024-09-10
+NC-00516,2024-08-27,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,570,1273,1684,,,,932,,55,328.05,Material,Closed,2024-09-07
+NC-00517,2024-08-27,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,562,1254,1586,,,,938,,82,387.32,Organization,Closed,2024-09-04
+NC-00518,2024-08-27,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00270,,,,,,,Method,Closed,2024-10-12
+NC-00519,2024-08-28,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,582,1296,1652,,,,933,,82,534.55,Method,Closed,2024-09-07
+NC-00520,2024-08-28,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,580,1294,1498,,,,921,,55,46.08,Material,Closed,2024-09-08
+NC-00521,2024-08-30,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00269,,,,,,,Human factor,Closed,2024-10-08
+NC-00522,2024-08-30,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,592,1317,1654,,,,512,,82,456.16,Material,Closed,2024-09-21
+NC-00523,2024-09-01,Production,Critical,Scrap above threshold on work order,WC50,50,44797,,,,,,,532,16,314,0.0,Equipment,Closed,2024-10-15
+NC-00524,2024-09-01,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,621,1390,1568,,,,480,,27,47.25,Method,Closed,2024-09-22
+NC-00525,2024-09-01,Supplier,Major,Parts rejected at goods receipt,LOG,6,,624,1396,1672,,,,407,,3,21.39,Method,Closed,2024-09-21
+NC-00526,2024-09-01,Supplier,Major,Parts rejected at goods receipt,LOG,5,,624,1397,1672,,,,408,,3,19.47,Method,Closed,2024-10-10
+NC-00527,2024-09-01,Production,Minor,Scrap above threshold on work order,WC10,10,44790,,,,,,,329,15,42,0.0,Method,Closed,2024-09-23
+NC-00528,2024-09-02,Production,Minor,Scrap above threshold on work order,WC10,10,44780,,,,,,,949,13,17,1324.6,Equipment,Closed,2024-09-13
+NC-00529,2024-09-02,Production,Minor,Scrap above threshold on work order,WC10,10,44733,,,,,,,826,5,8,399.83,Method,Closed,2024-09-07
+NC-00530,2024-09-02,Production,Minor,Scrap above threshold on work order,WC10,10,44724,,,,,,,815,4,6,161.82,Method,Closed,2024-09-14
+NC-00531,2024-09-02,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,632,1408,1610,,,,910,,82,503.56,Method,Closed,2024-09-25
+NC-00532,2024-09-03,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,652,1455,1572,,,,356,,9,4.56,Material,Closed,2024-09-30
+NC-00533,2024-09-03,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,640,1426,1672,,,,914,,55,174.03,Method,Closed,2024-09-19
+NC-00534,2024-09-03,Supplier,Major,Parts rejected at goods receipt,LOG,2,,654,1460,1662,,,,490,,3,5.56,Method,Closed,2024-10-05
+NC-00535,2024-09-03,Supplier,Major,Parts rejected at goods receipt,LOG,2,,644,1432,1620,,,,523,,550,856.72,Method,Closed,2024-10-03
+NC-00536,2024-09-03,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,642,1429,1680,,,,938,,82,387.32,Material,Closed,2024-09-17
+NC-00537,2024-09-04,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,672,1503,1556,,,,319,,82,570.97,Method,Closed,2024-09-17
+NC-00538,2024-09-04,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00278,,,,,,,Organization,Closed,2024-09-29
+NC-00539,2024-09-04,Supplier,Major,Parts rejected at goods receipt,LOG,6,,664,1486,1576,,,,948,,550,6833.85,Material,Closed,2024-10-20
+NC-00540,2024-09-04,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,662,1483,1632,,,,928,,82,403.08,Method,Closed,2024-09-17
+NC-00541,2024-09-04,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,660,1478,1588,,,,932,,55,323.72,Method,Closed,2024-09-28
+NC-00542,2024-09-04,Production,Minor,Scrap above threshold on work order,WC50,50,44695,,,,,,,514,16,6,592.62,Method,Closed,2024-09-17
+NC-00543,2024-09-04,Supplier,Major,Parts rejected at goods receipt,LOG,5,,664,1487,1576,,,,907,,550,6833.85,Material,Closed,2024-09-23
+NC-00544,2024-09-04,Production,Critical,Scrap above threshold on work order,WC50,50,44803,,,,,,,316,1,203,0.0,Method,Closed,2024-10-10
+NC-00545,2024-09-04,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,670,1499,1578,,,,318,,55,297.82,Organization,Closed,2024-09-12
+NC-00546,2024-09-04,Production,Minor,Scrap above threshold on work order,WC10,10,44784,,,,,,,995,14,14,629.31,Equipment,Closed,2024-09-29
+NC-00547,2024-09-04,Production,Critical,Scrap above threshold on work order,WC10,10,44786,,,,,,,3,14,673,0.0,Human factor,Closed,2024-11-08
+NC-00548,2024-09-04,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00288,,,,,,,Work environment,Closed,2024-09-30
+NC-00549,2024-09-05,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00286,,,,,,,Human factor,Closed,2024-09-24
+NC-00550,2024-09-05,Internal audit,Major,Audit finding,WC50,50,,,,,AUD-00286,,,,,,,Method,Closed,2024-09-20
+NC-00551,2024-09-05,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00276,,,,,,,Organization,Closed,2024-09-28
+NC-00552,2024-09-05,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00276,,,,,,,Organization,Closed,2024-09-13
+NC-00553,2024-09-05,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00286,,,,,,,Organization,Closed,2024-09-29
+NC-00554,2024-09-06,Production,Minor,Scrap above threshold on work order,WC10,10,45236,,,,,,,3,6,7,0.0,Human factor,Closed,2024-10-05
+NC-00555,2024-09-07,Supplier,Major,Parts rejected at goods receipt,LOG,2,,674,1507,1688,,,,2,,3,18.86,Material,Closed,2024-10-17
+NC-00556,2024-09-07,Supplier,Major,Parts rejected at goods receipt,LOG,2,,684,1523,1602,,,,320,,3,21.36,Method,Closed,2024-11-03
+NC-00557,2024-09-07,Supplier,Major,Parts rejected at goods receipt,LOG,5,,684,1524,1602,,,,321,,3,19.26,Material,Closed,2024-10-29
+NC-00558,2024-09-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,704,1577,1568,,,,488,,550,731.12,Material,Closed,2024-10-23
+NC-00559,2024-09-08,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000394,53452,959,,1,28.45,Material,Closed,2024-10-04
+NC-00560,2024-09-08,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,692,1553,1692,,,,492,,9,67.86,Organization,Closed,2024-10-04
+NC-00561,2024-09-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,694,1558,1504,,,,506,,60,82.78,Material,Closed,2024-10-27
+NC-00562,2024-09-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,704,1578,1568,,,,489,,550,863.65,Material,Closed,2024-11-03
+NC-00563,2024-09-08,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,702,1572,1658,,,,935,,82,387.32,Material,Closed,2024-09-16
+NC-00564,2024-09-09,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000392,53390,712,,1,18.51,Equipment,Closed,2024-10-08
+NC-00565,2024-09-09,Supplier,Major,Parts rejected at goods receipt,LOG,6,,714,1595,1542,,,,912,,550,2511.26,Material,Closed,2024-10-06
+NC-00566,2024-09-09,Supplier,Major,Parts rejected at goods receipt,LOG,6,,714,1594,1542,,,,911,,550,1740.3,Material,Closed,2024-09-29
+NC-00567,2024-09-09,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,712,1591,1506,,,,935,,82,387.32,Material,Closed,2024-10-04
+NC-00568,2024-09-09,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,710,1587,1570,,,,909,,55,251.13,Method,Closed,2024-10-06
+NC-00569,2024-09-10,Supplier,Major,Parts rejected at goods receipt,LOG,2,,734,1625,1682,,,,513,,550,3233.71,Organization,Closed,2024-10-04
+NC-00570,2024-09-10,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,722,1605,1584,,,,492,,9,68.51,Method,Closed,2024-09-25
+NC-00571,2024-09-10,Supplier,Major,Parts rejected at goods receipt,LOG,6,,724,1608,1666,,,,422,,3,21.46,Material,Closed,2024-11-08
+NC-00572,2024-09-10,Supplier,Major,Parts rejected at goods receipt,LOG,2,,724,1609,1666,,,,423,,3,20.51,Material,Closed,2024-09-26
+NC-00573,2024-09-11,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000410,53560,907,,1,71.32,Method,Closed,2024-10-06
+NC-00574,2024-09-11,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,742,1648,1608,,,,332,,82,133.02,Material,Closed,2024-09-16
+NC-00575,2024-09-11,Supplier,Major,Parts rejected at goods receipt,LOG,2,,744,1651,1590,,,,325,,1250,39.38,Material,Closed,2024-11-08
+NC-00576,2024-09-11,Supplier,Major,Parts rejected at goods receipt,LOG,6,,744,1652,1590,,,,326,,1250,39.38,Material,Closed,2024-10-18
+NC-00577,2024-09-11,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,750,1667,1538,,,,929,,55,301.63,Organization,Closed,2024-10-05
+NC-00578,2024-09-12,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00293,,,,,,,Human factor,Closed,2024-10-06
+NC-00579,2024-09-12,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00293,,,,,,,Human factor,Closed,2024-10-07
+NC-00580,2024-09-13,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000431,54430,882,,1,63.18,Material,Closed,2024-10-04
+NC-00581,2024-09-13,Production,Minor,Scrap above threshold on work order,WC40,40,45756,,,,,,,3,9,6,0.0,Human factor,Closed,2024-09-25
+NC-00582,2024-09-14,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,762,1687,1654,,,,512,,82,456.16,Method,Closed,2024-10-05
+NC-00583,2024-09-15,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000413,53567,899,,1,207.08,Method,Closed,2024-10-08
+NC-00584,2024-09-15,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,780,1739,1508,,,,940,,55,519.66,Method,Closed,2024-09-23
+NC-00585,2024-09-15,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,781,1743,1694,,,,679,,27,25.09,Method,Closed,2024-10-06
+NC-00586,2024-09-15,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,782,1744,1624,,,,507,,82,272.64,Material,Closed,2024-10-01
+NC-00587,2024-09-16,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,802,1786,1526,,,,510,,82,287.88,Organization,Closed,2024-10-14
+NC-00588,2024-09-16,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,792,1769,1522,,,,526,,82,44.82,Material,Closed,2024-10-08
+NC-00589,2024-09-17,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000433,54494,873,,1,12.01,Material,Closed,2024-10-08
+NC-00590,2024-09-17,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000453,55254,884,,1,39.69,Material,Closed,2024-09-22
+NC-00591,2024-09-17,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,812,1807,1500,,,,358,,9,9.43,Material,Closed,2024-09-24
+NC-00592,2024-09-18,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,832,1862,1578,,,,317,,82,363.82,Method,Closed,2024-10-10
+NC-00593,2024-09-18,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,831,1860,1652,,,,922,,27,26.45,Material,Closed,2024-10-16
+NC-00594,2024-09-18,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,822,1840,1588,,,,931,,82,422.45,Material,Closed,2024-09-30
+NC-00595,2024-09-19,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00290,,,,,,,Method,Closed,2024-10-05
+NC-00596,2024-09-19,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00290,,,,,,,Human factor,Closed,2024-10-14
+NC-00597,2024-09-20,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000409,53538,811,,1,34.18,Human factor,Closed,2024-10-19
+NC-00598,2024-09-20,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00273,,,,,,,Method,Closed,2024-10-06
+NC-00599,2024-09-21,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000386,53192,707,,1,10.24,Equipment,Closed,2024-10-05
+NC-00600,2024-09-21,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000447,55241,784,,1,1419.11,Material,Closed,2024-10-07
+NC-00601,2024-09-21,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,852,1915,1628,,,,941,,82,774.77,Material,Closed,2024-10-19
+NC-00602,2024-09-22,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,861,1934,1544,,,,679,,27,23.39,Material,Closed,2024-10-19
+NC-00603,2024-09-22,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,862,1935,1530,,,,507,,82,287.75,Organization,Closed,2024-10-14
+NC-00604,2024-09-22,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,870,1959,1568,,,,483,,55,79.95,Method,Closed,2024-09-29
+NC-00605,2024-09-22,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,872,1962,1646,,,,510,,82,283.87,Material,Closed,2024-09-28
+NC-00606,2024-09-23,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,882,1980,1638,,,,937,,82,774.77,Material,Closed,2024-10-02
+NC-00607,2024-09-23,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00292,,,,,,,Method,Closed,2024-10-29
+NC-00608,2024-09-23,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000478,55956,781,,1,2355.7,Human factor,Closed,2024-10-20
+NC-00609,2024-09-23,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00292,,,,,,,Human factor,Closed,2024-09-30
+NC-00610,2024-09-23,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,880,1978,1542,,,,912,,55,251.13,Material,Closed,2024-10-16
+NC-00611,2024-09-24,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,902,2022,1684,,,,931,,82,428.91,Material,Closed,2024-10-14
+NC-00612,2024-09-25,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00294,,,,,,,Organization,Closed,2024-11-12
+NC-00613,2024-09-25,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00294,,,,,,,Organization,Closed,2024-11-20
+NC-00614,2024-09-26,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000455,55260,783,,1,32.38,Equipment,Closed,2024-10-22
+NC-00615,2024-09-26,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00281,,,,,,,Method,Closed,2024-10-28
+NC-00616,2024-09-26,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00281,,,,,,,Work environment,Closed,2024-10-11
+NC-00617,2024-09-27,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00280,,,,,,,Method,Closed,2024-11-09
+NC-00618,2024-09-27,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00291,,,,,,,Method,Closed,2024-10-28
+NC-00619,2024-09-27,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000454,55256,968,,1,1459.07,Material,Closed,2024-10-20
+NC-00620,2024-09-28,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,912,2043,1608,,,,332,,82,133.02,Material,Closed,2024-10-26
+NC-00621,2024-09-28,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,920,2060,1538,,,,929,,55,301.63,Material,Closed,2024-10-04
+NC-00622,2024-09-30,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000448,55242,864,,4,187.78,Method,Closed,2024-10-07
+NC-00623,2024-09-30,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00287,,,,,,,Method,Closed,2024-11-01
+NC-00624,2024-09-30,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00287,,,,,,,Method,Closed,2024-10-19
+NC-00625,2024-09-30,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00287,,,,,,,Method,Closed,2024-10-27
+NC-00626,2024-10-01,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,930,2087,1678,,,,318,,55,277.03,Method,Closed,2024-10-27
+NC-00627,2024-10-01,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,942,2113,1696,,,,908,,82,259.46,Method,Closed,2024-10-07
+NC-00628,2024-10-01,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,941,2111,1692,,,,494,,3,23.94,Organization,Closed,2024-10-07
+NC-00629,2024-10-01,Supplier,Major,Parts rejected at goods receipt,LOG,5,,944,2117,1544,,,,352,,550,95.29,Material,Closed,2024-11-05
+NC-00630,2024-10-01,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,940,2108,1560,,,,524,,55,116.51,Material,Closed,2024-10-29
+NC-00631,2024-10-01,Supplier,Major,Parts rejected at goods receipt,LOG,5,,944,2116,1544,,,,351,,550,476.44,Method,Closed,2024-11-25
+NC-00632,2024-10-02,Production,Minor,Scrap above threshold on work order,WC10,10,47592,,,,,,,807,15,13,719.94,Equipment,Closed,2024-10-15
+NC-00633,2024-10-02,Production,Major,Scrap above threshold on work order,WC10,10,47679,,,,,,,350,13,139,0.0,Human factor,Closed,2024-11-03
+NC-00634,2024-10-02,Production,Critical,Scrap above threshold on work order,WC10,10,47678,,,,,,,331,13,270,0.0,Human factor,Closed,2024-12-07
+NC-00635,2024-10-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,960,2146,1516,,,,357,,6,3.58,Material,Closed,2024-10-10
+NC-00636,2024-10-05,Production,Major,Scrap above threshold on work order,WC50,50,47662,,,,,,,327,10,135,0.0,Human factor,Closed,2024-11-05
+NC-00637,2024-10-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,962,2149,1626,,,,524,,82,159.5,Material,Closed,2024-10-16
+NC-00638,2024-10-05,Production,Major,Scrap above threshold on work order,WC10,10,47670,,,,,,,529,12,84,0.0,Method,Closed,2024-11-30
+NC-00639,2024-10-05,Production,Minor,Scrap above threshold on work order,WC40,40,47610,,,,,,,829,2,27,2937.18,Human factor,Closed,2024-11-03
+NC-00640,2024-10-09,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,972,2168,1526,,,,510,,82,287.88,Organization,Closed,2024-10-28
+NC-00641,2024-10-12,Supplier,Major,Parts rejected at goods receipt,LOG,6,,984,2192,1612,,,,505,,3,19.9,Method,Closed,2024-11-27
+NC-00642,2024-10-13,Supplier,Major,Parts rejected at goods receipt,LOG,5,,994,2212,1534,,,,428,,3,19.57,Material,Closed,2024-11-05
+NC-00643,2024-10-13,Supplier,Major,Parts rejected at goods receipt,LOG,5,,994,2213,1534,,,,429,,3,18.62,Material,Closed,2024-11-17
+NC-00644,2024-10-16,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000537,57162,779,,1,1426.24,Equipment,Closed,2024-10-25
+NC-00645,2024-10-19,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1000,2227,1576,,,,907,,55,683.38,Material,Closed,2024-11-15
+NC-00646,2024-10-19,Supplier,Major,Parts rejected at goods receipt,LOG,6,,1004,2234,1674,,,,952,,60,141.66,Method,Closed,2024-11-24
+NC-00647,2024-10-20,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000512,57046,783,,1,39.53,Human factor,Closed,2024-11-08
+NC-00648,2024-10-23,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1021,2302,1684,,,,933,,27,178.14,Method,Closed,2024-11-17
+NC-00649,2024-10-24,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000506,56942,982,,1,42.4,Method,Closed,2024-11-10
+NC-00650,2024-10-24,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00300,,,,,,,Method,Closed,2024-11-05
+NC-00651,2024-10-24,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00300,,,,,,,Human factor,Closed,2024-11-16
+NC-00652,2024-10-25,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00302,,,,,,,Human factor,Closed,2024-11-25
+NC-00653,2024-10-25,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00302,,,,,,,Work environment,Closed,2024-11-22
+NC-00654,2024-10-26,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000538,57188,986,,1,29.34,Human factor,Closed,2024-11-20
+NC-00655,2024-10-27,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1052,2368,1568,,,,488,,82,109.0,Method,Closed,2024-11-03
+NC-00656,2024-10-27,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1050,2363,1658,,,,936,,55,398.39,Method,Closed,2024-11-08
+NC-00657,2024-10-27,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1042,2344,1504,,,,506,,9,12.42,Organization,Closed,2024-11-08
+NC-00658,2024-10-27,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1041,2342,1696,,,,912,,27,123.28,Material,Closed,2024-11-12
+NC-00659,2024-10-28,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000527,57093,800,,1,703.67,Human factor,Closed,2024-11-30
+NC-00660,2024-10-28,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000520,57077,868,,1,8.06,Equipment,Closed,2024-11-20
+NC-00661,2024-10-28,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1060,2395,1576,,,,907,,55,683.38,Material,Closed,2024-11-17
+NC-00662,2024-10-28,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1062,2398,1514,,,,322,,9,38.74,Material,Closed,2024-11-14
+NC-00663,2024-10-28,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00296,,,,,,,Organization,Closed,2024-11-24
+NC-00664,2024-10-28,Production,Minor,Scrap above threshold on work order,WC30,30,49916,,,,,,,3,3,6,0.0,Equipment,Closed,2024-11-23
+NC-00665,2024-11-01,Production,Minor,Scrap above threshold on work order,WC10,10,50480,,,,,,,829,13,34,3698.67,Human factor,Closed,2024-11-07
+NC-00666,2024-11-01,Production,Minor,Scrap above threshold on work order,WC50,50,50496,,,,,,,893,16,5,3008.72,Method,Closed,2024-11-28
+NC-00667,2024-11-01,Production,Major,Scrap above threshold on work order,WC10,10,50540,,,,,,,529,6,87,0.0,Material,Closed,2024-12-25
+NC-00668,2024-11-02,Supplier,Major,Parts rejected at goods receipt,LOG,5,,1074,2418,1510,,,,462,,3,21.46,Material,Closed,2024-12-27
+NC-00669,2024-11-02,Production,Minor,Scrap above threshold on work order,WC60,60,50442,,,,,,,517,7,7,691.39,Method,Closed,2024-11-08
+NC-00670,2024-11-02,Production,Critical,Scrap above threshold on work order,WC40,40,50548,,,,,,,331,8,269,0.0,Equipment,Closed,2025-01-25
+NC-00671,2024-11-02,Production,Major,Scrap above threshold on work order,WC40,40,50549,,,,,,,350,8,139,0.0,Human factor,Closed,2024-11-17
+NC-00672,2024-11-02,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1072,2414,1638,,,,937,,82,774.77,Method,Closed,2024-11-20
+NC-00673,2024-11-02,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1070,2412,1542,,,,912,,55,251.13,Material,Closed,2024-11-21
+NC-00674,2024-11-03,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1081,2436,1652,,,,922,,27,26.45,Material,Closed,2024-12-01
+NC-00675,2024-11-03,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1082,2438,1578,,,,317,,82,363.82,Material,Closed,2024-11-29
+NC-00676,2024-11-04,Production,Major,Scrap above threshold on work order,WC10,10,50532,,,,,,,327,5,134,0.0,Equipment,Closed,2024-11-24
+NC-00677,2024-11-04,Production,Minor,Scrap above threshold on work order,WC50,50,50462,,,,,,,807,10,16,886.08,Equipment,Closed,2024-11-11
+NC-00678,2024-11-04,Production,Minor,Scrap above threshold on work order,WC40,40,50447,,,,,,,522,8,14,2042.18,Method,Closed,2024-11-21
+NC-00679,2024-11-05,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000523,57080,989,,1,35.98,Human factor,Closed,2024-12-02
+NC-00680,2024-11-05,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000543,57503,878,,1,9.17,Human factor,Closed,2024-11-16
+NC-00681,2024-11-07,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000522,57080,868,,1,8.85,Method,Closed,2024-11-22
+NC-00682,2024-11-08,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00310,,,,,,,Organization,Closed,2024-11-26
+NC-00683,2024-11-12,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000593,59082,884,,1,63.28,Equipment,Closed,2024-11-30
+NC-00684,2024-11-12,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000582,58975,909,,1,9.14,Material,Closed,2024-12-02
+NC-00685,2024-11-12,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1092,2462,1664,,,,513,,82,327.14,Method,Closed,2024-12-07
+NC-00686,2024-11-14,External audit,Minor,External audit finding,WC50,50,,,,,AUD-00316,,,,,,,Work environment,Closed,2024-12-06
+NC-00687,2024-11-14,External audit,Major,External audit finding,WC50,50,,,,,AUD-00316,,,,,,,Work environment,Closed,2025-01-03
+NC-00688,2024-11-14,External audit,Minor,External audit finding,WC45,45,,,,,AUD-00315,,,,,,,Human factor,Closed,2024-11-29
+NC-00689,2024-11-14,External audit,Major,External audit finding,WC40,40,,,,,AUD-00314,,,,,,,Method,Closed,2024-12-20
+NC-00690,2024-11-14,External audit,Minor,External audit finding,WC20,20,,,,,AUD-00312,,,,,,,Human factor,Closed,2024-12-07
+NC-00691,2024-11-14,External audit,Minor,External audit finding,WC20,20,,,,,AUD-00312,,,,,,,Organization,Closed,2024-11-22
+NC-00692,2024-11-15,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000579,58957,989,,1,354.69,Material,Closed,2024-11-27
+NC-00693,2024-11-15,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000566,58905,981,,1,44.48,Method,Closed,2024-12-10
+NC-00694,2024-11-16,Production,Minor,Scrap above threshold on work order,WC50,50,51806,,,,,,,3,1,11,0.0,Human factor,Closed,2024-11-21
+NC-00695,2024-11-18,External audit,Minor,External audit finding,WC60,60,,,,,AUD-00324,,,,,,,Method,Closed,2024-11-23
+NC-00696,2024-11-18,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000451,55253,708,,3,84.64,Equipment,Closed,2024-12-15
+NC-00697,2024-11-18,External audit,Minor,External audit finding,WC60,60,,,,,AUD-00324,,,,,,,Method,Closed,2024-12-05
+NC-00698,2024-11-18,External audit,Minor,External audit finding,WC10,10,,,,,AUD-00318,,,,,,,Organization,Closed,2024-11-28
+NC-00699,2024-11-18,External audit,Minor,External audit finding,WC20,20,,,,,AUD-00319,,,,,,,Work environment,Closed,2024-11-26
+NC-00700,2024-11-18,External audit,Minor,External audit finding,WC20,20,,,,,AUD-00319,,,,,,,Method,Closed,2024-11-25
+NC-00701,2024-11-18,External audit,Major,External audit finding,WC30,30,,,,,AUD-00320,,,,,,,Organization,Closed,2024-12-12
+NC-00702,2024-11-18,External audit,Minor,External audit finding,WC30,30,,,,,AUD-00320,,,,,,,Human factor,Closed,2024-11-24
+NC-00703,2024-11-18,External audit,Minor,External audit finding,WC30,30,,,,,AUD-00320,,,,,,,Human factor,Closed,2024-11-25
+NC-00704,2024-11-18,External audit,Major,External audit finding,WC40,40,,,,,AUD-00321,,,,,,,Organization,Closed,2024-12-10
+NC-00705,2024-11-18,External audit,Major,External audit finding,WC50,50,,,,,AUD-00323,,,,,,,Work environment,Closed,2025-01-08
+NC-00706,2024-11-19,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000584,58981,715,,4,156.75,Method,Closed,2024-12-17
+NC-00707,2024-11-20,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1110,2504,1694,,,,352,,55,12.13,Material,Closed,2024-12-03
+NC-00708,2024-11-20,Supplier,Major,Parts rejected at goods receipt,LOG,2,,1104,2490,1692,,,,493,,60,514.36,Material,Closed,2024-12-18
+NC-00709,2024-11-20,Supplier,Major,Parts rejected at goods receipt,LOG,2,,1104,2489,1692,,,,492,,60,452.37,Organization,Closed,2024-12-29
+NC-00710,2024-11-21,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1132,2565,1644,,,,527,,82,83.04,Material,Closed,2024-12-03
+NC-00711,2024-11-21,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00307,,,,,,,Human factor,Closed,2024-11-30
+NC-00712,2024-11-21,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00303,,,,,,,Method,Closed,2024-12-11
+NC-00713,2024-11-21,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1122,2546,1570,,,,908,,82,259.46,Method,Closed,2024-12-07
+NC-00714,2024-11-21,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00307,,,,,,,Work environment,Closed,2024-11-28
+NC-00715,2024-11-21,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00307,,,,,,,Work environment,Closed,2024-12-04
+NC-00716,2024-11-24,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1140,2581,1586,,,,939,,55,398.39,Material,Closed,2024-12-08
+NC-00717,2024-11-25,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1160,2627,1652,,,,934,,55,310.38,Organization,Closed,2024-12-03
+NC-00718,2024-11-25,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000569,58920,865,,1,40.39,Method,Closed,2024-12-02
+NC-00719,2024-11-25,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00305,,,,,,,Organization,Closed,2024-12-18
+NC-00720,2024-11-25,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000587,58997,715,,1,40.1,Method,Closed,2024-12-11
+NC-00721,2024-11-25,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1162,2630,1538,,,,928,,82,396.62,Material,Closed,2024-12-15
+NC-00722,2024-11-26,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1172,2647,1678,,,,317,,82,332.82,Method,Closed,2024-12-04
+NC-00723,2024-11-27,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000603,59479,998,,1,40.74,Method,Closed,2024-12-26
+NC-00724,2024-11-28,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1182,2668,1560,,,,523,,82,131.99,Organization,Closed,2024-12-14
+NC-00725,2024-11-29,Production,Minor,Scrap above threshold on work order,WC60,60,53246,,,,,,,3,7,7,0.0,Equipment,Closed,2024-12-08
+NC-00726,2024-11-29,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000617,60161,878,,1,30.13,Method,Closed,2024-12-10
+NC-00727,2024-12-01,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1190,2688,1624,,,,508,,55,241.6,Material,Closed,2024-12-15
+NC-00728,2024-12-02,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00328,,,,,,,Organization,Closed,2024-12-16
+NC-00729,2024-12-02,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1202,2717,1516,,,,356,,9,4.86,Organization,Closed,2024-12-24
+NC-00730,2024-12-02,Supplier,Major,Parts rejected at goods receipt,LOG,2,,1204,2721,1626,,,,524,,550,1069.82,Material,Closed,2025-01-05
+NC-00731,2024-12-02,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00328,,,,,,,Method,Closed,2024-12-30
+NC-00732,2024-12-03,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1210,2733,1526,,,,511,,55,229.9,Material,Closed,2024-12-22
+NC-00733,2024-12-03,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1212,2735,1680,,,,938,,82,387.32,Material,Closed,2024-12-19
+NC-00734,2024-12-03,Production,Minor,Scrap above threshold on work order,WC50,50,53803,,,,,,,816,1,8,742.46,Human factor,Closed,2024-12-17
+NC-00735,2024-12-03,Production,Major,Scrap above threshold on work order,WC10,10,53876,,,,,,,533,13,62,0.0,Material,Closed,2024-12-28
+NC-00736,2024-12-03,Production,Minor,Scrap above threshold on work order,WC50,50,53794,,,,,,,805,16,10,151.85,Material,Closed,2024-12-17
+NC-00737,2024-12-03,Production,Minor,Scrap above threshold on work order,WC40,40,53812,,,,,,,827,2,11,1344.98,Human factor,Closed,2024-12-20
+NC-00738,2024-12-04,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000624,60503,977,,1,576.32,Equipment,Closed,2025-01-09
+NC-00739,2024-12-04,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1222,2761,1572,,,,356,,9,4.56,Organization,Closed,2024-12-21
+NC-00740,2024-12-04,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00332,,,,,,,Method,Closed,2025-01-31
+NC-00741,2024-12-04,Production,Minor,Scrap above threshold on work order,WC20,20,53869,,,,,,,330,11,34,0.0,Human factor,Closed,2024-12-26
+NC-00742,2024-12-04,Production,Major,Scrap above threshold on work order,WC20,20,53865,,,,,,,324,11,83,0.0,Material,Closed,2025-01-04
+NC-00743,2024-12-04,Production,Minor,Scrap above threshold on work order,WC50,50,53863,,,,,,,996,10,11,593.36,Human factor,Closed,2024-12-24
+NC-00744,2024-12-05,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1240,2798,1578,,,,318,,55,297.82,Material,Closed,2024-12-28
+NC-00745,2024-12-05,Production,Minor,Scrap above threshold on work order,WC50,50,53859,,,,,,,950,10,28,3188.68,Method,Closed,2024-12-12
+NC-00746,2024-12-05,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1232,2783,1632,,,,928,,82,403.08,Method,Closed,2024-12-24
+NC-00747,2024-12-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1230,2781,1588,,,,932,,55,323.72,Material,Closed,2024-12-20
+NC-00748,2024-12-08,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1242,2802,1556,,,,319,,82,570.97,Material,Closed,2024-12-14
+NC-00749,2024-12-08,Production,Minor,Scrap above threshold on work order,WC50,50,54306,,,,,,,3,1,6,0.0,Equipment,Closed,2024-12-28
+NC-00750,2024-12-09,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1262,2856,1692,,,,492,,9,67.86,Material,Closed,2024-12-24
+NC-00751,2024-12-10,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1280,2900,1570,,,,909,,55,251.13,Material,Closed,2025-01-01
+NC-00752,2024-12-10,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1272,2880,1658,,,,935,,82,387.32,Method,Closed,2025-01-02
+NC-00753,2024-12-11,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1292,2922,1584,,,,492,,9,68.51,Material,Closed,2025-01-08
+NC-00754,2024-12-11,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1282,2904,1506,,,,935,,82,387.32,Organization,Closed,2025-01-04
+NC-00755,2024-12-12,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1312,2979,1608,,,,332,,82,133.02,Material,Closed,2024-12-23
+NC-00756,2024-12-12,Supplier,Major,Parts rejected at goods receipt,LOG,2,,1304,2942,1682,,,,513,,550,3233.71,Material,Closed,2025-01-10
+NC-00757,2024-12-13,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00329,,,,,,,Organization,Closed,2024-12-24
+NC-00758,2024-12-14,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000634,60895,781,,1,2358.5,Method,Closed,2024-12-19
+NC-00759,2024-12-14,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000628,60658,870,,1,14.7,Human factor,Closed,2025-01-05
+NC-00760,2024-12-15,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1320,2998,1538,,,,929,,55,301.63,Material,Closed,2025-01-05
+NC-00761,2024-12-16,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000651,61267,954,,1,1468.58,Method,Closed,2024-12-30
+NC-00762,2024-12-17,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00327,,,,,,,Method,Closed,2024-12-25
+NC-00763,2024-12-17,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1340,3044,1560,,,,524,,55,116.51,Material,Closed,2025-01-07
+NC-00764,2024-12-17,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1330,3025,1678,,,,318,,55,277.03,Material,Closed,2025-01-05
+NC-00765,2024-12-17,Production,Minor,Scrap above threshold on work order,WC20,20,54966,,,,,,,3,11,7,0.0,Method,Closed,2024-12-28
+NC-00766,2024-12-17,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000635,61028,968,,1,2420.68,Equipment,Closed,2024-12-24
+NC-00767,2024-12-18,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1341,3047,1692,,,,496,,3,22.01,Organization,Closed,2024-12-25
+NC-00768,2024-12-18,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1342,3048,1696,,,,913,,82,503.56,Material,Closed,2025-01-15
+NC-00769,2024-12-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1371,3109,1584,,,,496,,3,22.34,Method,Closed,2024-12-26
+NC-00770,2024-12-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1372,3110,1620,,,,523,,82,127.73,Method,Closed,2024-12-28
+NC-00771,2024-12-19,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1362,3091,1626,,,,524,,82,159.5,Material,Closed,2025-01-13
+NC-00772,2024-12-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1360,3088,1516,,,,357,,6,3.58,Material,Closed,2025-01-17
+NC-00773,2024-12-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1370,3105,1680,,,,939,,55,398.39,Organization,Closed,2025-01-01
+NC-00774,2024-12-22,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1380,3127,1572,,,,357,,6,3.88,Organization,Closed,2025-01-06
+NC-00775,2024-12-24,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1390,3156,1632,,,,929,,55,305.96,Material,Closed,2025-01-07
+NC-00776,2024-12-24,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1392,3159,1576,,,,948,,82,1018.86,Material,Closed,2025-01-02
+NC-00777,2024-12-25,Supplier,Major,Parts rejected at goods receipt,LOG,5,,1404,3184,1496,,,,359,,3,21.46,Material,Closed,2025-01-10
+NC-00778,2024-12-25,Supplier,Major,Parts rejected at goods receipt,LOG,6,,1404,3185,1496,,,,360,,3,20.51,Material,Closed,2025-01-13
+NC-00779,2024-12-26,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1432,3240,1568,,,,481,,82,136.38,Material,Closed,2025-01-17
+NC-00780,2024-12-26,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1420,3215,1692,,,,493,,6,51.44,Method,Closed,2025-01-04
+NC-00781,2024-12-26,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1422,3219,1504,,,,506,,9,12.42,Material,Closed,2025-01-11
+NC-00782,2024-12-26,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1430,3235,1658,,,,936,,55,398.39,Material,Closed,2025-01-22
+NC-00783,2024-12-27,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00331,,,,,,,Method,Closed,2025-01-24
+NC-00784,2024-12-30,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1450,3280,1584,,,,493,,6,52.44,Material,Closed,2025-01-26
+NC-00785,2024-12-30,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1442,3265,1542,,,,911,,82,259.46,Organization,Closed,2025-01-28
+NC-00786,2024-12-30,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1440,3263,1506,,,,936,,55,398.39,Method,Closed,2025-01-19
+NC-00787,2024-12-31,Production,Minor,Scrap above threshold on work order,WC50,50,56296,,,,,,,3,16,8,0.0,Human factor,Closed,2025-01-09
+NC-00788,2024-12-31,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1462,3303,1682,,,,513,,82,482.12,Method,Closed,2025-01-16
+NC-00789,2025-01-01,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1472,3328,1590,,,,325,,187,5.89,Material,Closed,2025-01-11
+NC-00790,2025-01-02,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1500,3381,1696,,,,909,,55,251.13,Material,Closed,2025-01-12
+NC-00791,2025-01-02,Production,Major,Scrap above threshold on work order,WC60,60,56845,,,,,,,894,7,53,2858.19,Equipment,Closed,2025-02-14
+NC-00792,2025-01-02,Production,Major,Scrap above threshold on work order,WC50,50,56898,,,,,,,531,16,100,0.0,Equipment,Closed,2025-02-23
+NC-00793,2025-01-02,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000631,60828,797,,1,1157.06,Material,Closed,2025-01-24
+NC-00794,2025-01-02,Production,Minor,Scrap above threshold on work order,WC20,20,56666,,,,,,,3,11,7,0.0,Human factor,Closed,2025-01-20
+NC-00795,2025-01-03,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000623,60429,711,,1,45.12,Method,Closed,2025-01-22
+NC-00796,2025-01-04,Production,Minor,Scrap above threshold on work order,WC10,10,56789,,,,,,,520,15,9,888.93,Material,Closed,2025-01-16
+NC-00797,2025-01-04,Production,Minor,Scrap above threshold on work order,WC10,10,56875,,,,,,,994,12,23,551.35,Human factor,Closed,2025-01-09
+NC-00798,2025-01-04,Production,Minor,Scrap above threshold on work order,WC10,10,56881,,,,,,,328,13,34,0.0,Method,Closed,2025-01-21
+NC-00799,2025-01-05,Production,Minor,Scrap above threshold on work order,WC40,40,56811,,,,,,,808,2,7,138.43,Equipment,Closed,2025-02-03
+NC-00800,2025-01-05,Supplier,Major,Parts rejected at goods receipt,LOG,2,,1504,3389,1508,,,,940,,550,5196.63,Method,Closed,2025-02-05
+NC-00801,2025-01-05,Supplier,Major,Parts rejected at goods receipt,LOG,5,,1504,3388,1508,,,,355,,550,112.61,Material,Closed,2025-03-05
+NC-00802,2025-01-05,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1502,3384,1544,,,,351,,82,71.03,Organization,Closed,2025-01-17
+NC-00803,2025-01-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1511,3408,1568,,,,485,,27,31.6,Method,Closed,2025-01-13
+NC-00804,2025-01-06,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1522,3426,1610,,,,910,,82,503.56,Organization,Closed,2025-01-12
+NC-00805,2025-01-07,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000652,61277,883,,1,63.18,Method,Closed,2025-01-18
+NC-00806,2025-01-08,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1550,3490,1576,,,,907,,55,683.38,Material,Closed,2025-01-13
+NC-00807,2025-01-08,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000666,62191,871,,1,18.74,Method,Closed,2025-01-18
+NC-00808,2025-01-11,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000643,61224,883,,6,241.93,Method,Closed,2025-01-30
+NC-00809,2025-01-12,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000689,63198,782,,1,1414.07,Method,Closed,2025-01-31
+NC-00810,2025-01-12,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1572,3535,1628,,,,941,,82,774.77,Material,Closed,2025-01-30
+NC-00811,2025-01-13,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000638,61190,708,,1,9.48,Equipment,Closed,2025-02-04
+NC-00812,2025-01-13,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1582,3554,1530,,,,507,,82,287.75,Material,Closed,2025-02-11
+NC-00813,2025-01-14,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1600,3593,1542,,,,912,,55,251.13,Method,Closed,2025-01-26
+NC-00814,2025-01-14,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1592,3577,1646,,,,510,,82,283.87,Material,Closed,2025-02-11
+NC-00815,2025-01-14,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1590,3574,1568,,,,488,,55,73.11,Material,Closed,2025-02-01
+NC-00816,2025-01-15,Supplier,Major,Parts rejected at goods receipt,LOG,5,,1604,3599,1510,,,,462,,3,21.46,Material,Closed,2025-03-15
+NC-00817,2025-01-15,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1602,3595,1638,,,,937,,82,774.77,Material,Closed,2025-01-29
+NC-00818,2025-01-15,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000710,63469,980,,1,809.09,Equipment,Closed,2025-01-20
+NC-00819,2025-01-16,Internal audit,Major,Audit finding,WC20,20,,,,,AUD-00334,,,,,,,Human factor,Closed,2025-02-26
+NC-00820,2025-01-16,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1630,3658,1590,,,,326,,125,3.94,Material,Closed,2025-02-14
+NC-00821,2025-01-16,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000667,62271,878,,1,10.33,Equipment,Closed,2025-02-09
+NC-00822,2025-01-16,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1632,3660,1498,,,,930,,82,522.93,Material,Closed,2025-02-03
+NC-00823,2025-01-16,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1622,3639,1684,,,,931,,82,428.91,Material,Closed,2025-01-26
+NC-00824,2025-01-16,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000713,63510,923,,1,14.45,Method,Closed,2025-02-02
+NC-00825,2025-01-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1642,3682,1494,,,,530,,82,197.86,Material,Closed,2025-02-02
+NC-00826,2025-01-19,Production,Minor,Scrap above threshold on work order,WC20,20,58266,,,,,,,3,11,11,0.0,Material,Closed,2025-01-31
+NC-00827,2025-01-21,Internal audit,Major,Audit finding,WC30,30,,,,,AUD-00335,,,,,,,Organization,Closed,2025-02-28
+NC-00828,2025-01-21,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00335,,,,,,,Organization,Closed,2025-02-15
+NC-00829,2025-01-21,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1660,3718,1544,,,,352,,55,9.53,Material,Closed,2025-02-01
+NC-00830,2025-01-21,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1662,3722,1508,,,,355,,82,16.79,Material,Closed,2025-01-26
+NC-00831,2025-01-23,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000681,63103,973,,1,28.82,Method,Closed,2025-02-11
+NC-00832,2025-01-24,Production,Minor,Scrap above threshold on work order,WC60,60,58946,,,,,,,3,7,7,0.0,Human factor,Closed,2025-02-04
+NC-00833,2025-01-27,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000662,61768,878,,1,9.29,Method,Closed,2025-02-24
+NC-00834,2025-01-27,Internal audit,Major,Audit finding,WC60,60,,,,,AUD-00339,,,,,,,Organization,Closed,2025-02-27
+NC-00835,2025-01-27,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00339,,,,,,,Human factor,Closed,2025-02-05
+NC-00836,2025-01-28,Supplier,Major,Parts rejected at goods receipt,LOG,2,,1704,3807,1588,,,,932,,550,3237.18,Method,Closed,2025-02-19
+NC-00837,2025-01-28,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1712,3830,1674,,,,952,,9,21.25,Material,Closed,2025-02-12
+NC-00838,2025-01-28,Supplier,Major,Parts rejected at goods receipt,LOG,6,,1704,3806,1588,,,,931,,550,2833.5,Material,Closed,2025-03-26
+NC-00839,2025-01-30,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00337,,,,,,,Organization,Closed,2025-02-26
+NC-00840,2025-01-30,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1740,3896,1530,,,,508,,55,228.08,Material,Closed,2025-02-08
+NC-00841,2025-01-30,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1742,3898,1694,,,,351,,82,76.2,Method,Closed,2025-02-08
+NC-00842,2025-01-31,Production,Minor,Scrap above threshold on work order,WC40,40,59748,,,,,,,811,8,6,118.65,Material,Closed,2025-02-24
+NC-00843,2025-01-31,Production,Minor,Scrap above threshold on work order,WC10,10,59827,,,,,,,802,4,34,2237.53,Method,Closed,2025-02-24
+NC-00844,2025-02-01,Production,Major,Scrap above threshold on work order,WC50,50,59804,,,,,,,945,1,53,2152.94,Material,Closed,2025-02-17
+NC-00845,2025-02-02,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1750,3923,1646,,,,511,,55,241.51,Material,Closed,2025-02-25
+NC-00846,2025-02-02,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1751,3927,1672,,,,916,,27,165.8,Material,Closed,2025-02-14
+NC-00847,2025-02-02,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1752,3928,1600,,,,525,,82,28.54,Organization,Closed,2025-02-28
+NC-00848,2025-02-03,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1772,3966,1586,,,,938,,82,387.32,Material,Closed,2025-02-21
+NC-00849,2025-02-03,Production,Major,Scrap above threshold on work order,WC30,30,59820,,,,,,,399,3,85,0.0,Material,Closed,2025-03-15
+NC-00850,2025-02-04,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00343,,,,,,,Work environment,Closed,2025-02-14
+NC-00851,2025-02-04,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1780,3985,1684,,,,932,,55,328.05,Organization,Closed,2025-03-04
+NC-00852,2025-02-04,Production,Minor,Scrap above threshold on work order,WC50,50,60006,,,,,,,3,1,6,0.0,Method,Closed,2025-02-14
+NC-00853,2025-02-05,Supplier,Major,Parts rejected at goods receipt,LOG,2,,1804,4029,1678,,,,317,,550,2232.33,Material,Closed,2025-02-21
+NC-00854,2025-02-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1802,4027,1654,,,,512,,82,456.16,Material,Closed,2025-03-05
+NC-00855,2025-02-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1792,4011,1652,,,,933,,82,534.55,Material,Closed,2025-02-27
+NC-00856,2025-02-05,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1790,4009,1498,,,,921,,55,46.08,Material,Closed,2025-02-12
+NC-00857,2025-02-05,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000729,64223,865,,1,6.78,Human factor,Closed,2025-02-22
+NC-00858,2025-02-05,Supplier,Major,Parts rejected at goods receipt,LOG,6,,1804,4030,1678,,,,318,,550,2770.27,Method,Closed,2025-02-25
+NC-00859,2025-02-07,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00346,,,,,,,Method,Closed,2025-02-13
+NC-00860,2025-02-09,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1832,4104,1522,,,,526,,82,44.82,Material,Closed,2025-03-06
+NC-00861,2025-02-09,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1822,4081,1624,,,,507,,82,272.64,Material,Closed,2025-03-03
+NC-00862,2025-02-09,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1820,4078,1508,,,,940,,55,519.66,Method,Closed,2025-02-15
+NC-00863,2025-02-10,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000705,63283,982,,1,492.92,Equipment,Closed,2025-02-15
+NC-00864,2025-02-10,Production,Minor,Scrap above threshold on work order,WC20,20,60666,,,,,,,3,11,7,0.0,Human factor,Closed,2025-03-02
+NC-00865,2025-02-11,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1842,4118,1526,,,,510,,82,287.88,Method,Closed,2025-02-26
+NC-00866,2025-02-11,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1852,4137,1500,,,,358,,9,9.43,Material,Closed,2025-03-07
+NC-00867,2025-02-13,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000682,63128,960,,1,474.57,Method,Closed,2025-02-24
+NC-00868,2025-02-16,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1862,4175,1588,,,,931,,82,422.45,Method,Closed,2025-03-12
+NC-00869,2025-02-16,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1872,4195,1578,,,,317,,82,363.82,Material,Closed,2025-03-09
+NC-00870,2025-02-17,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1882,4211,1664,,,,513,,82,327.14,Organization,Closed,2025-02-28
+NC-00871,2025-02-18,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000763,65794,997,,1,576.94,Equipment,Closed,2025-02-28
+NC-00872,2025-02-19,Supplier,Major,Parts rejected at goods receipt,LOG,5,,1904,4264,1658,,,,936,,550,3983.88,Material,Closed,2025-04-11
+NC-00873,2025-02-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1900,4255,1694,,,,352,,55,12.13,Organization,Closed,2025-03-20
+NC-00874,2025-02-19,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1912,4293,1570,,,,908,,82,259.46,Material,Closed,2025-03-14
+NC-00875,2025-02-19,Supplier,Major,Parts rejected at goods receipt,LOG,6,,1904,4263,1658,,,,935,,550,2597.88,Material,Closed,2025-03-16
+NC-00876,2025-02-19,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000761,65772,879,,1,8.19,Equipment,Closed,2025-02-27
+NC-00877,2025-02-20,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00345,,,,,,,Organization,Closed,2025-03-13
+NC-00878,2025-02-20,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1922,4312,1644,,,,527,,82,83.04,Material,Closed,2025-03-11
+NC-00879,2025-02-23,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1930,4326,1586,,,,939,,55,398.39,Organization,Closed,2025-03-16
+NC-00880,2025-02-24,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,1950,4368,1652,,,,934,,55,310.38,Organization,Closed,2025-03-09
+NC-00881,2025-02-24,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1952,4371,1538,,,,928,,82,396.62,Material,Closed,2025-03-23
+NC-00882,2025-02-25,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1962,4388,1678,,,,317,,82,332.82,Material,Closed,2025-03-24
+NC-00883,2025-02-25,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1972,4409,1560,,,,523,,82,131.99,Material,Closed,2025-03-10
+NC-00884,2025-02-26,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,1992,4456,1516,,,,356,,9,4.86,Material,Closed,2025-03-04
+NC-00885,2025-02-26,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,1980,4429,1624,,,,508,,55,241.6,Organization,Closed,2025-03-25
+NC-00886,2025-02-26,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000709,63403,873,,1,9.24,Method,Closed,2025-03-07
+NC-00887,2025-02-27,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2002,4474,1680,,,,938,,82,387.32,Material,Closed,2025-03-17
+NC-00888,2025-02-27,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2004,4479,1620,,,,523,,550,856.72,Material,Closed,2025-04-04
+NC-00889,2025-02-27,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2000,4472,1526,,,,511,,55,229.9,Organization,Closed,2025-03-24
+NC-00890,2025-02-28,Production,Minor,Scrap above threshold on work order,WC20,20,62466,,,,,,,3,11,6,0.0,Equipment,Closed,2025-03-09
+NC-00891,2025-03-02,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2020,4518,1588,,,,932,,55,323.72,Method,Closed,2025-03-08
+NC-00892,2025-03-02,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2022,4521,1632,,,,928,,82,403.08,Method,Closed,2025-03-09
+NC-00893,2025-03-02,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2012,4492,1572,,,,356,,9,4.56,Method,Closed,2025-03-29
+NC-00894,2025-03-04,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00357,,,,,,,Organization,Closed,2025-03-13
+NC-00895,2025-03-04,Production,Minor,Scrap above threshold on work order,WC10,10,62979,,,,,,,400,13,31,0.0,Equipment,Closed,2025-03-24
+NC-00896,2025-03-04,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00357,,,,,,,Human factor,Closed,2025-04-18
+NC-00897,2025-03-04,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00357,,,,,,,Human factor,Closed,2025-03-13
+NC-00898,2025-03-04,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00357,,,,,,,Method,Closed,2025-03-30
+NC-00899,2025-03-04,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2030,4536,1578,,,,318,,55,297.82,Material,Closed,2025-03-18
+NC-00900,2025-03-04,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2032,4540,1556,,,,319,,82,570.97,Material,Closed,2025-03-25
+NC-00901,2025-03-05,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00354,,,,,,,Organization,Closed,2025-03-24
+NC-00902,2025-03-05,Production,Minor,Scrap above threshold on work order,WC10,10,62986,,,,,,,803,14,21,1636.27,Equipment,Closed,2025-03-22
+NC-00903,2025-03-05,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2052,4585,1692,,,,492,,9,67.86,Material,Closed,2025-03-25
+NC-00904,2025-03-05,Production,Minor,Scrap above threshold on work order,WC30,30,62916,,,,,,,823,3,8,311.67,Method,Closed,2025-03-20
+NC-00905,2025-03-05,Internal audit,Minor,Audit finding,WC20,20,,,,,AUD-00350,,,,,,,Method,Closed,2025-03-15
+NC-00906,2025-03-05,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00354,,,,,,,Work environment,Closed,2025-03-18
+NC-00907,2025-03-06,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2062,4607,1658,,,,935,,82,387.32,Material,Closed,2025-03-21
+NC-00908,2025-03-06,Production,Minor,Scrap above threshold on work order,WC50,50,62963,,,,,,,946,10,9,184.18,Method,Closed,2025-03-16
+NC-00909,2025-03-06,Production,Minor,Scrap above threshold on work order,WC40,40,62907,,,,,,,812,2,12,329.91,Equipment,Closed,2025-03-31
+NC-00910,2025-03-06,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2072,4631,1506,,,,935,,82,387.32,Material,Closed,2025-03-22
+NC-00911,2025-03-06,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2070,4627,1570,,,,909,,55,251.13,Material,Closed,2025-03-25
+NC-00912,2025-03-09,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2082,4646,1584,,,,492,,9,68.51,Organization,Closed,2025-03-15
+NC-00913,2025-03-10,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000782,66880,999,,1,582.86,Human factor,Closed,2025-03-26
+NC-00914,2025-03-10,Supplier,Major,Parts rejected at goods receipt,LOG,5,,2104,4692,1590,,,,326,,1250,39.38,Method,Closed,2025-04-08
+NC-00915,2025-03-10,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2104,4691,1590,,,,325,,1250,39.38,Method,Closed,2025-04-08
+NC-00916,2025-03-10,Customer,Major,Customer complaint after return,WC20,20,,,,,,RMA-000684,63140,965,,1,482.71,Human factor,Closed,2025-03-31
+NC-00917,2025-03-10,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2102,4688,1608,,,,332,,82,133.02,Method,Closed,2025-03-16
+NC-00918,2025-03-11,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2110,4707,1538,,,,929,,55,301.63,Material,Closed,2025-04-04
+NC-00919,2025-03-11,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2120,4719,1678,,,,318,,55,277.03,Material,Closed,2025-03-17
+NC-00920,2025-03-12,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2130,4738,1560,,,,524,,55,116.51,Material,Closed,2025-03-20
+NC-00921,2025-03-12,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2131,4741,1692,,,,496,,3,22.01,Method,Closed,2025-03-30
+NC-00922,2025-03-12,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2132,4742,1696,,,,913,,82,503.56,Organization,Closed,2025-03-28
+NC-00923,2025-03-13,Internal audit,Major,Audit finding,LOG,7,,,,,AUD-00356,,,,,,,Human factor,Closed,2025-04-04
+NC-00924,2025-03-13,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2152,4785,1626,,,,524,,82,159.5,Method,Closed,2025-04-11
+NC-00925,2025-03-13,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2150,4782,1516,,,,357,,6,3.58,Material,Closed,2025-03-27
+NC-00926,2025-03-13,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00356,,,,,,,Organization,Closed,2025-04-05
+NC-00927,2025-03-14,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2161,4803,1584,,,,496,,3,22.34,Material,Closed,2025-04-04
+NC-00928,2025-03-14,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00361,,,,,,,Organization,Closed,2025-04-12
+NC-00929,2025-03-14,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2162,4804,1620,,,,523,,82,127.73,Material,Closed,2025-03-31
+NC-00930,2025-03-14,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2160,4799,1680,,,,939,,55,398.39,Material,Closed,2025-04-07
+NC-00931,2025-03-14,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000793,67271,999,,1,363.41,Method,Closed,2025-03-26
+NC-00932,2025-03-14,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00361,,,,,,,Work environment,Closed,2025-04-23
+NC-00933,2025-03-16,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2182,4855,1576,,,,948,,82,1018.86,Method,Closed,2025-04-01
+NC-00934,2025-03-16,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2180,4852,1632,,,,929,,55,305.96,Method,Closed,2025-04-14
+NC-00935,2025-03-16,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2170,4821,1572,,,,357,,6,3.88,Material,Closed,2025-04-03
+NC-00936,2025-03-17,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00362,,,,,,,Method,Closed,2025-03-23
+NC-00937,2025-03-17,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00362,,,,,,,Work environment,Closed,2025-03-31
+NC-00938,2025-03-18,Supplier,Major,Parts rejected at goods receipt,LOG,6,,2204,4901,1628,,,,941,,550,5196.63,Material,Closed,2025-04-30
+NC-00939,2025-03-18,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2210,4911,1692,,,,493,,6,51.44,Material,Closed,2025-03-29
+NC-00940,2025-03-18,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2212,4915,1504,,,,506,,9,12.42,Material,Closed,2025-04-07
+NC-00941,2025-03-18,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000784,67038,871,,1,18.3,Equipment,Closed,2025-04-16
+NC-00942,2025-03-19,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2222,4939,1568,,,,481,,82,136.38,Method,Closed,2025-03-30
+NC-00943,2025-03-19,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2220,4934,1658,,,,936,,55,398.39,Method,Closed,2025-04-03
+NC-00944,2025-03-19,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2230,4962,1506,,,,936,,55,398.39,Material,Closed,2025-03-26
+NC-00945,2025-03-19,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2232,4964,1542,,,,911,,82,259.46,Method,Closed,2025-04-14
+NC-00946,2025-03-19,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00351,,,,,,,Method,Closed,2025-03-26
+NC-00947,2025-03-20,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2240,4985,1584,,,,493,,6,52.44,Organization,Closed,2025-04-17
+NC-00948,2025-03-23,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2252,5008,1682,,,,513,,82,482.12,Material,Closed,2025-04-21
+NC-00949,2025-03-23,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2262,5027,1590,,,,325,,187,5.89,Method,Closed,2025-04-09
+NC-00950,2025-03-24,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000786,67113,921,,1,12.17,Human factor,Closed,2025-04-05
+NC-00951,2025-03-25,Production,Minor,Scrap above threshold on work order,WC10,10,65076,,,,,,,3,13,10,0.0,Human factor,Closed,2025-04-19
+NC-00952,2025-03-26,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2290,5080,1696,,,,909,,55,251.13,Material,Closed,2025-04-07
+NC-00953,2025-03-26,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2292,5083,1544,,,,351,,82,71.03,Material,Closed,2025-04-22
+NC-00954,2025-03-26,Internal audit,Major,Audit finding,WC40,40,,,,,AUD-00360,,,,,,,Human factor,Closed,2025-05-24
+NC-00955,2025-03-26,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00360,,,,,,,Work environment,Closed,2025-04-01
+NC-00956,2025-03-26,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000808,67538,712,,1,17.4,Equipment,Closed,2025-04-04
+NC-00957,2025-03-27,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2304,5108,1672,,,,404,,3,22.34,Material,Closed,2025-05-10
+NC-00958,2025-03-27,Supplier,Major,Parts rejected at goods receipt,LOG,6,,2304,5107,1672,,,,403,,3,20.42,Material,Closed,2025-04-26
+NC-00959,2025-03-27,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2301,5103,1568,,,,485,,27,31.6,Material,Closed,2025-04-08
+NC-00960,2025-03-27,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2312,5121,1610,,,,910,,82,503.56,Method,Closed,2025-04-06
+NC-00961,2025-04-01,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2340,5189,1576,,,,907,,55,683.38,Method,Closed,2025-04-20
+NC-00962,2025-04-02,Production,Major,Scrap above threshold on work order,WC10,10,66140,,,,,,,529,6,83,0.0,Material,Closed,2025-04-24
+NC-00963,2025-04-02,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00369,,,,,,,Organization,Closed,2025-04-19
+NC-00964,2025-04-03,Production,Minor,Scrap above threshold on work order,WC50,50,66062,,,,,,,807,10,12,664.56,Method,Closed,2025-04-08
+NC-00965,2025-04-03,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2362,5234,1628,,,,941,,82,774.77,Method,Closed,2025-04-22
+NC-00966,2025-04-03,Production,Major,Scrap above threshold on work order,WC40,40,66149,,,,,,,350,8,134,0.0,Equipment,Closed,2025-05-01
+NC-00967,2025-04-03,Internal audit,Minor,Audit finding,LOG,7,,,,,AUD-00371,,,,,,,Method,Closed,2025-04-10
+NC-00968,2025-04-03,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2372,5253,1530,,,,507,,82,287.75,Material,Closed,2025-04-15
+NC-00969,2025-04-03,Production,Minor,Scrap above threshold on work order,WC40,40,66047,,,,,,,522,8,11,1604.57,Human factor,Closed,2025-04-10
+NC-00970,2025-04-03,Production,Minor,Scrap above threshold on work order,WC60,60,66042,,,,,,,517,7,8,790.16,Human factor,Closed,2025-04-28
+NC-00971,2025-04-04,Production,Major,Scrap above threshold on work order,WC10,10,66132,,,,,,,327,5,130,0.0,Material,Closed,2025-04-21
+NC-00972,2025-04-04,Production,Minor,Scrap above threshold on work order,WC10,10,66080,,,,,,,829,13,26,2828.39,Method,Closed,2025-04-10
+NC-00973,2025-04-05,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000790,67223,929,,1,37.68,Method,Closed,2025-04-24
+NC-00974,2025-04-05,Production,Critical,Scrap above threshold on work order,WC40,40,66148,,,,,,,331,8,260,0.0,Method,Closed,2025-05-14
+NC-00975,2025-04-06,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2392,5296,1638,,,,937,,82,774.77,Material,Closed,2025-04-27
+NC-00976,2025-04-06,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000822,68384,873,,1,10.33,Equipment,Closed,2025-04-16
+NC-00977,2025-04-06,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2390,5294,1542,,,,912,,55,251.13,Material,Closed,2025-05-05
+NC-00978,2025-04-06,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2380,5275,1568,,,,488,,55,73.11,Material,Closed,2025-04-24
+NC-00979,2025-04-06,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2382,5278,1646,,,,510,,82,283.87,Material,Closed,2025-04-12
+NC-00980,2025-04-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2404,5321,1586,,,,939,,550,3983.88,Organization,Closed,2025-04-27
+NC-00981,2025-04-08,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2404,5320,1586,,,,938,,550,2597.88,Method,Closed,2025-05-15
+NC-00982,2025-04-08,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2412,5339,1684,,,,931,,82,428.91,Material,Closed,2025-04-22
+NC-00983,2025-04-09,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2420,5358,1590,,,,326,,125,3.94,Organization,Closed,2025-04-21
+NC-00984,2025-04-09,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2422,5360,1498,,,,930,,82,522.93,Method,Closed,2025-04-23
+NC-00985,2025-04-09,Customer,Minor,Customer complaint after return,WC50,50,,,,,,RMA-000826,68675,998,,1,578.59,Method,Closed,2025-04-30
+NC-00986,2025-04-10,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2432,5382,1494,,,,530,,82,197.86,Material,Closed,2025-04-15
+NC-00987,2025-04-12,Production,Minor,Scrap above threshold on work order,WC10,10,66986,,,,,,,3,14,12,0.0,Method,Closed,2025-04-26
+NC-00988,2025-04-13,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2450,5422,1544,,,,352,,55,9.53,Method,Closed,2025-04-23
+NC-00989,2025-04-13,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2452,5426,1508,,,,355,,82,16.79,Material,Closed,2025-04-30
+NC-00990,2025-04-16,Production,Minor,Scrap above threshold on work order,WC10,10,67386,,,,,,,3,14,8,0.0,Material,Closed,2025-05-10
+NC-00991,2025-04-17,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2502,5558,1674,,,,952,,9,21.25,Method,Closed,2025-05-08
+NC-00992,2025-04-17,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2504,5561,1578,,,,317,,550,2440.23,Material,Closed,2025-05-31
+NC-00993,2025-04-17,Supplier,Major,Parts rejected at goods receipt,LOG,5,,2504,5562,1578,,,,318,,550,2978.17,Material,Closed,2025-05-25
+NC-00994,2025-04-19,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000854,69535,893,,1,8.38,Human factor,Closed,2025-05-11
+NC-00995,2025-04-20,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000834,68948,860,,1,9.71,Method,Closed,2025-05-16
+NC-00996,2025-04-21,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2530,5624,1530,,,,508,,55,228.08,Material,Closed,2025-05-07
+NC-00997,2025-04-21,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2532,5626,1694,,,,351,,82,76.2,Method,Closed,2025-05-08
+NC-00998,2025-04-21,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2540,5655,1646,,,,511,,55,241.51,Material,Closed,2025-04-26
+NC-00999,2025-04-22,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2542,5660,1600,,,,525,,82,28.54,Material,Closed,2025-05-20
+NC-01000,2025-04-22,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2541,5659,1672,,,,916,,27,165.8,Organization,Closed,2025-05-13
+NC-01001,2025-04-23,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000858,69560,992,,1,358.14,Material,Closed,2025-05-17
+NC-01002,2025-04-23,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2570,5717,1684,,,,932,,55,328.05,Material,Closed,2025-05-15
+NC-01003,2025-04-23,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2562,5698,1586,,,,938,,82,387.32,Material,Closed,2025-05-08
+NC-01004,2025-04-24,Internal audit,Minor,Audit finding,WC10,10,,,,,AUD-00364,,,,,,,Work environment,Closed,2025-05-18
+NC-01005,2025-04-24,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2582,5743,1652,,,,933,,82,534.55,Material,Closed,2025-05-17
+NC-01006,2025-04-24,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2580,5741,1498,,,,921,,55,46.08,Material,Closed,2025-05-07
+NC-01007,2025-04-24,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00366,,,,,,,Organization,Closed,2025-05-18
+NC-01008,2025-04-24,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00364,,,,,,,Method,Open,
+NC-01009,2025-04-25,Production,Minor,Scrap above threshold on work order,WC40,40,68556,,,,,,,3,9,11,0.0,Method,Closed,2025-05-19
+NC-01010,2025-04-27,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2604,5787,1560,,,,524,,550,1165.11,Material,Open,
+NC-01011,2025-04-27,Supplier,Major,Parts rejected at goods receipt,LOG,6,,2604,5786,1560,,,,523,,550,885.31,Material,Closed,2025-05-19
+NC-01012,2025-04-27,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2592,5759,1654,,,,512,,82,456.16,Material,Closed,2025-05-22
+NC-01013,2025-04-28,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2612,5802,1624,,,,507,,82,272.64,Material,Closed,2025-05-23
+NC-01014,2025-04-28,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2610,5799,1508,,,,940,,55,519.66,Material,Closed,2025-05-21
+NC-01015,2025-04-29,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2632,5839,1526,,,,510,,82,287.88,Material,Closed,2025-05-09
+NC-01016,2025-04-29,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000785,67056,708,,1,42.24,Equipment,Closed,2025-05-27
+NC-01017,2025-04-29,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2622,5825,1522,,,,526,,82,44.82,Method,Closed,2025-05-17
+NC-01018,2025-04-30,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2642,5858,1500,,,,358,,9,9.43,Method,Closed,2025-05-21
+NC-01019,2025-04-30,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2652,5890,1588,,,,931,,82,422.45,Material,Closed,2025-05-19
+NC-01020,2025-05-01,Customer,Minor,Customer complaint after return,WC60,60,,,,,,RMA-000765,65932,784,,1,2326.56,Equipment,Closed,2025-05-23
+NC-01021,2025-05-01,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2662,5910,1578,,,,317,,82,363.82,Method,Closed,2025-05-18
+NC-01022,2025-05-02,Production,Minor,Scrap above threshold on work order,WC40,40,69156,,,,,,,3,9,9,0.0,Human factor,Closed,2025-05-16
+NC-01023,2025-05-03,Production,Minor,Scrap above threshold on work order,WC50,50,69497,,,,,,,802,16,42,2764.01,Material,Closed,2025-05-17
+NC-01024,2025-05-04,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2672,5926,1664,,,,513,,82,327.14,Method,Closed,2025-05-14
+NC-01025,2025-05-04,Production,Major,Scrap above threshold on work order,WC10,10,69474,,,,,,,945,12,60,2437.3,Material,Closed,2025-05-30
+NC-01026,2025-05-05,Production,Minor,Scrap above threshold on work order,WC30,30,69418,,,,,,,811,3,7,138.43,Human factor,Closed,2025-05-18
+NC-01027,2025-05-05,Internal audit,Minor,Audit finding,WC45,45,,,,,AUD-00384,,,,,,,Organization,Closed,2025-05-14
+NC-01028,2025-05-05,Internal audit,Major,Audit finding,WC45,45,,,,,AUD-00384,,,,,,,Method,Open,
+NC-01029,2025-05-05,Production,Major,Scrap above threshold on work order,WC10,10,69490,,,,,,,399,15,109,0.0,Human factor,Open,
+NC-01030,2025-05-05,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2690,5970,1694,,,,352,,55,12.13,Method,Closed,2025-05-29
+NC-01031,2025-05-06,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2712,6027,1644,,,,527,,82,83.04,Material,Closed,2025-05-23
+NC-01032,2025-05-06,Supplier,Major,Parts rejected at goods receipt,LOG,2,,2704,6013,1506,,,,936,,550,3983.88,Method,Open,
+NC-01033,2025-05-06,Supplier,Major,Parts rejected at goods receipt,LOG,6,,2704,6012,1506,,,,935,,550,2597.88,Method,Open,
+NC-01034,2025-05-06,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2702,6008,1570,,,,908,,82,259.46,Material,Closed,2025-05-31
+NC-01035,2025-05-07,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2720,6041,1586,,,,939,,55,398.39,Organization,Closed,2025-05-16
+NC-01036,2025-05-08,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2740,6083,1652,,,,934,,55,310.38,Material,Closed,2025-05-25
+NC-01037,2025-05-08,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2742,6086,1538,,,,928,,82,396.62,Material,Closed,2025-05-25
+NC-01038,2025-05-11,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000898,71833,972,,1,770.49,Material,Closed,2025-05-27
+NC-01039,2025-05-11,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2752,6103,1678,,,,317,,82,332.82,Material,Closed,2025-05-28
+NC-01040,2025-05-11,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2762,6124,1560,,,,523,,82,131.99,Material,Open,
+NC-01041,2025-05-12,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2770,6144,1624,,,,508,,55,241.6,Method,Closed,2025-05-29
+NC-01042,2025-05-13,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2792,6189,1680,,,,938,,82,387.32,Material,Closed,2025-05-29
+NC-01043,2025-05-13,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2790,6187,1526,,,,511,,55,229.9,Material,Open,
+NC-01044,2025-05-13,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2782,6171,1516,,,,356,,9,4.86,Organization,Open,
+NC-01045,2025-05-14,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00382,,,,,,,Work environment,Open,
+NC-01046,2025-05-14,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00382,,,,,,,Work environment,Closed,2025-05-24
+NC-01047,2025-05-14,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00382,,,,,,,Work environment,Open,
+NC-01048,2025-05-14,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2812,6236,1632,,,,928,,82,403.08,Material,Closed,2025-05-23
+NC-01049,2025-05-14,Internal audit,Minor,Audit finding,WC30,30,,,,,AUD-00382,,,,,,,Method,Open,
+NC-01050,2025-05-14,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2802,6207,1572,,,,356,,9,4.56,Material,Closed,2025-05-20
+NC-01051,2025-05-14,Supplier,Major,Parts rejected at goods receipt,LOG,6,,2804,6212,1662,,,,490,,3,5.56,Material,Open,
+NC-01052,2025-05-14,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2810,6233,1588,,,,932,,55,323.72,Material,Closed,2025-05-22
+NC-01053,2025-05-15,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2820,6251,1578,,,,318,,55,297.82,Method,Closed,2025-05-27
+NC-01054,2025-05-15,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2822,6255,1556,,,,319,,82,570.97,Material,Open,
+NC-01055,2025-05-15,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00375,,,,,,,Method,Closed,2025-05-25
+NC-01056,2025-05-15,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00375,,,,,,,Method,Open,
+NC-01057,2025-05-16,Internal audit,Major,Audit finding,WC10,10,,,,,AUD-00380,,,,,,,Organization,Open,
+NC-01058,2025-05-16,Internal audit,Minor,Audit finding,WC60,60,,,,,AUD-00378,,,,,,,Work environment,Open,
+NC-01059,2025-05-18,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2842,6300,1692,,,,492,,9,67.86,Material,Open,
+NC-01060,2025-05-19,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2852,6322,1658,,,,935,,82,387.32,Material,Closed,2025-05-29
+NC-01061,2025-05-21,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2862,6346,1506,,,,935,,82,387.32,Method,Closed,2025-05-29
+NC-01062,2025-05-21,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2860,6342,1570,,,,909,,55,251.13,Material,Open,
+NC-01063,2025-05-22,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2872,6361,1584,,,,492,,9,68.51,Material,Open,
+NC-01064,2025-05-24,Customer,Minor,Customer complaint after return,WC40,40,,,,,,RMA-000899,71839,953,,1,762.96,Equipment,Open,
+NC-01065,2025-05-25,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2892,6403,1608,,,,332,,82,133.02,Organization,Open,
+NC-01066,2025-05-25,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2900,6422,1538,,,,929,,55,301.63,Material,Open,
+NC-01067,2025-05-26,Supplier,Major,Parts rejected at goods receipt,LOG,5,,2904,6427,1580,,,,1,,3,22.62,Method,Open,
+NC-01068,2025-05-26,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2910,6434,1678,,,,318,,55,277.03,Organization,Open,
+NC-01069,2025-05-26,Production,Minor,Scrap above threshold on work order,WC10,10,71836,,,,,,,3,6,9,0.0,Material,Closed,2025-05-31
+NC-01070,2025-05-27,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000923,73173,932,,1,33.92,Method,Open,
+NC-01071,2025-05-27,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2920,6453,1560,,,,524,,55,116.51,Method,Open,
+NC-01072,2025-05-27,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2921,6456,1692,,,,496,,3,22.01,Material,Open,
+NC-01073,2025-05-27,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2922,6457,1696,,,,913,,82,503.56,Method,Open,
+NC-01074,2025-05-27,Internal audit,Minor,Audit finding,WC50,50,,,,,AUD-00377,,,,,,,Organization,Open,
+NC-01075,2025-05-28,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2940,6497,1516,,,,357,,6,3.58,Organization,Open,
+NC-01076,2025-05-28,Internal audit,Minor,Audit finding,WC40,40,,,,,AUD-00383,,,,,,,Organization,Open,
+NC-01077,2025-05-28,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2942,6500,1626,,,,524,,82,159.5,Material,Open,
+NC-01078,2025-05-29,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2950,6514,1680,,,,939,,55,398.39,Material,Open,
+NC-01079,2025-05-29,Supplier,Minor,Parts rejected at goods receipt,LOG,6,,2951,6518,1584,,,,496,,3,22.34,Material,Open,
+NC-01080,2025-05-29,Supplier,Minor,Parts rejected at goods receipt,LOG,2,,2952,6519,1620,,,,523,,82,127.73,Material,Open,
+NC-01081,2025-05-29,Supplier,Minor,Parts rejected at goods receipt,LOG,5,,2960,6536,1572,,,,357,,6,3.88,Method,Open,
+NC-01082,2025-05-31,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000914,71949,870,,1,7.14,Material,Open,
+NC-01083,2025-05-31,Production,Minor,Scrap above threshold on work order,WC40,40,72256,,,,,,,3,9,11,0.0,Equipment,Open,
+NC-01084,2025-05-31,Customer,Minor,Customer complaint after return,,,,,,,,RMA-000897,71813,712,,1,13.13,Material,Open,
+NC-01085,2025-06-01,Production,Minor,Scrap above threshold on work order,WC20,20,72366,,,,,,,3,11,14,0.0,Method,Open,
+NC-01086,2025-06-01,Production,Minor,Scrap above threshold on work order,WC10,10,72377,,,,,,,532,13,5,0.0,Method,Open,

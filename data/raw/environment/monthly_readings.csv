@@ -1,0 +1,1729 @@
+month,location_id,indicator,value,unit,source
+2022-06,10,electricity_kwh,34896.7,kWh,Utility sub-meter
+2022-06,10,waste_metal_kg,6943.7,kg,Waste contractor manifest
+2022-06,10,waste_metal_recycled_kg,6784.4,kg,Waste contractor manifest
+2022-06,10,waste_hazardous_kg,132.1,kg,Waste contractor manifest
+2022-06,10,waste_hazardous_recycled_kg,13.0,kg,Waste contractor manifest
+2022-06,20,electricity_kwh,45924.4,kWh,Utility sub-meter
+2022-06,20,waste_metal_kg,2740.5,kg,Waste contractor manifest
+2022-06,20,waste_metal_recycled_kg,2559.0,kg,Waste contractor manifest
+2022-06,20,waste_hazardous_kg,74.0,kg,Waste contractor manifest
+2022-06,20,waste_hazardous_recycled_kg,5.4,kg,Waste contractor manifest
+2022-06,30,electricity_kwh,19571.7,kWh,Utility sub-meter
+2022-06,30,waste_metal_kg,2070.6,kg,Waste contractor manifest
+2022-06,30,waste_metal_recycled_kg,1981.1,kg,Waste contractor manifest
+2022-06,30,waste_hazardous_kg,161.9,kg,Waste contractor manifest
+2022-06,30,waste_hazardous_recycled_kg,20.1,kg,Waste contractor manifest
+2022-06,40,electricity_kwh,29988.3,kWh,Utility sub-meter
+2022-06,40,natural_gas_kwh,26782.2,kWh,Utility sub-meter
+2022-06,40,water_m3,348.9,m3,Utility sub-meter
+2022-06,40,voc_kg,787.5,kg,Paint consumption log
+2022-06,40,waste_hazardous_kg,524.0,kg,Waste contractor manifest
+2022-06,40,waste_hazardous_recycled_kg,64.0,kg,Waste contractor manifest
+2022-06,45,electricity_kwh,14599.0,kWh,Utility sub-meter
+2022-06,45,natural_gas_kwh,14565.6,kWh,Utility sub-meter
+2022-06,45,water_m3,96.4,m3,Utility sub-meter
+2022-06,45,voc_kg,305.3,kg,Paint consumption log
+2022-06,45,waste_hazardous_kg,190.1,kg,Waste contractor manifest
+2022-06,45,waste_hazardous_recycled_kg,23.1,kg,Waste contractor manifest
+2022-06,50,electricity_kwh,11081.2,kWh,Utility sub-meter
+2022-06,50,waste_general_kg,705.5,kg,Waste contractor manifest
+2022-06,50,waste_general_recycled_kg,145.6,kg,Waste contractor manifest
+2022-06,60,electricity_kwh,12571.3,kWh,Utility sub-meter
+2022-06,60,waste_packaging_kg,1910.2,kg,Waste contractor manifest
+2022-06,60,waste_packaging_recycled_kg,1374.4,kg,Waste contractor manifest
+2022-06,1,electricity_kwh,3670.7,kWh,Utility sub-meter
+2022-06,1,waste_hazardous_kg,101.5,kg,Waste contractor manifest
+2022-06,1,waste_hazardous_recycled_kg,11.1,kg,Waste contractor manifest
+2022-06,2,electricity_kwh,5387.3,kWh,Utility sub-meter
+2022-06,4,electricity_kwh,2724.7,kWh,Utility sub-meter
+2022-06,5,electricity_kwh,6206.0,kWh,Utility sub-meter
+2022-06,6,electricity_kwh,5624.8,kWh,Utility sub-meter
+2022-06,7,electricity_kwh,6086.4,kWh,Utility sub-meter
+2022-06,7,waste_packaging_kg,710.4,kg,Waste contractor manifest
+2022-06,7,waste_packaging_recycled_kg,520.7,kg,Waste contractor manifest
+2022-06,,electricity_kwh,52975.8,kWh,Utility sub-meter
+2022-06,,natural_gas_kwh,5899.9,kWh,Utility sub-meter
+2022-06,,water_m3,164.2,m3,Utility sub-meter
+2022-06,,waste_general_kg,9329.9,kg,Waste contractor manifest
+2022-06,,waste_general_recycled_kg,1644.2,kg,Waste contractor manifest
+2022-07,10,electricity_kwh,35824.5,kWh,Utility sub-meter
+2022-07,10,waste_metal_kg,8033.1,kg,Waste contractor manifest
+2022-07,10,waste_metal_recycled_kg,7894.2,kg,Waste contractor manifest
+2022-07,10,waste_hazardous_kg,137.7,kg,Waste contractor manifest
+2022-07,10,waste_hazardous_recycled_kg,13.2,kg,Waste contractor manifest
+2022-07,20,electricity_kwh,46867.1,kWh,Utility sub-meter
+2022-07,20,waste_metal_kg,3108.8,kg,Waste contractor manifest
+2022-07,20,waste_metal_recycled_kg,2968.6,kg,Waste contractor manifest
+2022-07,20,waste_hazardous_kg,77.5,kg,Waste contractor manifest
+2022-07,20,waste_hazardous_recycled_kg,4.3,kg,Waste contractor manifest
+2022-07,30,electricity_kwh,19565.3,kWh,Utility sub-meter
+2022-07,30,waste_metal_kg,2067.0,kg,Waste contractor manifest
+2022-07,30,waste_metal_recycled_kg,1878.0,kg,Waste contractor manifest
+2022-07,30,waste_hazardous_kg,149.0,kg,Waste contractor manifest
+2022-07,30,waste_hazardous_recycled_kg,17.0,kg,Waste contractor manifest
+2022-07,40,electricity_kwh,29944.6,kWh,Utility sub-meter
+2022-07,40,natural_gas_kwh,27446.6,kWh,Utility sub-meter
+2022-07,40,water_m3,378.8,m3,Utility sub-meter
+2022-07,40,voc_kg,819.7,kg,Paint consumption log
+2022-07,40,waste_hazardous_kg,504.3,kg,Waste contractor manifest
+2022-07,40,waste_hazardous_recycled_kg,49.7,kg,Waste contractor manifest
+2022-07,45,electricity_kwh,15424.4,kWh,Utility sub-meter
+2022-07,45,natural_gas_kwh,13909.0,kWh,Utility sub-meter
+2022-07,45,water_m3,101.0,m3,Utility sub-meter
+2022-07,45,voc_kg,320.2,kg,Paint consumption log
+2022-07,45,waste_hazardous_kg,207.9,kg,Waste contractor manifest
+2022-07,45,waste_hazardous_recycled_kg,27.7,kg,Waste contractor manifest
+2022-07,50,electricity_kwh,11514.0,kWh,Utility sub-meter
+2022-07,50,waste_general_kg,748.9,kg,Waste contractor manifest
+2022-07,50,waste_general_recycled_kg,119.6,kg,Waste contractor manifest
+2022-07,60,electricity_kwh,12892.0,kWh,Utility sub-meter
+2022-07,60,waste_packaging_kg,1998.6,kg,Waste contractor manifest
+2022-07,60,waste_packaging_recycled_kg,1423.4,kg,Waste contractor manifest
+2022-07,1,electricity_kwh,3824.6,kWh,Utility sub-meter
+2022-07,1,waste_hazardous_kg,104.9,kg,Waste contractor manifest
+2022-07,1,waste_hazardous_recycled_kg,8.8,kg,Waste contractor manifest
+2022-07,2,electricity_kwh,5757.5,kWh,Utility sub-meter
+2022-07,4,electricity_kwh,2894.8,kWh,Utility sub-meter
+2022-07,5,electricity_kwh,5350.3,kWh,Utility sub-meter
+2022-07,6,electricity_kwh,5364.4,kWh,Utility sub-meter
+2022-07,7,electricity_kwh,6470.0,kWh,Utility sub-meter
+2022-07,7,waste_packaging_kg,729.3,kg,Waste contractor manifest
+2022-07,7,waste_packaging_recycled_kg,527.9,kg,Waste contractor manifest
+2022-07,,electricity_kwh,55646.1,kWh,Utility sub-meter
+2022-07,,natural_gas_kwh,2957.4,kWh,Utility sub-meter
+2022-07,,water_m3,155.2,m3,Utility sub-meter
+2022-07,,waste_general_kg,9240.9,kg,Waste contractor manifest
+2022-07,,waste_general_recycled_kg,1731.9,kg,Waste contractor manifest
+2022-08,10,electricity_kwh,38134.5,kWh,Utility sub-meter
+2022-08,10,waste_metal_kg,8662.3,kg,Waste contractor manifest
+2022-08,10,waste_metal_recycled_kg,8305.9,kg,Waste contractor manifest
+2022-08,10,waste_hazardous_kg,149.2,kg,Waste contractor manifest
+2022-08,10,waste_hazardous_recycled_kg,17.0,kg,Waste contractor manifest
+2022-08,20,electricity_kwh,49685.6,kWh,Utility sub-meter
+2022-08,20,waste_metal_kg,3108.7,kg,Waste contractor manifest
+2022-08,20,waste_metal_recycled_kg,2902.8,kg,Waste contractor manifest
+2022-08,20,waste_hazardous_kg,82.1,kg,Waste contractor manifest
+2022-08,20,waste_hazardous_recycled_kg,6.8,kg,Waste contractor manifest
+2022-08,30,electricity_kwh,19612.6,kWh,Utility sub-meter
+2022-08,30,waste_metal_kg,2384.1,kg,Waste contractor manifest
+2022-08,30,waste_metal_recycled_kg,2288.1,kg,Waste contractor manifest
+2022-08,30,waste_hazardous_kg,162.6,kg,Waste contractor manifest
+2022-08,30,waste_hazardous_recycled_kg,15.0,kg,Waste contractor manifest
+2022-08,40,electricity_kwh,31089.6,kWh,Utility sub-meter
+2022-08,40,natural_gas_kwh,27505.5,kWh,Utility sub-meter
+2022-08,40,water_m3,374.9,m3,Utility sub-meter
+2022-08,40,voc_kg,934.9,kg,Paint consumption log
+2022-08,40,waste_hazardous_kg,565.6,kg,Waste contractor manifest
+2022-08,40,waste_hazardous_recycled_kg,69.9,kg,Waste contractor manifest
+2022-08,45,electricity_kwh,14607.8,kWh,Utility sub-meter
+2022-08,45,natural_gas_kwh,14824.7,kWh,Utility sub-meter
+2022-08,45,water_m3,116.5,m3,Utility sub-meter
+2022-08,45,voc_kg,381.5,kg,Paint consumption log
+2022-08,45,waste_hazardous_kg,207.9,kg,Waste contractor manifest
+2022-08,45,waste_hazardous_recycled_kg,24.6,kg,Waste contractor manifest
+2022-08,50,electricity_kwh,12005.1,kWh,Utility sub-meter
+2022-08,50,waste_general_kg,881.1,kg,Waste contractor manifest
+2022-08,50,waste_general_recycled_kg,143.5,kg,Waste contractor manifest
+2022-08,60,electricity_kwh,14156.5,kWh,Utility sub-meter
+2022-08,60,waste_packaging_kg,2181.3,kg,Waste contractor manifest
+2022-08,60,waste_packaging_recycled_kg,1564.5,kg,Waste contractor manifest
+2022-08,1,electricity_kwh,3761.5,kWh,Utility sub-meter
+2022-08,1,waste_hazardous_kg,116.6,kg,Waste contractor manifest
+2022-08,1,waste_hazardous_recycled_kg,14.9,kg,Waste contractor manifest
+2022-08,2,electricity_kwh,5707.2,kWh,Utility sub-meter
+2022-08,4,electricity_kwh,2985.7,kWh,Utility sub-meter
+2022-08,5,electricity_kwh,6191.8,kWh,Utility sub-meter
+2022-08,6,electricity_kwh,5968.0,kWh,Utility sub-meter
+2022-08,7,electricity_kwh,6148.8,kWh,Utility sub-meter
+2022-08,7,waste_packaging_kg,796.4,kg,Waste contractor manifest
+2022-08,7,waste_packaging_recycled_kg,582.0,kg,Waste contractor manifest
+2022-08,,electricity_kwh,54067.2,kWh,Utility sub-meter
+2022-08,,natural_gas_kwh,2970.8,kWh,Utility sub-meter
+2022-08,,water_m3,170.6,m3,Utility sub-meter
+2022-08,,waste_general_kg,9238.1,kg,Waste contractor manifest
+2022-08,,waste_general_recycled_kg,1657.0,kg,Waste contractor manifest
+2022-09,10,electricity_kwh,35157.2,kWh,Utility sub-meter
+2022-09,10,waste_metal_kg,8839.4,kg,Waste contractor manifest
+2022-09,10,waste_metal_recycled_kg,8542.6,kg,Waste contractor manifest
+2022-09,10,waste_hazardous_kg,137.7,kg,Waste contractor manifest
+2022-09,10,waste_hazardous_recycled_kg,15.1,kg,Waste contractor manifest
+2022-09,20,electricity_kwh,50137.1,kWh,Utility sub-meter
+2022-09,20,waste_metal_kg,3335.2,kg,Waste contractor manifest
+2022-09,20,waste_metal_recycled_kg,3078.4,kg,Waste contractor manifest
+2022-09,20,waste_hazardous_kg,83.2,kg,Waste contractor manifest
+2022-09,20,waste_hazardous_recycled_kg,10.8,kg,Waste contractor manifest
+2022-09,30,electricity_kwh,19245.3,kWh,Utility sub-meter
+2022-09,30,waste_metal_kg,2229.3,kg,Waste contractor manifest
+2022-09,30,waste_metal_recycled_kg,2022.6,kg,Waste contractor manifest
+2022-09,30,waste_hazardous_kg,180.7,kg,Waste contractor manifest
+2022-09,30,waste_hazardous_recycled_kg,17.6,kg,Waste contractor manifest
+2022-09,40,electricity_kwh,33483.0,kWh,Utility sub-meter
+2022-09,40,natural_gas_kwh,31476.9,kWh,Utility sub-meter
+2022-09,40,water_m3,409.9,m3,Utility sub-meter
+2022-09,40,voc_kg,861.1,kg,Paint consumption log
+2022-09,40,waste_hazardous_kg,552.7,kg,Waste contractor manifest
+2022-09,40,waste_hazardous_recycled_kg,58.1,kg,Waste contractor manifest
+2022-09,45,electricity_kwh,14684.4,kWh,Utility sub-meter
+2022-09,45,natural_gas_kwh,15694.0,kWh,Utility sub-meter
+2022-09,45,water_m3,112.8,m3,Utility sub-meter
+2022-09,45,voc_kg,355.7,kg,Paint consumption log
+2022-09,45,waste_hazardous_kg,236.9,kg,Waste contractor manifest
+2022-09,45,waste_hazardous_recycled_kg,18.1,kg,Waste contractor manifest
+2022-09,50,electricity_kwh,12528.7,kWh,Utility sub-meter
+2022-09,50,waste_general_kg,850.5,kg,Waste contractor manifest
+2022-09,50,waste_general_recycled_kg,146.4,kg,Waste contractor manifest
+2022-09,60,electricity_kwh,13123.7,kWh,Utility sub-meter
+2022-09,60,waste_packaging_kg,2009.1,kg,Waste contractor manifest
+2022-09,60,waste_packaging_recycled_kg,1483.7,kg,Waste contractor manifest
+2022-09,1,electricity_kwh,3870.4,kWh,Utility sub-meter
+2022-09,1,waste_hazardous_kg,115.1,kg,Waste contractor manifest
+2022-09,1,waste_hazardous_recycled_kg,12.5,kg,Waste contractor manifest
+2022-09,2,electricity_kwh,5981.5,kWh,Utility sub-meter
+2022-09,4,electricity_kwh,3071.3,kWh,Utility sub-meter
+2022-09,5,electricity_kwh,5381.5,kWh,Utility sub-meter
+2022-09,6,electricity_kwh,6057.7,kWh,Utility sub-meter
+2022-09,7,electricity_kwh,6460.7,kWh,Utility sub-meter
+2022-09,7,waste_packaging_kg,764.2,kg,Waste contractor manifest
+2022-09,7,waste_packaging_recycled_kg,567.6,kg,Waste contractor manifest
+2022-09,,electricity_kwh,51767.6,kWh,Utility sub-meter
+2022-09,,natural_gas_kwh,9118.7,kWh,Utility sub-meter
+2022-09,,water_m3,152.7,m3,Utility sub-meter
+2022-09,,waste_general_kg,8991.7,kg,Waste contractor manifest
+2022-09,,waste_general_recycled_kg,1691.9,kg,Waste contractor manifest
+2022-10,10,electricity_kwh,37668.6,kWh,Utility sub-meter
+2022-10,10,waste_metal_kg,8121.6,kg,Waste contractor manifest
+2022-10,10,waste_metal_recycled_kg,7698.7,kg,Waste contractor manifest
+2022-10,10,waste_hazardous_kg,145.5,kg,Waste contractor manifest
+2022-10,10,waste_hazardous_recycled_kg,12.4,kg,Waste contractor manifest
+2022-10,20,electricity_kwh,48459.1,kWh,Utility sub-meter
+2022-10,20,waste_metal_kg,3223.4,kg,Waste contractor manifest
+2022-10,20,waste_metal_recycled_kg,3133.3,kg,Waste contractor manifest
+2022-10,20,waste_hazardous_kg,81.9,kg,Waste contractor manifest
+2022-10,20,waste_hazardous_recycled_kg,7.7,kg,Waste contractor manifest
+2022-10,30,electricity_kwh,19806.8,kWh,Utility sub-meter
+2022-10,30,waste_metal_kg,2309.3,kg,Waste contractor manifest
+2022-10,30,waste_metal_recycled_kg,2235.4,kg,Waste contractor manifest
+2022-10,30,waste_hazardous_kg,171.9,kg,Waste contractor manifest
+2022-10,30,waste_hazardous_recycled_kg,23.7,kg,Waste contractor manifest
+2022-10,40,electricity_kwh,33765.1,kWh,Utility sub-meter
+2022-10,40,natural_gas_kwh,35020.7,kWh,Utility sub-meter
+2022-10,40,water_m3,404.4,m3,Utility sub-meter
+2022-10,40,voc_kg,887.5,kg,Paint consumption log
+2022-10,40,waste_hazardous_kg,567.3,kg,Waste contractor manifest
+2022-10,40,waste_hazardous_recycled_kg,61.6,kg,Waste contractor manifest
+2022-10,45,electricity_kwh,15391.9,kWh,Utility sub-meter
+2022-10,45,natural_gas_kwh,16770.5,kWh,Utility sub-meter
+2022-10,45,water_m3,112.5,m3,Utility sub-meter
+2022-10,45,voc_kg,368.4,kg,Paint consumption log
+2022-10,45,waste_hazardous_kg,226.4,kg,Waste contractor manifest
+2022-10,45,waste_hazardous_recycled_kg,19.5,kg,Waste contractor manifest
+2022-10,50,electricity_kwh,11467.4,kWh,Utility sub-meter
+2022-10,50,waste_general_kg,834.6,kg,Waste contractor manifest
+2022-10,50,waste_general_recycled_kg,172.3,kg,Waste contractor manifest
+2022-10,60,electricity_kwh,13355.8,kWh,Utility sub-meter
+2022-10,60,waste_packaging_kg,2186.7,kg,Waste contractor manifest
+2022-10,60,waste_packaging_recycled_kg,1664.0,kg,Waste contractor manifest
+2022-10,1,electricity_kwh,3774.7,kWh,Utility sub-meter
+2022-10,1,waste_hazardous_kg,120.4,kg,Waste contractor manifest
+2022-10,1,waste_hazardous_recycled_kg,8.6,kg,Waste contractor manifest
+2022-10,2,electricity_kwh,5789.9,kWh,Utility sub-meter
+2022-10,4,electricity_kwh,2926.0,kWh,Utility sub-meter
+2022-10,5,electricity_kwh,5841.5,kWh,Utility sub-meter
+2022-10,6,electricity_kwh,5806.8,kWh,Utility sub-meter
+2022-10,7,electricity_kwh,6375.1,kWh,Utility sub-meter
+2022-10,7,waste_packaging_kg,780.7,kg,Waste contractor manifest
+2022-10,7,waste_packaging_recycled_kg,562.9,kg,Waste contractor manifest
+2022-10,,electricity_kwh,46005.8,kWh,Utility sub-meter
+2022-10,,natural_gas_kwh,26402.3,kWh,Utility sub-meter
+2022-10,,water_m3,163.9,m3,Utility sub-meter
+2022-10,,waste_general_kg,9510.8,kg,Waste contractor manifest
+2022-10,,waste_general_recycled_kg,1563.2,kg,Waste contractor manifest
+2022-11,10,electricity_kwh,38538.7,kWh,Utility sub-meter
+2022-11,10,waste_metal_kg,9127.7,kg,Waste contractor manifest
+2022-11,10,waste_metal_recycled_kg,8662.2,kg,Waste contractor manifest
+2022-11,10,waste_hazardous_kg,153.3,kg,Waste contractor manifest
+2022-11,10,waste_hazardous_recycled_kg,17.0,kg,Waste contractor manifest
+2022-11,20,electricity_kwh,49161.5,kWh,Utility sub-meter
+2022-11,20,waste_metal_kg,3723.5,kg,Waste contractor manifest
+2022-11,20,waste_metal_recycled_kg,3597.2,kg,Waste contractor manifest
+2022-11,20,waste_hazardous_kg,86.8,kg,Waste contractor manifest
+2022-11,20,waste_hazardous_recycled_kg,10.2,kg,Waste contractor manifest
+2022-11,30,electricity_kwh,21817.4,kWh,Utility sub-meter
+2022-11,30,waste_metal_kg,2616.5,kg,Waste contractor manifest
+2022-11,30,waste_metal_recycled_kg,2567.3,kg,Waste contractor manifest
+2022-11,30,waste_hazardous_kg,184.7,kg,Waste contractor manifest
+2022-11,30,waste_hazardous_recycled_kg,15.6,kg,Waste contractor manifest
+2022-11,40,electricity_kwh,33827.7,kWh,Utility sub-meter
+2022-11,40,natural_gas_kwh,37146.5,kWh,Utility sub-meter
+2022-11,40,water_m3,444.5,m3,Utility sub-meter
+2022-11,40,voc_kg,960.1,kg,Paint consumption log
+2022-11,40,waste_hazardous_kg,634.8,kg,Waste contractor manifest
+2022-11,40,waste_hazardous_recycled_kg,63.8,kg,Waste contractor manifest
+2022-11,45,electricity_kwh,16422.6,kWh,Utility sub-meter
+2022-11,45,natural_gas_kwh,18295.9,kWh,Utility sub-meter
+2022-11,45,water_m3,131.5,m3,Utility sub-meter
+2022-11,45,voc_kg,397.2,kg,Paint consumption log
+2022-11,45,waste_hazardous_kg,269.0,kg,Waste contractor manifest
+2022-11,45,waste_hazardous_recycled_kg,30.2,kg,Waste contractor manifest
+2022-11,50,electricity_kwh,12202.3,kWh,Utility sub-meter
+2022-11,50,waste_general_kg,930.6,kg,Waste contractor manifest
+2022-11,50,waste_general_recycled_kg,199.2,kg,Waste contractor manifest
+2022-11,60,electricity_kwh,14057.3,kWh,Utility sub-meter
+2022-11,60,waste_packaging_kg,2377.5,kg,Waste contractor manifest
+2022-11,60,waste_packaging_recycled_kg,1679.5,kg,Waste contractor manifest
+2022-11,1,electricity_kwh,4072.8,kWh,Utility sub-meter
+2022-11,1,waste_hazardous_kg,117.5,kg,Waste contractor manifest
+2022-11,1,waste_hazardous_recycled_kg,16.5,kg,Waste contractor manifest
+2022-11,2,electricity_kwh,6074.3,kWh,Utility sub-meter
+2022-11,4,electricity_kwh,3073.6,kWh,Utility sub-meter
+2022-11,5,electricity_kwh,5876.1,kWh,Utility sub-meter
+2022-11,6,electricity_kwh,6221.5,kWh,Utility sub-meter
+2022-11,7,electricity_kwh,6579.8,kWh,Utility sub-meter
+2022-11,7,waste_packaging_kg,896.2,kg,Waste contractor manifest
+2022-11,7,waste_packaging_recycled_kg,642.5,kg,Waste contractor manifest
+2022-11,,electricity_kwh,48274.5,kWh,Utility sub-meter
+2022-11,,natural_gas_kwh,49952.2,kWh,Utility sub-meter
+2022-11,,water_m3,163.4,m3,Utility sub-meter
+2022-11,,waste_general_kg,8646.8,kg,Waste contractor manifest
+2022-11,,waste_general_recycled_kg,1602.9,kg,Waste contractor manifest
+2022-12,10,electricity_kwh,38835.0,kWh,Utility sub-meter
+2022-12,10,waste_metal_kg,9948.5,kg,Waste contractor manifest
+2022-12,10,waste_metal_recycled_kg,9286.7,kg,Waste contractor manifest
+2022-12,10,waste_hazardous_kg,153.3,kg,Waste contractor manifest
+2022-12,10,waste_hazardous_recycled_kg,16.4,kg,Waste contractor manifest
+2022-12,20,electricity_kwh,53919.8,kWh,Utility sub-meter
+2022-12,20,waste_metal_kg,3768.5,kg,Waste contractor manifest
+2022-12,20,waste_metal_recycled_kg,3553.8,kg,Waste contractor manifest
+2022-12,20,waste_hazardous_kg,94.8,kg,Waste contractor manifest
+2022-12,20,waste_hazardous_recycled_kg,7.5,kg,Waste contractor manifest
+2022-12,30,electricity_kwh,23032.3,kWh,Utility sub-meter
+2022-12,30,waste_metal_kg,2706.9,kg,Waste contractor manifest
+2022-12,30,waste_metal_recycled_kg,2592.2,kg,Waste contractor manifest
+2022-12,30,waste_hazardous_kg,194.8,kg,Waste contractor manifest
+2022-12,30,waste_hazardous_recycled_kg,23.8,kg,Waste contractor manifest
+2022-12,40,electricity_kwh,34057.3,kWh,Utility sub-meter
+2022-12,40,natural_gas_kwh,42340.0,kWh,Utility sub-meter
+2022-12,40,water_m3,458.5,m3,Utility sub-meter
+2022-12,40,voc_kg,1088.7,kg,Paint consumption log
+2022-12,40,waste_hazardous_kg,639.2,kg,Waste contractor manifest
+2022-12,40,waste_hazardous_recycled_kg,75.1,kg,Waste contractor manifest
+2022-12,45,electricity_kwh,16440.3,kWh,Utility sub-meter
+2022-12,45,natural_gas_kwh,20635.8,kWh,Utility sub-meter
+2022-12,45,water_m3,125.3,m3,Utility sub-meter
+2022-12,45,voc_kg,405.8,kg,Paint consumption log
+2022-12,45,waste_hazardous_kg,256.9,kg,Waste contractor manifest
+2022-12,45,waste_hazardous_recycled_kg,29.7,kg,Waste contractor manifest
+2022-12,50,electricity_kwh,12255.0,kWh,Utility sub-meter
+2022-12,50,waste_general_kg,915.2,kg,Waste contractor manifest
+2022-12,50,waste_general_recycled_kg,142.3,kg,Waste contractor manifest
+2022-12,60,electricity_kwh,14905.0,kWh,Utility sub-meter
+2022-12,60,waste_packaging_kg,2623.1,kg,Waste contractor manifest
+2022-12,60,waste_packaging_recycled_kg,1941.6,kg,Waste contractor manifest
+2022-12,1,electricity_kwh,4178.6,kWh,Utility sub-meter
+2022-12,1,waste_hazardous_kg,123.5,kg,Waste contractor manifest
+2022-12,1,waste_hazardous_recycled_kg,9.8,kg,Waste contractor manifest
+2022-12,2,electricity_kwh,5916.6,kWh,Utility sub-meter
+2022-12,4,electricity_kwh,3064.2,kWh,Utility sub-meter
+2022-12,5,electricity_kwh,5972.1,kWh,Utility sub-meter
+2022-12,6,electricity_kwh,5864.7,kWh,Utility sub-meter
+2022-12,7,electricity_kwh,6654.7,kWh,Utility sub-meter
+2022-12,7,waste_packaging_kg,850.4,kg,Waste contractor manifest
+2022-12,7,waste_packaging_recycled_kg,607.1,kg,Waste contractor manifest
+2022-12,,electricity_kwh,48503.8,kWh,Utility sub-meter
+2022-12,,natural_gas_kwh,64135.5,kWh,Utility sub-meter
+2022-12,,water_m3,152.6,m3,Utility sub-meter
+2022-12,,waste_general_kg,9582.7,kg,Waste contractor manifest
+2022-12,,waste_general_recycled_kg,1603.2,kg,Waste contractor manifest
+2023-01,10,electricity_kwh,38744.1,kWh,Utility sub-meter
+2023-01,10,waste_metal_kg,9740.1,kg,Waste contractor manifest
+2023-01,10,waste_metal_recycled_kg,9211.2,kg,Waste contractor manifest
+2023-01,10,waste_hazardous_kg,151.6,kg,Waste contractor manifest
+2023-01,10,waste_hazardous_recycled_kg,15.6,kg,Waste contractor manifest
+2023-01,20,electricity_kwh,54922.5,kWh,Utility sub-meter
+2023-01,20,waste_metal_kg,3438.0,kg,Waste contractor manifest
+2023-01,20,waste_metal_recycled_kg,3384.7,kg,Waste contractor manifest
+2023-01,20,waste_hazardous_kg,91.5,kg,Waste contractor manifest
+2023-01,20,waste_hazardous_recycled_kg,9.9,kg,Waste contractor manifest
+2023-01,30,electricity_kwh,20549.8,kWh,Utility sub-meter
+2023-01,30,waste_metal_kg,2545.6,kg,Waste contractor manifest
+2023-01,30,waste_metal_recycled_kg,2444.7,kg,Waste contractor manifest
+2023-01,30,waste_hazardous_kg,189.5,kg,Waste contractor manifest
+2023-01,30,waste_hazardous_recycled_kg,20.7,kg,Waste contractor manifest
+2023-01,40,electricity_kwh,34931.8,kWh,Utility sub-meter
+2023-01,40,natural_gas_kwh,42135.1,kWh,Utility sub-meter
+2023-01,40,water_m3,428.1,m3,Utility sub-meter
+2023-01,40,voc_kg,949.1,kg,Paint consumption log
+2023-01,40,waste_hazardous_kg,569.5,kg,Waste contractor manifest
+2023-01,40,waste_hazardous_recycled_kg,46.4,kg,Waste contractor manifest
+2023-01,45,electricity_kwh,15299.7,kWh,Utility sub-meter
+2023-01,45,natural_gas_kwh,21523.7,kWh,Utility sub-meter
+2023-01,45,water_m3,124.5,m3,Utility sub-meter
+2023-01,45,voc_kg,374.0,kg,Paint consumption log
+2023-01,45,waste_hazardous_kg,279.6,kg,Waste contractor manifest
+2023-01,45,waste_hazardous_recycled_kg,36.7,kg,Waste contractor manifest
+2023-01,50,electricity_kwh,13409.8,kWh,Utility sub-meter
+2023-01,50,waste_general_kg,862.0,kg,Waste contractor manifest
+2023-01,50,waste_general_recycled_kg,146.3,kg,Waste contractor manifest
+2023-01,60,electricity_kwh,14391.4,kWh,Utility sub-meter
+2023-01,60,waste_packaging_kg,2637.6,kg,Waste contractor manifest
+2023-01,60,waste_packaging_recycled_kg,1923.6,kg,Waste contractor manifest
+2023-01,1,electricity_kwh,4189.6,kWh,Utility sub-meter
+2023-01,1,waste_hazardous_kg,124.0,kg,Waste contractor manifest
+2023-01,1,waste_hazardous_recycled_kg,14.0,kg,Waste contractor manifest
+2023-01,2,electricity_kwh,5944.6,kWh,Utility sub-meter
+2023-01,4,electricity_kwh,2822.3,kWh,Utility sub-meter
+2023-01,5,electricity_kwh,6026.9,kWh,Utility sub-meter
+2023-01,6,electricity_kwh,6133.4,kWh,Utility sub-meter
+2023-01,7,electricity_kwh,6744.7,kWh,Utility sub-meter
+2023-01,7,waste_packaging_kg,831.2,kg,Waste contractor manifest
+2023-01,7,waste_packaging_recycled_kg,592.1,kg,Waste contractor manifest
+2023-01,,electricity_kwh,50709.5,kWh,Utility sub-meter
+2023-01,,natural_gas_kwh,61405.6,kWh,Utility sub-meter
+2023-01,,water_m3,157.8,m3,Utility sub-meter
+2023-01,,waste_general_kg,10162.4,kg,Waste contractor manifest
+2023-01,,waste_general_recycled_kg,1919.4,kg,Waste contractor manifest
+2023-02,10,electricity_kwh,36684.4,kWh,Utility sub-meter
+2023-02,10,waste_metal_kg,9456.4,kg,Waste contractor manifest
+2023-02,10,waste_metal_recycled_kg,9217.0,kg,Waste contractor manifest
+2023-02,10,waste_hazardous_kg,147.4,kg,Waste contractor manifest
+2023-02,10,waste_hazardous_recycled_kg,15.2,kg,Waste contractor manifest
+2023-02,20,electricity_kwh,53362.0,kWh,Utility sub-meter
+2023-02,20,waste_metal_kg,3705.8,kg,Waste contractor manifest
+2023-02,20,waste_metal_recycled_kg,3506.0,kg,Waste contractor manifest
+2023-02,20,waste_hazardous_kg,91.8,kg,Waste contractor manifest
+2023-02,20,waste_hazardous_recycled_kg,7.7,kg,Waste contractor manifest
+2023-02,30,electricity_kwh,22059.3,kWh,Utility sub-meter
+2023-02,30,waste_metal_kg,2485.5,kg,Waste contractor manifest
+2023-02,30,waste_metal_recycled_kg,2307.0,kg,Waste contractor manifest
+2023-02,30,waste_hazardous_kg,191.3,kg,Waste contractor manifest
+2023-02,30,waste_hazardous_recycled_kg,23.8,kg,Waste contractor manifest
+2023-02,40,electricity_kwh,34629.8,kWh,Utility sub-meter
+2023-02,40,natural_gas_kwh,39527.9,kWh,Utility sub-meter
+2023-02,40,water_m3,450.4,m3,Utility sub-meter
+2023-02,40,voc_kg,964.4,kg,Paint consumption log
+2023-02,40,waste_hazardous_kg,612.9,kg,Waste contractor manifest
+2023-02,40,waste_hazardous_recycled_kg,58.0,kg,Waste contractor manifest
+2023-02,45,electricity_kwh,16936.4,kWh,Utility sub-meter
+2023-02,45,natural_gas_kwh,19979.4,kWh,Utility sub-meter
+2023-02,45,water_m3,122.0,m3,Utility sub-meter
+2023-02,45,voc_kg,392.0,kg,Paint consumption log
+2023-02,45,waste_hazardous_kg,273.6,kg,Waste contractor manifest
+2023-02,45,waste_hazardous_recycled_kg,29.8,kg,Waste contractor manifest
+2023-02,50,electricity_kwh,12481.8,kWh,Utility sub-meter
+2023-02,50,waste_general_kg,930.3,kg,Waste contractor manifest
+2023-02,50,waste_general_recycled_kg,174.5,kg,Waste contractor manifest
+2023-02,60,electricity_kwh,13702.2,kWh,Utility sub-meter
+2023-02,60,waste_packaging_kg,2670.1,kg,Waste contractor manifest
+2023-02,60,waste_packaging_recycled_kg,1840.1,kg,Waste contractor manifest
+2023-02,1,electricity_kwh,4117.1,kWh,Utility sub-meter
+2023-02,1,waste_hazardous_kg,128.4,kg,Waste contractor manifest
+2023-02,1,waste_hazardous_recycled_kg,9.3,kg,Waste contractor manifest
+2023-02,2,electricity_kwh,6107.9,kWh,Utility sub-meter
+2023-02,4,electricity_kwh,3154.9,kWh,Utility sub-meter
+2023-02,5,electricity_kwh,6096.5,kWh,Utility sub-meter
+2023-02,6,electricity_kwh,6281.5,kWh,Utility sub-meter
+2023-02,7,electricity_kwh,6370.9,kWh,Utility sub-meter
+2023-02,7,waste_packaging_kg,830.8,kg,Waste contractor manifest
+2023-02,7,waste_packaging_recycled_kg,596.4,kg,Waste contractor manifest
+2023-02,,electricity_kwh,49325.5,kWh,Utility sub-meter
+2023-02,,natural_gas_kwh,61470.7,kWh,Utility sub-meter
+2023-02,,water_m3,166.9,m3,Utility sub-meter
+2023-02,,waste_general_kg,8692.1,kg,Waste contractor manifest
+2023-02,,waste_general_recycled_kg,1486.9,kg,Waste contractor manifest
+2023-03,10,electricity_kwh,38165.1,kWh,Utility sub-meter
+2023-03,10,waste_metal_kg,9553.8,kg,Waste contractor manifest
+2023-03,10,waste_metal_recycled_kg,9264.7,kg,Waste contractor manifest
+2023-03,10,waste_hazardous_kg,150.0,kg,Waste contractor manifest
+2023-03,10,waste_hazardous_recycled_kg,13.4,kg,Waste contractor manifest
+2023-03,20,electricity_kwh,50990.6,kWh,Utility sub-meter
+2023-03,20,waste_metal_kg,3683.4,kg,Waste contractor manifest
+2023-03,20,waste_metal_recycled_kg,3516.6,kg,Waste contractor manifest
+2023-03,20,waste_hazardous_kg,85.0,kg,Waste contractor manifest
+2023-03,20,waste_hazardous_recycled_kg,6.3,kg,Waste contractor manifest
+2023-03,30,electricity_kwh,21146.3,kWh,Utility sub-meter
+2023-03,30,waste_metal_kg,2533.3,kg,Waste contractor manifest
+2023-03,30,waste_metal_recycled_kg,2448.9,kg,Waste contractor manifest
+2023-03,30,waste_hazardous_kg,181.6,kg,Waste contractor manifest
+2023-03,30,waste_hazardous_recycled_kg,20.3,kg,Waste contractor manifest
+2023-03,40,electricity_kwh,34617.3,kWh,Utility sub-meter
+2023-03,40,natural_gas_kwh,38567.6,kWh,Utility sub-meter
+2023-03,40,water_m3,431.0,m3,Utility sub-meter
+2023-03,40,voc_kg,978.3,kg,Paint consumption log
+2023-03,40,waste_hazardous_kg,627.2,kg,Waste contractor manifest
+2023-03,40,waste_hazardous_recycled_kg,71.5,kg,Waste contractor manifest
+2023-03,45,electricity_kwh,15798.7,kWh,Utility sub-meter
+2023-03,45,natural_gas_kwh,20132.9,kWh,Utility sub-meter
+2023-03,45,water_m3,126.8,m3,Utility sub-meter
+2023-03,45,voc_kg,390.2,kg,Paint consumption log
+2023-03,45,waste_hazardous_kg,253.0,kg,Waste contractor manifest
+2023-03,45,waste_hazardous_recycled_kg,18.0,kg,Waste contractor manifest
+2023-03,50,electricity_kwh,11998.0,kWh,Utility sub-meter
+2023-03,50,waste_general_kg,873.8,kg,Waste contractor manifest
+2023-03,50,waste_general_recycled_kg,165.2,kg,Waste contractor manifest
+2023-03,60,electricity_kwh,14565.8,kWh,Utility sub-meter
+2023-03,60,waste_packaging_kg,2676.2,kg,Waste contractor manifest
+2023-03,60,waste_packaging_recycled_kg,1907.4,kg,Waste contractor manifest
+2023-03,1,electricity_kwh,3965.8,kWh,Utility sub-meter
+2023-03,1,waste_hazardous_kg,124.9,kg,Waste contractor manifest
+2023-03,1,waste_hazardous_recycled_kg,17.3,kg,Waste contractor manifest
+2023-03,2,electricity_kwh,5976.5,kWh,Utility sub-meter
+2023-03,4,electricity_kwh,3204.9,kWh,Utility sub-meter
+2023-03,5,electricity_kwh,5937.7,kWh,Utility sub-meter
+2023-03,6,electricity_kwh,6363.8,kWh,Utility sub-meter
+2023-03,7,electricity_kwh,6609.9,kWh,Utility sub-meter
+2023-03,7,waste_packaging_kg,807.1,kg,Waste contractor manifest
+2023-03,7,waste_packaging_recycled_kg,579.3,kg,Waste contractor manifest
+2023-03,,electricity_kwh,48050.0,kWh,Utility sub-meter
+2023-03,,natural_gas_kwh,45426.2,kWh,Utility sub-meter
+2023-03,,water_m3,161.2,m3,Utility sub-meter
+2023-03,,waste_general_kg,9328.4,kg,Waste contractor manifest
+2023-03,,waste_general_recycled_kg,2037.8,kg,Waste contractor manifest
+2023-04,10,electricity_kwh,42033.2,kWh,Utility sub-meter
+2023-04,10,waste_metal_kg,9901.2,kg,Waste contractor manifest
+2023-04,10,waste_metal_recycled_kg,9365.8,kg,Waste contractor manifest
+2023-04,10,waste_hazardous_kg,163.8,kg,Waste contractor manifest
+2023-04,10,waste_hazardous_recycled_kg,14.7,kg,Waste contractor manifest
+2023-04,20,electricity_kwh,56706.5,kWh,Utility sub-meter
+2023-04,20,waste_metal_kg,3926.7,kg,Waste contractor manifest
+2023-04,20,waste_metal_recycled_kg,3653.0,kg,Waste contractor manifest
+2023-04,20,waste_hazardous_kg,103.0,kg,Waste contractor manifest
+2023-04,20,waste_hazardous_recycled_kg,11.9,kg,Waste contractor manifest
+2023-04,30,electricity_kwh,23858.2,kWh,Utility sub-meter
+2023-04,30,waste_metal_kg,2933.9,kg,Waste contractor manifest
+2023-04,30,waste_metal_recycled_kg,2780.3,kg,Waste contractor manifest
+2023-04,30,waste_hazardous_kg,207.1,kg,Waste contractor manifest
+2023-04,30,waste_hazardous_recycled_kg,18.6,kg,Waste contractor manifest
+2023-04,40,electricity_kwh,38831.7,kWh,Utility sub-meter
+2023-04,40,natural_gas_kwh,37327.3,kWh,Utility sub-meter
+2023-04,40,water_m3,485.0,m3,Utility sub-meter
+2023-04,40,voc_kg,1078.5,kg,Paint consumption log
+2023-04,40,waste_hazardous_kg,676.0,kg,Waste contractor manifest
+2023-04,40,waste_hazardous_recycled_kg,80.2,kg,Waste contractor manifest
+2023-04,45,electricity_kwh,16918.5,kWh,Utility sub-meter
+2023-04,45,natural_gas_kwh,18349.8,kWh,Utility sub-meter
+2023-04,45,water_m3,145.1,m3,Utility sub-meter
+2023-04,45,voc_kg,424.3,kg,Paint consumption log
+2023-04,45,waste_hazardous_kg,278.1,kg,Waste contractor manifest
+2023-04,45,waste_hazardous_recycled_kg,35.3,kg,Waste contractor manifest
+2023-04,50,electricity_kwh,12932.6,kWh,Utility sub-meter
+2023-04,50,waste_general_kg,989.6,kg,Waste contractor manifest
+2023-04,50,waste_general_recycled_kg,158.7,kg,Waste contractor manifest
+2023-04,60,electricity_kwh,14444.9,kWh,Utility sub-meter
+2023-04,60,waste_packaging_kg,2867.8,kg,Waste contractor manifest
+2023-04,60,waste_packaging_recycled_kg,2131.6,kg,Waste contractor manifest
+2023-04,1,electricity_kwh,4124.4,kWh,Utility sub-meter
+2023-04,1,waste_hazardous_kg,120.2,kg,Waste contractor manifest
+2023-04,1,waste_hazardous_recycled_kg,9.4,kg,Waste contractor manifest
+2023-04,2,electricity_kwh,6707.3,kWh,Utility sub-meter
+2023-04,4,electricity_kwh,3179.2,kWh,Utility sub-meter
+2023-04,5,electricity_kwh,6558.5,kWh,Utility sub-meter
+2023-04,6,electricity_kwh,6258.3,kWh,Utility sub-meter
+2023-04,7,electricity_kwh,7072.7,kWh,Utility sub-meter
+2023-04,7,waste_packaging_kg,898.6,kg,Waste contractor manifest
+2023-04,7,waste_packaging_recycled_kg,647.4,kg,Waste contractor manifest
+2023-04,,electricity_kwh,47211.8,kWh,Utility sub-meter
+2023-04,,natural_gas_kwh,29839.0,kWh,Utility sub-meter
+2023-04,,water_m3,168.2,m3,Utility sub-meter
+2023-04,,waste_general_kg,9054.2,kg,Waste contractor manifest
+2023-04,,waste_general_recycled_kg,1347.1,kg,Waste contractor manifest
+2023-05,10,electricity_kwh,42347.7,kWh,Utility sub-meter
+2023-05,10,waste_metal_kg,11333.2,kg,Waste contractor manifest
+2023-05,10,waste_metal_recycled_kg,10590.4,kg,Waste contractor manifest
+2023-05,10,waste_hazardous_kg,166.3,kg,Waste contractor manifest
+2023-05,10,waste_hazardous_recycled_kg,10.8,kg,Waste contractor manifest
+2023-05,20,electricity_kwh,61472.9,kWh,Utility sub-meter
+2023-05,20,waste_metal_kg,4519.1,kg,Waste contractor manifest
+2023-05,20,waste_metal_recycled_kg,4302.7,kg,Waste contractor manifest
+2023-05,20,waste_hazardous_kg,119.9,kg,Waste contractor manifest
+2023-05,20,waste_hazardous_recycled_kg,10.5,kg,Waste contractor manifest
+2023-05,30,electricity_kwh,25294.0,kWh,Utility sub-meter
+2023-05,30,waste_metal_kg,3074.7,kg,Waste contractor manifest
+2023-05,30,waste_metal_recycled_kg,2910.7,kg,Waste contractor manifest
+2023-05,30,waste_hazardous_kg,203.3,kg,Waste contractor manifest
+2023-05,30,waste_hazardous_recycled_kg,18.2,kg,Waste contractor manifest
+2023-05,40,electricity_kwh,37577.8,kWh,Utility sub-meter
+2023-05,40,natural_gas_kwh,35251.0,kWh,Utility sub-meter
+2023-05,40,water_m3,510.1,m3,Utility sub-meter
+2023-05,40,voc_kg,1152.2,kg,Paint consumption log
+2023-05,40,waste_hazardous_kg,738.8,kg,Waste contractor manifest
+2023-05,40,waste_hazardous_recycled_kg,105.5,kg,Waste contractor manifest
+2023-05,45,electricity_kwh,18594.6,kWh,Utility sub-meter
+2023-05,45,natural_gas_kwh,15883.7,kWh,Utility sub-meter
+2023-05,45,water_m3,143.7,m3,Utility sub-meter
+2023-05,45,voc_kg,457.8,kg,Paint consumption log
+2023-05,45,waste_hazardous_kg,308.5,kg,Waste contractor manifest
+2023-05,45,waste_hazardous_recycled_kg,38.7,kg,Waste contractor manifest
+2023-05,50,electricity_kwh,12398.4,kWh,Utility sub-meter
+2023-05,50,waste_general_kg,1072.0,kg,Waste contractor manifest
+2023-05,50,waste_general_recycled_kg,192.7,kg,Waste contractor manifest
+2023-05,60,electricity_kwh,15732.9,kWh,Utility sub-meter
+2023-05,60,waste_packaging_kg,3282.5,kg,Waste contractor manifest
+2023-05,60,waste_packaging_recycled_kg,2348.6,kg,Waste contractor manifest
+2023-05,1,electricity_kwh,4377.4,kWh,Utility sub-meter
+2023-05,1,waste_hazardous_kg,136.8,kg,Waste contractor manifest
+2023-05,1,waste_hazardous_recycled_kg,13.4,kg,Waste contractor manifest
+2023-05,2,electricity_kwh,6540.4,kWh,Utility sub-meter
+2023-05,4,electricity_kwh,3260.1,kWh,Utility sub-meter
+2023-05,5,electricity_kwh,6613.2,kWh,Utility sub-meter
+2023-05,6,electricity_kwh,6381.5,kWh,Utility sub-meter
+2023-05,7,electricity_kwh,6952.5,kWh,Utility sub-meter
+2023-05,7,waste_packaging_kg,896.0,kg,Waste contractor manifest
+2023-05,7,waste_packaging_recycled_kg,658.5,kg,Waste contractor manifest
+2023-05,,electricity_kwh,46039.9,kWh,Utility sub-meter
+2023-05,,natural_gas_kwh,15766.6,kWh,Utility sub-meter
+2023-05,,water_m3,152.7,m3,Utility sub-meter
+2023-05,,waste_general_kg,8931.2,kg,Waste contractor manifest
+2023-05,,waste_general_recycled_kg,1592.6,kg,Waste contractor manifest
+2023-06,10,electricity_kwh,43329.9,kWh,Utility sub-meter
+2023-06,10,waste_metal_kg,12367.8,kg,Waste contractor manifest
+2023-06,10,waste_metal_recycled_kg,11578.4,kg,Waste contractor manifest
+2023-06,10,waste_hazardous_kg,207.3,kg,Waste contractor manifest
+2023-06,10,waste_hazardous_recycled_kg,23.8,kg,Waste contractor manifest
+2023-06,20,electricity_kwh,68426.6,kWh,Utility sub-meter
+2023-06,20,waste_metal_kg,5502.5,kg,Waste contractor manifest
+2023-06,20,waste_metal_recycled_kg,5304.9,kg,Waste contractor manifest
+2023-06,20,waste_hazardous_kg,131.4,kg,Waste contractor manifest
+2023-06,20,waste_hazardous_recycled_kg,12.4,kg,Waste contractor manifest
+2023-06,30,electricity_kwh,25029.1,kWh,Utility sub-meter
+2023-06,30,waste_metal_kg,3378.6,kg,Waste contractor manifest
+2023-06,30,waste_metal_recycled_kg,3156.9,kg,Waste contractor manifest
+2023-06,30,waste_hazardous_kg,231.4,kg,Waste contractor manifest
+2023-06,30,waste_hazardous_recycled_kg,13.7,kg,Waste contractor manifest
+2023-06,40,electricity_kwh,39743.9,kWh,Utility sub-meter
+2023-06,40,natural_gas_kwh,33801.7,kWh,Utility sub-meter
+2023-06,40,water_m3,545.3,m3,Utility sub-meter
+2023-06,40,voc_kg,1284.8,kg,Paint consumption log
+2023-06,40,waste_hazardous_kg,853.5,kg,Waste contractor manifest
+2023-06,40,waste_hazardous_recycled_kg,50.5,kg,Waste contractor manifest
+2023-06,45,electricity_kwh,19125.4,kWh,Utility sub-meter
+2023-06,45,natural_gas_kwh,17313.2,kWh,Utility sub-meter
+2023-06,45,water_m3,164.8,m3,Utility sub-meter
+2023-06,45,voc_kg,515.1,kg,Paint consumption log
+2023-06,45,waste_hazardous_kg,339.8,kg,Waste contractor manifest
+2023-06,45,waste_hazardous_recycled_kg,30.6,kg,Waste contractor manifest
+2023-06,50,electricity_kwh,13176.1,kWh,Utility sub-meter
+2023-06,50,waste_general_kg,1201.7,kg,Waste contractor manifest
+2023-06,50,waste_general_recycled_kg,257.9,kg,Waste contractor manifest
+2023-06,60,electricity_kwh,16891.4,kWh,Utility sub-meter
+2023-06,60,waste_packaging_kg,3605.8,kg,Waste contractor manifest
+2023-06,60,waste_packaging_recycled_kg,2701.1,kg,Waste contractor manifest
+2023-06,1,electricity_kwh,4676.8,kWh,Utility sub-meter
+2023-06,1,waste_hazardous_kg,142.0,kg,Waste contractor manifest
+2023-06,1,waste_hazardous_recycled_kg,21.7,kg,Waste contractor manifest
+2023-06,2,electricity_kwh,7055.7,kWh,Utility sub-meter
+2023-06,4,electricity_kwh,3331.9,kWh,Utility sub-meter
+2023-06,5,electricity_kwh,6777.6,kWh,Utility sub-meter
+2023-06,6,electricity_kwh,6675.8,kWh,Utility sub-meter
+2023-06,7,electricity_kwh,6917.0,kWh,Utility sub-meter
+2023-06,7,waste_packaging_kg,1008.5,kg,Waste contractor manifest
+2023-06,7,waste_packaging_recycled_kg,729.3,kg,Waste contractor manifest
+2023-06,,electricity_kwh,51570.9,kWh,Utility sub-meter
+2023-06,,natural_gas_kwh,6329.8,kWh,Utility sub-meter
+2023-06,,water_m3,166.6,m3,Utility sub-meter
+2023-06,,waste_general_kg,9008.4,kg,Waste contractor manifest
+2023-06,,waste_general_recycled_kg,1685.6,kg,Waste contractor manifest
+2023-07,10,electricity_kwh,48367.2,kWh,Utility sub-meter
+2023-07,10,waste_metal_kg,14056.4,kg,Waste contractor manifest
+2023-07,10,waste_metal_recycled_kg,12948.6,kg,Waste contractor manifest
+2023-07,10,waste_hazardous_kg,221.4,kg,Waste contractor manifest
+2023-07,10,waste_hazardous_recycled_kg,26.3,kg,Waste contractor manifest
+2023-07,20,electricity_kwh,67366.4,kWh,Utility sub-meter
+2023-07,20,waste_metal_kg,5416.6,kg,Waste contractor manifest
+2023-07,20,waste_metal_recycled_kg,5080.4,kg,Waste contractor manifest
+2023-07,20,waste_hazardous_kg,133.3,kg,Waste contractor manifest
+2023-07,20,waste_hazardous_recycled_kg,12.9,kg,Waste contractor manifest
+2023-07,30,electricity_kwh,26235.2,kWh,Utility sub-meter
+2023-07,30,waste_metal_kg,3552.9,kg,Waste contractor manifest
+2023-07,30,waste_metal_recycled_kg,3423.5,kg,Waste contractor manifest
+2023-07,30,waste_hazardous_kg,234.5,kg,Waste contractor manifest
+2023-07,30,waste_hazardous_recycled_kg,17.8,kg,Waste contractor manifest
+2023-07,40,electricity_kwh,38874.3,kWh,Utility sub-meter
+2023-07,40,natural_gas_kwh,37918.6,kWh,Utility sub-meter
+2023-07,40,water_m3,587.6,m3,Utility sub-meter
+2023-07,40,voc_kg,1451.8,kg,Paint consumption log
+2023-07,40,waste_hazardous_kg,812.5,kg,Waste contractor manifest
+2023-07,40,waste_hazardous_recycled_kg,57.5,kg,Waste contractor manifest
+2023-07,45,electricity_kwh,18833.1,kWh,Utility sub-meter
+2023-07,45,natural_gas_kwh,18185.3,kWh,Utility sub-meter
+2023-07,45,water_m3,162.6,m3,Utility sub-meter
+2023-07,45,voc_kg,505.6,kg,Paint consumption log
+2023-07,45,waste_hazardous_kg,361.4,kg,Waste contractor manifest
+2023-07,45,waste_hazardous_recycled_kg,25.8,kg,Waste contractor manifest
+2023-07,50,electricity_kwh,13262.5,kWh,Utility sub-meter
+2023-07,50,waste_general_kg,1226.5,kg,Waste contractor manifest
+2023-07,50,waste_general_recycled_kg,208.7,kg,Waste contractor manifest
+2023-07,60,electricity_kwh,17400.9,kWh,Utility sub-meter
+2023-07,60,waste_packaging_kg,3807.9,kg,Waste contractor manifest
+2023-07,60,waste_packaging_recycled_kg,2707.8,kg,Waste contractor manifest
+2023-07,1,electricity_kwh,4682.8,kWh,Utility sub-meter
+2023-07,1,waste_hazardous_kg,160.1,kg,Waste contractor manifest
+2023-07,1,waste_hazardous_recycled_kg,18.7,kg,Waste contractor manifest
+2023-07,2,electricity_kwh,6982.9,kWh,Utility sub-meter
+2023-07,4,electricity_kwh,3452.5,kWh,Utility sub-meter
+2023-07,5,electricity_kwh,6730.9,kWh,Utility sub-meter
+2023-07,6,electricity_kwh,7014.9,kWh,Utility sub-meter
+2023-07,7,electricity_kwh,7563.7,kWh,Utility sub-meter
+2023-07,7,waste_packaging_kg,1003.2,kg,Waste contractor manifest
+2023-07,7,waste_packaging_recycled_kg,726.7,kg,Waste contractor manifest
+2023-07,,electricity_kwh,54073.8,kWh,Utility sub-meter
+2023-07,,natural_gas_kwh,2960.0,kWh,Utility sub-meter
+2023-07,,water_m3,162.6,m3,Utility sub-meter
+2023-07,,waste_general_kg,9188.9,kg,Waste contractor manifest
+2023-07,,waste_general_recycled_kg,1595.4,kg,Waste contractor manifest
+2023-08,10,electricity_kwh,48213.6,kWh,Utility sub-meter
+2023-08,10,waste_metal_kg,13771.1,kg,Waste contractor manifest
+2023-08,10,waste_metal_recycled_kg,12865.5,kg,Waste contractor manifest
+2023-08,10,waste_hazardous_kg,216.2,kg,Waste contractor manifest
+2023-08,10,waste_hazardous_recycled_kg,16.1,kg,Waste contractor manifest
+2023-08,20,electricity_kwh,70796.4,kWh,Utility sub-meter
+2023-08,20,waste_metal_kg,6002.4,kg,Waste contractor manifest
+2023-08,20,waste_metal_recycled_kg,5852.1,kg,Waste contractor manifest
+2023-08,20,waste_hazardous_kg,152.2,kg,Waste contractor manifest
+2023-08,20,waste_hazardous_recycled_kg,13.0,kg,Waste contractor manifest
+2023-08,30,electricity_kwh,25665.4,kWh,Utility sub-meter
+2023-08,30,waste_metal_kg,3580.7,kg,Waste contractor manifest
+2023-08,30,waste_metal_recycled_kg,3426.2,kg,Waste contractor manifest
+2023-08,30,waste_hazardous_kg,264.3,kg,Waste contractor manifest
+2023-08,30,waste_hazardous_recycled_kg,25.2,kg,Waste contractor manifest
+2023-08,40,electricity_kwh,41841.6,kWh,Utility sub-meter
+2023-08,40,natural_gas_kwh,36300.0,kWh,Utility sub-meter
+2023-08,40,water_m3,591.5,m3,Utility sub-meter
+2023-08,40,voc_kg,1415.2,kg,Paint consumption log
+2023-08,40,waste_hazardous_kg,844.8,kg,Waste contractor manifest
+2023-08,40,waste_hazardous_recycled_kg,87.7,kg,Waste contractor manifest
+2023-08,45,electricity_kwh,19057.7,kWh,Utility sub-meter
+2023-08,45,natural_gas_kwh,17882.5,kWh,Utility sub-meter
+2023-08,45,water_m3,161.9,m3,Utility sub-meter
+2023-08,45,voc_kg,581.4,kg,Paint consumption log
+2023-08,45,waste_hazardous_kg,346.6,kg,Waste contractor manifest
+2023-08,45,waste_hazardous_recycled_kg,37.4,kg,Waste contractor manifest
+2023-08,50,electricity_kwh,14473.0,kWh,Utility sub-meter
+2023-08,50,waste_general_kg,1251.4,kg,Waste contractor manifest
+2023-08,50,waste_general_recycled_kg,223.6,kg,Waste contractor manifest
+2023-08,60,electricity_kwh,16780.3,kWh,Utility sub-meter
+2023-08,60,waste_packaging_kg,3670.5,kg,Waste contractor manifest
+2023-08,60,waste_packaging_recycled_kg,2585.1,kg,Waste contractor manifest
+2023-08,1,electricity_kwh,4411.0,kWh,Utility sub-meter
+2023-08,1,waste_hazardous_kg,153.2,kg,Waste contractor manifest
+2023-08,1,waste_hazardous_recycled_kg,18.9,kg,Waste contractor manifest
+2023-08,2,electricity_kwh,6321.2,kWh,Utility sub-meter
+2023-08,4,electricity_kwh,3504.9,kWh,Utility sub-meter
+2023-08,5,electricity_kwh,7107.6,kWh,Utility sub-meter
+2023-08,6,electricity_kwh,7155.1,kWh,Utility sub-meter
+2023-08,7,electricity_kwh,7789.5,kWh,Utility sub-meter
+2023-08,7,waste_packaging_kg,968.2,kg,Waste contractor manifest
+2023-08,7,waste_packaging_recycled_kg,673.5,kg,Waste contractor manifest
+2023-08,,electricity_kwh,58072.5,kWh,Utility sub-meter
+2023-08,,natural_gas_kwh,3065.2,kWh,Utility sub-meter
+2023-08,,water_m3,177.4,m3,Utility sub-meter
+2023-08,,waste_general_kg,9846.4,kg,Waste contractor manifest
+2023-08,,waste_general_recycled_kg,1455.8,kg,Waste contractor manifest
+2023-09,10,electricity_kwh,50925.3,kWh,Utility sub-meter
+2023-09,10,waste_metal_kg,13532.9,kg,Waste contractor manifest
+2023-09,10,waste_metal_recycled_kg,12769.4,kg,Waste contractor manifest
+2023-09,10,waste_hazardous_kg,219.6,kg,Waste contractor manifest
+2023-09,10,waste_hazardous_recycled_kg,22.6,kg,Waste contractor manifest
+2023-09,20,electricity_kwh,73630.0,kWh,Utility sub-meter
+2023-09,20,waste_metal_kg,6001.1,kg,Waste contractor manifest
+2023-09,20,waste_metal_recycled_kg,5813.4,kg,Waste contractor manifest
+2023-09,20,waste_hazardous_kg,144.0,kg,Waste contractor manifest
+2023-09,20,waste_hazardous_recycled_kg,13.7,kg,Waste contractor manifest
+2023-09,30,electricity_kwh,25166.1,kWh,Utility sub-meter
+2023-09,30,waste_metal_kg,3738.4,kg,Waste contractor manifest
+2023-09,30,waste_metal_recycled_kg,3489.5,kg,Waste contractor manifest
+2023-09,30,waste_hazardous_kg,258.6,kg,Waste contractor manifest
+2023-09,30,waste_hazardous_recycled_kg,27.7,kg,Waste contractor manifest
+2023-09,40,electricity_kwh,43747.3,kWh,Utility sub-meter
+2023-09,40,natural_gas_kwh,37108.0,kWh,Utility sub-meter
+2023-09,40,water_m3,619.8,m3,Utility sub-meter
+2023-09,40,voc_kg,1372.3,kg,Paint consumption log
+2023-09,40,waste_hazardous_kg,845.2,kg,Waste contractor manifest
+2023-09,40,waste_hazardous_recycled_kg,70.8,kg,Waste contractor manifest
+2023-09,45,electricity_kwh,19914.8,kWh,Utility sub-meter
+2023-09,45,natural_gas_kwh,18096.7,kWh,Utility sub-meter
+2023-09,45,water_m3,176.7,m3,Utility sub-meter
+2023-09,45,voc_kg,552.9,kg,Paint consumption log
+2023-09,45,waste_hazardous_kg,372.8,kg,Waste contractor manifest
+2023-09,45,waste_hazardous_recycled_kg,27.2,kg,Waste contractor manifest
+2023-09,50,electricity_kwh,14532.8,kWh,Utility sub-meter
+2023-09,50,waste_general_kg,1265.1,kg,Waste contractor manifest
+2023-09,50,waste_general_recycled_kg,235.1,kg,Waste contractor manifest
+2023-09,60,electricity_kwh,17689.5,kWh,Utility sub-meter
+2023-09,60,waste_packaging_kg,3992.7,kg,Waste contractor manifest
+2023-09,60,waste_packaging_recycled_kg,2939.7,kg,Waste contractor manifest
+2023-09,1,electricity_kwh,4811.3,kWh,Utility sub-meter
+2023-09,1,waste_hazardous_kg,160.1,kg,Waste contractor manifest
+2023-09,1,waste_hazardous_recycled_kg,17.7,kg,Waste contractor manifest
+2023-09,2,electricity_kwh,7011.0,kWh,Utility sub-meter
+2023-09,4,electricity_kwh,3508.2,kWh,Utility sub-meter
+2023-09,5,electricity_kwh,6884.5,kWh,Utility sub-meter
+2023-09,6,electricity_kwh,6954.8,kWh,Utility sub-meter
+2023-09,7,electricity_kwh,7678.4,kWh,Utility sub-meter
+2023-09,7,waste_packaging_kg,1034.5,kg,Waste contractor manifest
+2023-09,7,waste_packaging_recycled_kg,736.6,kg,Waste contractor manifest
+2023-09,,electricity_kwh,50528.5,kWh,Utility sub-meter
+2023-09,,natural_gas_kwh,9045.3,kWh,Utility sub-meter
+2023-09,,water_m3,161.1,m3,Utility sub-meter
+2023-09,,waste_general_kg,9669.0,kg,Waste contractor manifest
+2023-09,,waste_general_recycled_kg,2028.1,kg,Waste contractor manifest
+2023-10,10,electricity_kwh,47255.7,kWh,Utility sub-meter
+2023-10,10,waste_metal_kg,12998.3,kg,Waste contractor manifest
+2023-10,10,waste_metal_recycled_kg,12354.9,kg,Waste contractor manifest
+2023-10,10,waste_hazardous_kg,226.1,kg,Waste contractor manifest
+2023-10,10,waste_hazardous_recycled_kg,17.5,kg,Waste contractor manifest
+2023-10,20,electricity_kwh,76141.6,kWh,Utility sub-meter
+2023-10,20,waste_metal_kg,5957.3,kg,Waste contractor manifest
+2023-10,20,waste_metal_recycled_kg,5518.1,kg,Waste contractor manifest
+2023-10,20,waste_hazardous_kg,155.5,kg,Waste contractor manifest
+2023-10,20,waste_hazardous_recycled_kg,12.3,kg,Waste contractor manifest
+2023-10,30,electricity_kwh,27744.6,kWh,Utility sub-meter
+2023-10,30,waste_metal_kg,3769.9,kg,Waste contractor manifest
+2023-10,30,waste_metal_recycled_kg,3627.1,kg,Waste contractor manifest
+2023-10,30,waste_hazardous_kg,262.4,kg,Waste contractor manifest
+2023-10,30,waste_hazardous_recycled_kg,23.2,kg,Waste contractor manifest
+2023-10,40,electricity_kwh,43229.9,kWh,Utility sub-meter
+2023-10,40,natural_gas_kwh,40875.4,kWh,Utility sub-meter
+2023-10,40,water_m3,631.6,m3,Utility sub-meter
+2023-10,40,voc_kg,1440.9,kg,Paint consumption log
+2023-10,40,waste_hazardous_kg,937.1,kg,Waste contractor manifest
+2023-10,40,waste_hazardous_recycled_kg,92.5,kg,Waste contractor manifest
+2023-10,45,electricity_kwh,19117.3,kWh,Utility sub-meter
+2023-10,45,natural_gas_kwh,20872.8,kWh,Utility sub-meter
+2023-10,45,water_m3,170.5,m3,Utility sub-meter
+2023-10,45,voc_kg,579.7,kg,Paint consumption log
+2023-10,45,waste_hazardous_kg,357.2,kg,Waste contractor manifest
+2023-10,45,waste_hazardous_recycled_kg,35.6,kg,Waste contractor manifest
+2023-10,50,electricity_kwh,14826.2,kWh,Utility sub-meter
+2023-10,50,waste_general_kg,1202.0,kg,Waste contractor manifest
+2023-10,50,waste_general_recycled_kg,221.8,kg,Waste contractor manifest
+2023-10,60,electricity_kwh,17172.6,kWh,Utility sub-meter
+2023-10,60,waste_packaging_kg,4010.5,kg,Waste contractor manifest
+2023-10,60,waste_packaging_recycled_kg,2834.5,kg,Waste contractor manifest
+2023-10,1,electricity_kwh,4737.7,kWh,Utility sub-meter
+2023-10,1,waste_hazardous_kg,159.3,kg,Waste contractor manifest
+2023-10,1,waste_hazardous_recycled_kg,19.4,kg,Waste contractor manifest
+2023-10,2,electricity_kwh,6909.8,kWh,Utility sub-meter
+2023-10,4,electricity_kwh,3319.5,kWh,Utility sub-meter
+2023-10,5,electricity_kwh,7099.2,kWh,Utility sub-meter
+2023-10,6,electricity_kwh,6900.8,kWh,Utility sub-meter
+2023-10,7,electricity_kwh,7067.7,kWh,Utility sub-meter
+2023-10,7,waste_packaging_kg,1007.7,kg,Waste contractor manifest
+2023-10,7,waste_packaging_recycled_kg,725.4,kg,Waste contractor manifest
+2023-10,,electricity_kwh,47136.1,kWh,Utility sub-meter
+2023-10,,natural_gas_kwh,28012.0,kWh,Utility sub-meter
+2023-10,,water_m3,156.3,m3,Utility sub-meter
+2023-10,,waste_general_kg,9101.4,kg,Waste contractor manifest
+2023-10,,waste_general_recycled_kg,1348.9,kg,Waste contractor manifest
+2023-11,10,electricity_kwh,51388.8,kWh,Utility sub-meter
+2023-11,10,waste_metal_kg,15378.0,kg,Waste contractor manifest
+2023-11,10,waste_metal_recycled_kg,14533.4,kg,Waste contractor manifest
+2023-11,10,waste_hazardous_kg,232.8,kg,Waste contractor manifest
+2023-11,10,waste_hazardous_recycled_kg,24.5,kg,Waste contractor manifest
+2023-11,20,electricity_kwh,75839.5,kWh,Utility sub-meter
+2023-11,20,waste_metal_kg,6986.5,kg,Waste contractor manifest
+2023-11,20,waste_metal_recycled_kg,6774.5,kg,Waste contractor manifest
+2023-11,20,waste_hazardous_kg,169.8,kg,Waste contractor manifest
+2023-11,20,waste_hazardous_recycled_kg,15.7,kg,Waste contractor manifest
+2023-11,30,electricity_kwh,28101.3,kWh,Utility sub-meter
+2023-11,30,waste_metal_kg,3842.4,kg,Waste contractor manifest
+2023-11,30,waste_metal_recycled_kg,3734.2,kg,Waste contractor manifest
+2023-11,30,waste_hazardous_kg,285.3,kg,Waste contractor manifest
+2023-11,30,waste_hazardous_recycled_kg,25.5,kg,Waste contractor manifest
+2023-11,40,electricity_kwh,45058.5,kWh,Utility sub-meter
+2023-11,40,natural_gas_kwh,48502.5,kWh,Utility sub-meter
+2023-11,40,water_m3,640.5,m3,Utility sub-meter
+2023-11,40,voc_kg,1422.3,kg,Paint consumption log
+2023-11,40,waste_hazardous_kg,904.7,kg,Waste contractor manifest
+2023-11,40,waste_hazardous_recycled_kg,80.5,kg,Waste contractor manifest
+2023-11,45,electricity_kwh,20820.0,kWh,Utility sub-meter
+2023-11,45,natural_gas_kwh,23811.7,kWh,Utility sub-meter
+2023-11,45,water_m3,174.5,m3,Utility sub-meter
+2023-11,45,voc_kg,596.9,kg,Paint consumption log
+2023-11,45,waste_hazardous_kg,374.8,kg,Waste contractor manifest
+2023-11,45,waste_hazardous_recycled_kg,40.0,kg,Waste contractor manifest
+2023-11,50,electricity_kwh,15162.5,kWh,Utility sub-meter
+2023-11,50,waste_general_kg,1311.6,kg,Waste contractor manifest
+2023-11,50,waste_general_recycled_kg,244.5,kg,Waste contractor manifest
+2023-11,60,electricity_kwh,18665.7,kWh,Utility sub-meter
+2023-11,60,waste_packaging_kg,3973.5,kg,Waste contractor manifest
+2023-11,60,waste_packaging_recycled_kg,2842.2,kg,Waste contractor manifest
+2023-11,1,electricity_kwh,4693.2,kWh,Utility sub-meter
+2023-11,1,waste_hazardous_kg,162.5,kg,Waste contractor manifest
+2023-11,1,waste_hazardous_recycled_kg,13.5,kg,Waste contractor manifest
+2023-11,2,electricity_kwh,7250.6,kWh,Utility sub-meter
+2023-11,4,electricity_kwh,3462.0,kWh,Utility sub-meter
+2023-11,5,electricity_kwh,6776.4,kWh,Utility sub-meter
+2023-11,6,electricity_kwh,7482.8,kWh,Utility sub-meter
+2023-11,7,electricity_kwh,7803.9,kWh,Utility sub-meter
+2023-11,7,waste_packaging_kg,1137.9,kg,Waste contractor manifest
+2023-11,7,waste_packaging_recycled_kg,838.5,kg,Waste contractor manifest
+2023-11,,electricity_kwh,53590.5,kWh,Utility sub-meter
+2023-11,,natural_gas_kwh,47934.6,kWh,Utility sub-meter
+2023-11,,water_m3,163.6,m3,Utility sub-meter
+2023-11,,waste_general_kg,9076.7,kg,Waste contractor manifest
+2023-11,,waste_general_recycled_kg,1657.9,kg,Waste contractor manifest
+2023-12,10,electricity_kwh,50597.0,kWh,Utility sub-meter
+2023-12,10,waste_metal_kg,14197.2,kg,Waste contractor manifest
+2023-12,10,waste_metal_recycled_kg,13204.6,kg,Waste contractor manifest
+2023-12,10,waste_hazardous_kg,267.5,kg,Waste contractor manifest
+2023-12,10,waste_hazardous_recycled_kg,33.7,kg,Waste contractor manifest
+2023-12,20,electricity_kwh,79469.4,kWh,Utility sub-meter
+2023-12,20,waste_metal_kg,6736.1,kg,Waste contractor manifest
+2023-12,20,waste_metal_recycled_kg,6315.1,kg,Waste contractor manifest
+2023-12,20,waste_hazardous_kg,170.0,kg,Waste contractor manifest
+2023-12,20,waste_hazardous_recycled_kg,21.5,kg,Waste contractor manifest
+2023-12,30,electricity_kwh,28770.2,kWh,Utility sub-meter
+2023-12,30,waste_metal_kg,4180.1,kg,Waste contractor manifest
+2023-12,30,waste_metal_recycled_kg,3866.2,kg,Waste contractor manifest
+2023-12,30,waste_hazardous_kg,306.1,kg,Waste contractor manifest
+2023-12,30,waste_hazardous_recycled_kg,32.7,kg,Waste contractor manifest
+2023-12,40,electricity_kwh,45212.0,kWh,Utility sub-meter
+2023-12,40,natural_gas_kwh,53102.5,kWh,Utility sub-meter
+2023-12,40,water_m3,677.6,m3,Utility sub-meter
+2023-12,40,voc_kg,1468.1,kg,Paint consumption log
+2023-12,40,waste_hazardous_kg,944.6,kg,Waste contractor manifest
+2023-12,40,waste_hazardous_recycled_kg,98.4,kg,Waste contractor manifest
+2023-12,45,electricity_kwh,22619.6,kWh,Utility sub-meter
+2023-12,45,natural_gas_kwh,26294.1,kWh,Utility sub-meter
+2023-12,45,water_m3,197.6,m3,Utility sub-meter
+2023-12,45,voc_kg,653.1,kg,Paint consumption log
+2023-12,45,waste_hazardous_kg,413.2,kg,Waste contractor manifest
+2023-12,45,waste_hazardous_recycled_kg,42.0,kg,Waste contractor manifest
+2023-12,50,electricity_kwh,14003.8,kWh,Utility sub-meter
+2023-12,50,waste_general_kg,1323.2,kg,Waste contractor manifest
+2023-12,50,waste_general_recycled_kg,266.9,kg,Waste contractor manifest
+2023-12,60,electricity_kwh,18881.6,kWh,Utility sub-meter
+2023-12,60,waste_packaging_kg,4379.7,kg,Waste contractor manifest
+2023-12,60,waste_packaging_recycled_kg,3229.7,kg,Waste contractor manifest
+2023-12,1,electricity_kwh,4786.7,kWh,Utility sub-meter
+2023-12,1,waste_hazardous_kg,164.2,kg,Waste contractor manifest
+2023-12,1,waste_hazardous_recycled_kg,16.8,kg,Waste contractor manifest
+2023-12,2,electricity_kwh,7000.3,kWh,Utility sub-meter
+2023-12,4,electricity_kwh,3643.8,kWh,Utility sub-meter
+2023-12,5,electricity_kwh,7311.9,kWh,Utility sub-meter
+2023-12,6,electricity_kwh,7174.4,kWh,Utility sub-meter
+2023-12,7,electricity_kwh,7891.7,kWh,Utility sub-meter
+2023-12,7,waste_packaging_kg,1142.1,kg,Waste contractor manifest
+2023-12,7,waste_packaging_recycled_kg,879.0,kg,Waste contractor manifest
+2023-12,,electricity_kwh,49613.4,kWh,Utility sub-meter
+2023-12,,natural_gas_kwh,60578.8,kWh,Utility sub-meter
+2023-12,,water_m3,158.4,m3,Utility sub-meter
+2023-12,,waste_general_kg,8961.8,kg,Waste contractor manifest
+2023-12,,waste_general_recycled_kg,1826.5,kg,Waste contractor manifest
+2024-01,10,electricity_kwh,51733.6,kWh,Utility sub-meter
+2024-01,10,waste_metal_kg,14754.3,kg,Waste contractor manifest
+2024-01,10,waste_metal_recycled_kg,14191.8,kg,Waste contractor manifest
+2024-01,10,waste_hazardous_kg,239.4,kg,Waste contractor manifest
+2024-01,10,waste_hazardous_recycled_kg,24.1,kg,Waste contractor manifest
+2024-01,20,electricity_kwh,76960.0,kWh,Utility sub-meter
+2024-01,20,waste_metal_kg,6414.5,kg,Waste contractor manifest
+2024-01,20,waste_metal_recycled_kg,6043.5,kg,Waste contractor manifest
+2024-01,20,waste_hazardous_kg,167.4,kg,Waste contractor manifest
+2024-01,20,waste_hazardous_recycled_kg,13.7,kg,Waste contractor manifest
+2024-01,30,electricity_kwh,27501.7,kWh,Utility sub-meter
+2024-01,30,waste_metal_kg,3800.6,kg,Waste contractor manifest
+2024-01,30,waste_metal_recycled_kg,3605.2,kg,Waste contractor manifest
+2024-01,30,waste_hazardous_kg,288.9,kg,Waste contractor manifest
+2024-01,30,waste_hazardous_recycled_kg,34.2,kg,Waste contractor manifest
+2024-01,40,electricity_kwh,43851.3,kWh,Utility sub-meter
+2024-01,40,natural_gas_kwh,48841.0,kWh,Utility sub-meter
+2024-01,40,water_m3,658.1,m3,Utility sub-meter
+2024-01,40,voc_kg,1527.1,kg,Paint consumption log
+2024-01,40,waste_hazardous_kg,974.1,kg,Waste contractor manifest
+2024-01,40,waste_hazardous_recycled_kg,107.6,kg,Waste contractor manifest
+2024-01,45,electricity_kwh,20311.7,kWh,Utility sub-meter
+2024-01,45,natural_gas_kwh,26175.6,kWh,Utility sub-meter
+2024-01,45,water_m3,189.7,m3,Utility sub-meter
+2024-01,45,voc_kg,603.1,kg,Paint consumption log
+2024-01,45,waste_hazardous_kg,368.5,kg,Waste contractor manifest
+2024-01,45,waste_hazardous_recycled_kg,40.2,kg,Waste contractor manifest
+2024-01,50,electricity_kwh,13926.3,kWh,Utility sub-meter
+2024-01,50,waste_general_kg,1256.8,kg,Waste contractor manifest
+2024-01,50,waste_general_recycled_kg,251.2,kg,Waste contractor manifest
+2024-01,60,electricity_kwh,18791.6,kWh,Utility sub-meter
+2024-01,60,waste_packaging_kg,4348.4,kg,Waste contractor manifest
+2024-01,60,waste_packaging_recycled_kg,2785.9,kg,Waste contractor manifest
+2024-01,1,electricity_kwh,4958.7,kWh,Utility sub-meter
+2024-01,1,waste_hazardous_kg,152.4,kg,Waste contractor manifest
+2024-01,1,waste_hazardous_recycled_kg,14.4,kg,Waste contractor manifest
+2024-01,2,electricity_kwh,7081.4,kWh,Utility sub-meter
+2024-01,4,electricity_kwh,3657.7,kWh,Utility sub-meter
+2024-01,5,electricity_kwh,7298.2,kWh,Utility sub-meter
+2024-01,6,electricity_kwh,7385.6,kWh,Utility sub-meter
+2024-01,7,electricity_kwh,7979.0,kWh,Utility sub-meter
+2024-01,7,waste_packaging_kg,1095.3,kg,Waste contractor manifest
+2024-01,7,waste_packaging_recycled_kg,806.9,kg,Waste contractor manifest
+2024-01,,electricity_kwh,52561.5,kWh,Utility sub-meter
+2024-01,,natural_gas_kwh,63261.4,kWh,Utility sub-meter
+2024-01,,water_m3,169.3,m3,Utility sub-meter
+2024-01,,waste_general_kg,9057.3,kg,Waste contractor manifest
+2024-01,,waste_general_recycled_kg,1748.4,kg,Waste contractor manifest
+2024-02,10,electricity_kwh,49012.8,kWh,Utility sub-meter
+2024-02,10,waste_metal_kg,13813.4,kg,Waste contractor manifest
+2024-02,10,waste_metal_recycled_kg,13062.7,kg,Waste contractor manifest
+2024-02,10,waste_hazardous_kg,245.8,kg,Waste contractor manifest
+2024-02,10,waste_hazardous_recycled_kg,25.3,kg,Waste contractor manifest
+2024-02,20,electricity_kwh,75230.6,kWh,Utility sub-meter
+2024-02,20,waste_metal_kg,6896.1,kg,Waste contractor manifest
+2024-02,20,waste_metal_recycled_kg,6546.7,kg,Waste contractor manifest
+2024-02,20,waste_hazardous_kg,178.0,kg,Waste contractor manifest
+2024-02,20,waste_hazardous_recycled_kg,12.6,kg,Waste contractor manifest
+2024-02,30,electricity_kwh,28253.4,kWh,Utility sub-meter
+2024-02,30,waste_metal_kg,3801.5,kg,Waste contractor manifest
+2024-02,30,waste_metal_recycled_kg,3747.7,kg,Waste contractor manifest
+2024-02,30,waste_hazardous_kg,279.9,kg,Waste contractor manifest
+2024-02,30,waste_hazardous_recycled_kg,34.9,kg,Waste contractor manifest
+2024-02,40,electricity_kwh,46058.2,kWh,Utility sub-meter
+2024-02,40,natural_gas_kwh,52163.3,kWh,Utility sub-meter
+2024-02,40,water_m3,652.9,m3,Utility sub-meter
+2024-02,40,voc_kg,1433.6,kg,Paint consumption log
+2024-02,40,waste_hazardous_kg,921.3,kg,Waste contractor manifest
+2024-02,40,waste_hazardous_recycled_kg,70.5,kg,Waste contractor manifest
+2024-02,45,electricity_kwh,20829.8,kWh,Utility sub-meter
+2024-02,45,natural_gas_kwh,25556.7,kWh,Utility sub-meter
+2024-02,45,water_m3,190.2,m3,Utility sub-meter
+2024-02,45,voc_kg,585.6,kg,Paint consumption log
+2024-02,45,waste_hazardous_kg,371.9,kg,Waste contractor manifest
+2024-02,45,waste_hazardous_recycled_kg,49.8,kg,Waste contractor manifest
+2024-02,50,electricity_kwh,14820.4,kWh,Utility sub-meter
+2024-02,50,waste_general_kg,1354.2,kg,Waste contractor manifest
+2024-02,50,waste_general_recycled_kg,238.9,kg,Waste contractor manifest
+2024-02,60,electricity_kwh,18852.1,kWh,Utility sub-meter
+2024-02,60,waste_packaging_kg,4299.2,kg,Waste contractor manifest
+2024-02,60,waste_packaging_recycled_kg,3225.5,kg,Waste contractor manifest
+2024-02,1,electricity_kwh,4871.5,kWh,Utility sub-meter
+2024-02,1,waste_hazardous_kg,157.7,kg,Waste contractor manifest
+2024-02,1,waste_hazardous_recycled_kg,19.3,kg,Waste contractor manifest
+2024-02,2,electricity_kwh,7280.4,kWh,Utility sub-meter
+2024-02,4,electricity_kwh,3640.9,kWh,Utility sub-meter
+2024-02,5,electricity_kwh,7242.6,kWh,Utility sub-meter
+2024-02,6,electricity_kwh,6887.4,kWh,Utility sub-meter
+2024-02,7,electricity_kwh,7739.4,kWh,Utility sub-meter
+2024-02,7,waste_packaging_kg,1091.2,kg,Waste contractor manifest
+2024-02,7,waste_packaging_recycled_kg,774.0,kg,Waste contractor manifest
+2024-02,,electricity_kwh,49636.5,kWh,Utility sub-meter
+2024-02,,natural_gas_kwh,59708.8,kWh,Utility sub-meter
+2024-02,,water_m3,167.0,m3,Utility sub-meter
+2024-02,,waste_general_kg,9412.3,kg,Waste contractor manifest
+2024-02,,waste_general_recycled_kg,1693.0,kg,Waste contractor manifest
+2024-03,10,electricity_kwh,52322.5,kWh,Utility sub-meter
+2024-03,10,waste_metal_kg,14364.4,kg,Waste contractor manifest
+2024-03,10,waste_metal_recycled_kg,13290.4,kg,Waste contractor manifest
+2024-03,10,waste_hazardous_kg,245.3,kg,Waste contractor manifest
+2024-03,10,waste_hazardous_recycled_kg,21.6,kg,Waste contractor manifest
+2024-03,20,electricity_kwh,70661.9,kWh,Utility sub-meter
+2024-03,20,waste_metal_kg,6405.1,kg,Waste contractor manifest
+2024-03,20,waste_metal_recycled_kg,6061.7,kg,Waste contractor manifest
+2024-03,20,waste_hazardous_kg,160.5,kg,Waste contractor manifest
+2024-03,20,waste_hazardous_recycled_kg,14.6,kg,Waste contractor manifest
+2024-03,30,electricity_kwh,27466.5,kWh,Utility sub-meter
+2024-03,30,waste_metal_kg,3807.9,kg,Waste contractor manifest
+2024-03,30,waste_metal_recycled_kg,3451.3,kg,Waste contractor manifest
+2024-03,30,waste_hazardous_kg,266.6,kg,Waste contractor manifest
+2024-03,30,waste_hazardous_recycled_kg,32.1,kg,Waste contractor manifest
+2024-03,40,electricity_kwh,43810.0,kWh,Utility sub-meter
+2024-03,40,natural_gas_kwh,48750.5,kWh,Utility sub-meter
+2024-03,40,water_m3,636.4,m3,Utility sub-meter
+2024-03,40,voc_kg,1438.5,kg,Paint consumption log
+2024-03,40,waste_hazardous_kg,948.7,kg,Waste contractor manifest
+2024-03,40,waste_hazardous_recycled_kg,71.3,kg,Waste contractor manifest
+2024-03,45,electricity_kwh,20781.2,kWh,Utility sub-meter
+2024-03,45,natural_gas_kwh,23945.2,kWh,Utility sub-meter
+2024-03,45,water_m3,179.6,m3,Utility sub-meter
+2024-03,45,voc_kg,595.3,kg,Paint consumption log
+2024-03,45,waste_hazardous_kg,371.6,kg,Waste contractor manifest
+2024-03,45,waste_hazardous_recycled_kg,47.3,kg,Waste contractor manifest
+2024-03,50,electricity_kwh,15384.4,kWh,Utility sub-meter
+2024-03,50,waste_general_kg,1253.9,kg,Waste contractor manifest
+2024-03,50,waste_general_recycled_kg,221.3,kg,Waste contractor manifest
+2024-03,60,electricity_kwh,18702.7,kWh,Utility sub-meter
+2024-03,60,waste_packaging_kg,4213.5,kg,Waste contractor manifest
+2024-03,60,waste_packaging_recycled_kg,3065.3,kg,Waste contractor manifest
+2024-03,1,electricity_kwh,4910.6,kWh,Utility sub-meter
+2024-03,1,waste_hazardous_kg,149.8,kg,Waste contractor manifest
+2024-03,1,waste_hazardous_recycled_kg,16.4,kg,Waste contractor manifest
+2024-03,2,electricity_kwh,7252.8,kWh,Utility sub-meter
+2024-03,4,electricity_kwh,3771.9,kWh,Utility sub-meter
+2024-03,5,electricity_kwh,7262.4,kWh,Utility sub-meter
+2024-03,6,electricity_kwh,6929.2,kWh,Utility sub-meter
+2024-03,7,electricity_kwh,7755.3,kWh,Utility sub-meter
+2024-03,7,waste_packaging_kg,1074.0,kg,Waste contractor manifest
+2024-03,7,waste_packaging_recycled_kg,758.4,kg,Waste contractor manifest
+2024-03,,electricity_kwh,51660.5,kWh,Utility sub-meter
+2024-03,,natural_gas_kwh,46451.3,kWh,Utility sub-meter
+2024-03,,water_m3,162.4,m3,Utility sub-meter
+2024-03,,waste_general_kg,9534.3,kg,Waste contractor manifest
+2024-03,,waste_general_recycled_kg,1722.7,kg,Waste contractor manifest
+2024-04,10,electricity_kwh,54676.2,kWh,Utility sub-meter
+2024-04,10,waste_metal_kg,15932.1,kg,Waste contractor manifest
+2024-04,10,waste_metal_recycled_kg,15537.3,kg,Waste contractor manifest
+2024-04,10,waste_hazardous_kg,276.9,kg,Waste contractor manifest
+2024-04,10,waste_hazardous_recycled_kg,30.7,kg,Waste contractor manifest
+2024-04,20,electricity_kwh,82293.1,kWh,Utility sub-meter
+2024-04,20,waste_metal_kg,6853.7,kg,Waste contractor manifest
+2024-04,20,waste_metal_recycled_kg,6516.1,kg,Waste contractor manifest
+2024-04,20,waste_hazardous_kg,192.3,kg,Waste contractor manifest
+2024-04,20,waste_hazardous_recycled_kg,23.1,kg,Waste contractor manifest
+2024-04,30,electricity_kwh,30069.8,kWh,Utility sub-meter
+2024-04,30,waste_metal_kg,4285.3,kg,Waste contractor manifest
+2024-04,30,waste_metal_recycled_kg,4061.0,kg,Waste contractor manifest
+2024-04,30,waste_hazardous_kg,310.5,kg,Waste contractor manifest
+2024-04,30,waste_hazardous_recycled_kg,30.7,kg,Waste contractor manifest
+2024-04,40,electricity_kwh,45370.1,kWh,Utility sub-meter
+2024-04,40,natural_gas_kwh,46637.8,kWh,Utility sub-meter
+2024-04,40,water_m3,749.7,m3,Utility sub-meter
+2024-04,40,voc_kg,1715.7,kg,Paint consumption log
+2024-04,40,waste_hazardous_kg,1056.2,kg,Waste contractor manifest
+2024-04,40,waste_hazardous_recycled_kg,123.0,kg,Waste contractor manifest
+2024-04,45,electricity_kwh,24754.2,kWh,Utility sub-meter
+2024-04,45,natural_gas_kwh,24503.0,kWh,Utility sub-meter
+2024-04,45,water_m3,194.6,m3,Utility sub-meter
+2024-04,45,voc_kg,609.2,kg,Paint consumption log
+2024-04,45,waste_hazardous_kg,415.8,kg,Waste contractor manifest
+2024-04,45,waste_hazardous_recycled_kg,41.9,kg,Waste contractor manifest
+2024-04,50,electricity_kwh,16714.4,kWh,Utility sub-meter
+2024-04,50,waste_general_kg,1423.9,kg,Waste contractor manifest
+2024-04,50,waste_general_recycled_kg,289.6,kg,Waste contractor manifest
+2024-04,60,electricity_kwh,19395.9,kWh,Utility sub-meter
+2024-04,60,waste_packaging_kg,4797.6,kg,Waste contractor manifest
+2024-04,60,waste_packaging_recycled_kg,3408.9,kg,Waste contractor manifest
+2024-04,1,electricity_kwh,4977.7,kWh,Utility sub-meter
+2024-04,1,waste_hazardous_kg,175.3,kg,Waste contractor manifest
+2024-04,1,waste_hazardous_recycled_kg,18.5,kg,Waste contractor manifest
+2024-04,2,electricity_kwh,7520.4,kWh,Utility sub-meter
+2024-04,4,electricity_kwh,3881.2,kWh,Utility sub-meter
+2024-04,5,electricity_kwh,7046.0,kWh,Utility sub-meter
+2024-04,6,electricity_kwh,7461.1,kWh,Utility sub-meter
+2024-04,7,electricity_kwh,8395.9,kWh,Utility sub-meter
+2024-04,7,waste_packaging_kg,1144.3,kg,Waste contractor manifest
+2024-04,7,waste_packaging_recycled_kg,807.4,kg,Waste contractor manifest
+2024-04,,electricity_kwh,47663.7,kWh,Utility sub-meter
+2024-04,,natural_gas_kwh,32710.0,kWh,Utility sub-meter
+2024-04,,water_m3,172.8,m3,Utility sub-meter
+2024-04,,waste_general_kg,9463.3,kg,Waste contractor manifest
+2024-04,,waste_general_recycled_kg,1932.1,kg,Waste contractor manifest
+2024-05,10,electricity_kwh,58492.6,kWh,Utility sub-meter
+2024-05,10,waste_metal_kg,18605.4,kg,Waste contractor manifest
+2024-05,10,waste_metal_recycled_kg,16305.3,kg,Waste contractor manifest
+2024-05,10,waste_hazardous_kg,309.3,kg,Waste contractor manifest
+2024-05,10,waste_hazardous_recycled_kg,32.6,kg,Waste contractor manifest
+2024-05,20,electricity_kwh,96628.0,kWh,Utility sub-meter
+2024-05,20,waste_metal_kg,8366.2,kg,Waste contractor manifest
+2024-05,20,waste_metal_recycled_kg,7785.4,kg,Waste contractor manifest
+2024-05,20,waste_hazardous_kg,223.2,kg,Waste contractor manifest
+2024-05,20,waste_hazardous_recycled_kg,29.4,kg,Waste contractor manifest
+2024-05,30,electricity_kwh,33219.4,kWh,Utility sub-meter
+2024-05,30,waste_metal_kg,5904.0,kg,Waste contractor manifest
+2024-05,30,waste_metal_recycled_kg,5732.0,kg,Waste contractor manifest
+2024-05,30,waste_hazardous_kg,349.9,kg,Waste contractor manifest
+2024-05,30,waste_hazardous_recycled_kg,31.6,kg,Waste contractor manifest
+2024-05,40,electricity_kwh,52362.8,kWh,Utility sub-meter
+2024-05,40,natural_gas_kwh,47922.4,kWh,Utility sub-meter
+2024-05,40,water_m3,784.7,m3,Utility sub-meter
+2024-05,40,voc_kg,1863.8,kg,Paint consumption log
+2024-05,40,waste_hazardous_kg,1134.8,kg,Waste contractor manifest
+2024-05,40,waste_hazardous_recycled_kg,103.4,kg,Waste contractor manifest
+2024-05,45,electricity_kwh,24614.6,kWh,Utility sub-meter
+2024-05,45,natural_gas_kwh,23808.3,kWh,Utility sub-meter
+2024-05,45,water_m3,235.6,m3,Utility sub-meter
+2024-05,45,voc_kg,764.7,kg,Paint consumption log
+2024-05,45,waste_hazardous_kg,499.2,kg,Waste contractor manifest
+2024-05,45,waste_hazardous_recycled_kg,67.3,kg,Waste contractor manifest
+2024-05,50,electricity_kwh,17137.9,kWh,Utility sub-meter
+2024-05,50,waste_general_kg,1592.7,kg,Waste contractor manifest
+2024-05,50,waste_general_recycled_kg,257.7,kg,Waste contractor manifest
+2024-05,60,electricity_kwh,22577.9,kWh,Utility sub-meter
+2024-05,60,waste_packaging_kg,5281.5,kg,Waste contractor manifest
+2024-05,60,waste_packaging_recycled_kg,3834.4,kg,Waste contractor manifest
+2024-05,1,electricity_kwh,5608.8,kWh,Utility sub-meter
+2024-05,1,waste_hazardous_kg,198.9,kg,Waste contractor manifest
+2024-05,1,waste_hazardous_recycled_kg,17.9,kg,Waste contractor manifest
+2024-05,2,electricity_kwh,8376.9,kWh,Utility sub-meter
+2024-05,4,electricity_kwh,3997.1,kWh,Utility sub-meter
+2024-05,5,electricity_kwh,7992.9,kWh,Utility sub-meter
+2024-05,6,electricity_kwh,8322.3,kWh,Utility sub-meter
+2024-05,7,electricity_kwh,8746.5,kWh,Utility sub-meter
+2024-05,7,waste_packaging_kg,1281.6,kg,Waste contractor manifest
+2024-05,7,waste_packaging_recycled_kg,946.6,kg,Waste contractor manifest
+2024-05,,electricity_kwh,45240.9,kWh,Utility sub-meter
+2024-05,,natural_gas_kwh,15148.0,kWh,Utility sub-meter
+2024-05,,water_m3,170.3,m3,Utility sub-meter
+2024-05,,waste_general_kg,9661.1,kg,Waste contractor manifest
+2024-05,,waste_general_recycled_kg,2089.5,kg,Waste contractor manifest
+2024-06,10,electricity_kwh,63200.8,kWh,Utility sub-meter
+2024-06,10,waste_metal_kg,21294.6,kg,Waste contractor manifest
+2024-06,10,waste_metal_recycled_kg,20174.7,kg,Waste contractor manifest
+2024-06,10,waste_hazardous_kg,332.4,kg,Waste contractor manifest
+2024-06,10,waste_hazardous_recycled_kg,21.8,kg,Waste contractor manifest
+2024-06,20,electricity_kwh,105641.8,kWh,Utility sub-meter
+2024-06,20,waste_metal_kg,10495.8,kg,Waste contractor manifest
+2024-06,20,waste_metal_recycled_kg,9785.7,kg,Waste contractor manifest
+2024-06,20,waste_hazardous_kg,264.5,kg,Waste contractor manifest
+2024-06,20,waste_hazardous_recycled_kg,20.8,kg,Waste contractor manifest
+2024-06,30,electricity_kwh,36364.6,kWh,Utility sub-meter
+2024-06,30,waste_metal_kg,5323.3,kg,Waste contractor manifest
+2024-06,30,waste_metal_recycled_kg,4967.4,kg,Waste contractor manifest
+2024-06,30,waste_hazardous_kg,416.7,kg,Waste contractor manifest
+2024-06,30,waste_hazardous_recycled_kg,56.2,kg,Waste contractor manifest
+2024-06,40,electricity_kwh,57400.7,kWh,Utility sub-meter
+2024-06,40,natural_gas_kwh,53865.3,kWh,Utility sub-meter
+2024-06,40,water_m3,975.3,m3,Utility sub-meter
+2024-06,40,voc_kg,2108.9,kg,Paint consumption log
+2024-06,40,waste_hazardous_kg,1440.9,kg,Waste contractor manifest
+2024-06,40,waste_hazardous_recycled_kg,113.7,kg,Waste contractor manifest
+2024-06,45,electricity_kwh,25828.2,kWh,Utility sub-meter
+2024-06,45,natural_gas_kwh,25230.7,kWh,Utility sub-meter
+2024-06,45,water_m3,291.9,m3,Utility sub-meter
+2024-06,45,voc_kg,913.7,kg,Paint consumption log
+2024-06,45,waste_hazardous_kg,538.7,kg,Waste contractor manifest
+2024-06,45,waste_hazardous_recycled_kg,54.5,kg,Waste contractor manifest
+2024-06,50,electricity_kwh,18902.7,kWh,Utility sub-meter
+2024-06,50,waste_general_kg,1873.7,kg,Waste contractor manifest
+2024-06,50,waste_general_recycled_kg,338.2,kg,Waste contractor manifest
+2024-06,60,electricity_kwh,26761.3,kWh,Utility sub-meter
+2024-06,60,waste_packaging_kg,6461.4,kg,Waste contractor manifest
+2024-06,60,waste_packaging_recycled_kg,4751.8,kg,Waste contractor manifest
+2024-06,1,electricity_kwh,6282.3,kWh,Utility sub-meter
+2024-06,1,waste_hazardous_kg,214.4,kg,Waste contractor manifest
+2024-06,1,waste_hazardous_recycled_kg,24.3,kg,Waste contractor manifest
+2024-06,2,electricity_kwh,8751.1,kWh,Utility sub-meter
+2024-06,4,electricity_kwh,4358.8,kWh,Utility sub-meter
+2024-06,5,electricity_kwh,8538.1,kWh,Utility sub-meter
+2024-06,6,electricity_kwh,8804.1,kWh,Utility sub-meter
+2024-06,7,electricity_kwh,9370.9,kWh,Utility sub-meter
+2024-06,7,waste_packaging_kg,1476.6,kg,Waste contractor manifest
+2024-06,7,waste_packaging_recycled_kg,1024.9,kg,Waste contractor manifest
+2024-06,,electricity_kwh,53680.7,kWh,Utility sub-meter
+2024-06,,natural_gas_kwh,6187.2,kWh,Utility sub-meter
+2024-06,,water_m3,173.6,m3,Utility sub-meter
+2024-06,,waste_general_kg,9988.5,kg,Waste contractor manifest
+2024-06,,waste_general_recycled_kg,1972.8,kg,Waste contractor manifest
+2024-07,10,electricity_kwh,67267.9,kWh,Utility sub-meter
+2024-07,10,waste_metal_kg,24692.4,kg,Waste contractor manifest
+2024-07,10,waste_metal_recycled_kg,22588.2,kg,Waste contractor manifest
+2024-07,10,waste_hazardous_kg,349.1,kg,Waste contractor manifest
+2024-07,10,waste_hazardous_recycled_kg,39.9,kg,Waste contractor manifest
+2024-07,20,electricity_kwh,118709.3,kWh,Utility sub-meter
+2024-07,20,waste_metal_kg,11868.5,kg,Waste contractor manifest
+2024-07,20,waste_metal_recycled_kg,11579.3,kg,Waste contractor manifest
+2024-07,20,waste_hazardous_kg,317.4,kg,Waste contractor manifest
+2024-07,20,waste_hazardous_recycled_kg,39.0,kg,Waste contractor manifest
+2024-07,30,electricity_kwh,43024.0,kWh,Utility sub-meter
+2024-07,30,waste_metal_kg,7130.3,kg,Waste contractor manifest
+2024-07,30,waste_metal_recycled_kg,6575.5,kg,Waste contractor manifest
+2024-07,30,waste_hazardous_kg,467.7,kg,Waste contractor manifest
+2024-07,30,waste_hazardous_recycled_kg,46.0,kg,Waste contractor manifest
+2024-07,40,electricity_kwh,66727.4,kWh,Utility sub-meter
+2024-07,40,natural_gas_kwh,54198.0,kWh,Utility sub-meter
+2024-07,40,water_m3,1204.5,m3,Utility sub-meter
+2024-07,40,voc_kg,2422.5,kg,Paint consumption log
+2024-07,40,waste_hazardous_kg,1538.8,kg,Waste contractor manifest
+2024-07,40,waste_hazardous_recycled_kg,183.1,kg,Waste contractor manifest
+2024-07,45,electricity_kwh,30610.6,kWh,Utility sub-meter
+2024-07,45,natural_gas_kwh,27988.1,kWh,Utility sub-meter
+2024-07,45,water_m3,310.1,m3,Utility sub-meter
+2024-07,45,voc_kg,1004.0,kg,Paint consumption log
+2024-07,45,waste_hazardous_kg,669.0,kg,Waste contractor manifest
+2024-07,45,waste_hazardous_recycled_kg,72.9,kg,Waste contractor manifest
+2024-07,50,electricity_kwh,20398.7,kWh,Utility sub-meter
+2024-07,50,waste_general_kg,2183.4,kg,Waste contractor manifest
+2024-07,50,waste_general_recycled_kg,382.8,kg,Waste contractor manifest
+2024-07,60,electricity_kwh,29619.9,kWh,Utility sub-meter
+2024-07,60,waste_packaging_kg,8012.3,kg,Waste contractor manifest
+2024-07,60,waste_packaging_recycled_kg,5940.4,kg,Waste contractor manifest
+2024-07,1,electricity_kwh,6467.2,kWh,Utility sub-meter
+2024-07,1,waste_hazardous_kg,257.6,kg,Waste contractor manifest
+2024-07,1,waste_hazardous_recycled_kg,18.9,kg,Waste contractor manifest
+2024-07,2,electricity_kwh,9223.9,kWh,Utility sub-meter
+2024-07,4,electricity_kwh,4899.1,kWh,Utility sub-meter
+2024-07,5,electricity_kwh,9160.4,kWh,Utility sub-meter
+2024-07,6,electricity_kwh,9529.5,kWh,Utility sub-meter
+2024-07,7,electricity_kwh,10188.1,kWh,Utility sub-meter
+2024-07,7,waste_packaging_kg,1637.8,kg,Waste contractor manifest
+2024-07,7,waste_packaging_recycled_kg,1185.4,kg,Waste contractor manifest
+2024-07,,electricity_kwh,53539.9,kWh,Utility sub-meter
+2024-07,,natural_gas_kwh,3017.3,kWh,Utility sub-meter
+2024-07,,water_m3,170.2,m3,Utility sub-meter
+2024-07,,waste_general_kg,10074.7,kg,Waste contractor manifest
+2024-07,,waste_general_recycled_kg,1793.7,kg,Waste contractor manifest
+2024-08,10,electricity_kwh,72552.0,kWh,Utility sub-meter
+2024-08,10,waste_metal_kg,23942.6,kg,Waste contractor manifest
+2024-08,10,waste_metal_recycled_kg,22364.6,kg,Waste contractor manifest
+2024-08,10,waste_hazardous_kg,406.2,kg,Waste contractor manifest
+2024-08,10,waste_hazardous_recycled_kg,49.4,kg,Waste contractor manifest
+2024-08,20,electricity_kwh,124890.3,kWh,Utility sub-meter
+2024-08,20,waste_metal_kg,11925.6,kg,Waste contractor manifest
+2024-08,20,waste_metal_recycled_kg,11110.0,kg,Waste contractor manifest
+2024-08,20,waste_hazardous_kg,279.7,kg,Waste contractor manifest
+2024-08,20,waste_hazardous_recycled_kg,31.1,kg,Waste contractor manifest
+2024-08,30,electricity_kwh,39487.6,kWh,Utility sub-meter
+2024-08,30,waste_metal_kg,6763.4,kg,Waste contractor manifest
+2024-08,30,waste_metal_recycled_kg,6588.7,kg,Waste contractor manifest
+2024-08,30,waste_hazardous_kg,498.3,kg,Waste contractor manifest
+2024-08,30,waste_hazardous_recycled_kg,56.5,kg,Waste contractor manifest
+2024-08,40,electricity_kwh,66095.9,kWh,Utility sub-meter
+2024-08,40,natural_gas_kwh,53513.0,kWh,Utility sub-meter
+2024-08,40,water_m3,1190.6,m3,Utility sub-meter
+2024-08,40,voc_kg,2413.0,kg,Paint consumption log
+2024-08,40,waste_hazardous_kg,1640.4,kg,Waste contractor manifest
+2024-08,40,waste_hazardous_recycled_kg,184.0,kg,Waste contractor manifest
+2024-08,45,electricity_kwh,30886.0,kWh,Utility sub-meter
+2024-08,45,natural_gas_kwh,26556.3,kWh,Utility sub-meter
+2024-08,45,water_m3,323.5,m3,Utility sub-meter
+2024-08,45,voc_kg,1089.4,kg,Paint consumption log
+2024-08,45,waste_hazardous_kg,718.8,kg,Waste contractor manifest
+2024-08,45,waste_hazardous_recycled_kg,52.5,kg,Waste contractor manifest
+2024-08,50,electricity_kwh,20964.9,kWh,Utility sub-meter
+2024-08,50,waste_general_kg,2210.1,kg,Waste contractor manifest
+2024-08,50,waste_general_recycled_kg,380.6,kg,Waste contractor manifest
+2024-08,60,electricity_kwh,31190.9,kWh,Utility sub-meter
+2024-08,60,waste_packaging_kg,8248.2,kg,Waste contractor manifest
+2024-08,60,waste_packaging_recycled_kg,5999.8,kg,Waste contractor manifest
+2024-08,1,electricity_kwh,6371.6,kWh,Utility sub-meter
+2024-08,1,waste_hazardous_kg,239.7,kg,Waste contractor manifest
+2024-08,1,waste_hazardous_recycled_kg,27.1,kg,Waste contractor manifest
+2024-08,2,electricity_kwh,10001.0,kWh,Utility sub-meter
+2024-08,4,electricity_kwh,4827.8,kWh,Utility sub-meter
+2024-08,5,electricity_kwh,9653.0,kWh,Utility sub-meter
+2024-08,6,electricity_kwh,9780.2,kWh,Utility sub-meter
+2024-08,7,electricity_kwh,9937.0,kWh,Utility sub-meter
+2024-08,7,waste_packaging_kg,1684.3,kg,Waste contractor manifest
+2024-08,7,waste_packaging_recycled_kg,1162.0,kg,Waste contractor manifest
+2024-08,,electricity_kwh,55496.0,kWh,Utility sub-meter
+2024-08,,natural_gas_kwh,2901.1,kWh,Utility sub-meter
+2024-08,,water_m3,183.7,m3,Utility sub-meter
+2024-08,,waste_general_kg,9868.9,kg,Waste contractor manifest
+2024-08,,waste_general_recycled_kg,1994.4,kg,Waste contractor manifest
+2024-09,10,electricity_kwh,72672.9,kWh,Utility sub-meter
+2024-09,10,waste_metal_kg,25495.3,kg,Waste contractor manifest
+2024-09,10,waste_metal_recycled_kg,23921.2,kg,Waste contractor manifest
+2024-09,10,waste_hazardous_kg,396.2,kg,Waste contractor manifest
+2024-09,10,waste_hazardous_recycled_kg,45.1,kg,Waste contractor manifest
+2024-09,20,electricity_kwh,127216.5,kWh,Utility sub-meter
+2024-09,20,waste_metal_kg,12893.7,kg,Waste contractor manifest
+2024-09,20,waste_metal_recycled_kg,12404.3,kg,Waste contractor manifest
+2024-09,20,waste_hazardous_kg,306.6,kg,Waste contractor manifest
+2024-09,20,waste_hazardous_recycled_kg,25.4,kg,Waste contractor manifest
+2024-09,30,electricity_kwh,41651.2,kWh,Utility sub-meter
+2024-09,30,waste_metal_kg,7059.5,kg,Waste contractor manifest
+2024-09,30,waste_metal_recycled_kg,6814.1,kg,Waste contractor manifest
+2024-09,30,waste_hazardous_kg,471.0,kg,Waste contractor manifest
+2024-09,30,waste_hazardous_recycled_kg,54.7,kg,Waste contractor manifest
+2024-09,40,electricity_kwh,68640.7,kWh,Utility sub-meter
+2024-09,40,natural_gas_kwh,60102.9,kWh,Utility sub-meter
+2024-09,40,water_m3,1158.5,m3,Utility sub-meter
+2024-09,40,voc_kg,2680.2,kg,Paint consumption log
+2024-09,40,waste_hazardous_kg,1810.1,kg,Waste contractor manifest
+2024-09,40,waste_hazardous_recycled_kg,155.4,kg,Waste contractor manifest
+2024-09,45,electricity_kwh,33825.1,kWh,Utility sub-meter
+2024-09,45,natural_gas_kwh,30239.7,kWh,Utility sub-meter
+2024-09,45,water_m3,345.0,m3,Utility sub-meter
+2024-09,45,voc_kg,1129.8,kg,Paint consumption log
+2024-09,45,waste_hazardous_kg,681.0,kg,Waste contractor manifest
+2024-09,45,waste_hazardous_recycled_kg,76.8,kg,Waste contractor manifest
+2024-09,50,electricity_kwh,21050.0,kWh,Utility sub-meter
+2024-09,50,waste_general_kg,2242.6,kg,Waste contractor manifest
+2024-09,50,waste_general_recycled_kg,356.2,kg,Waste contractor manifest
+2024-09,60,electricity_kwh,31496.3,kWh,Utility sub-meter
+2024-09,60,waste_packaging_kg,8762.3,kg,Waste contractor manifest
+2024-09,60,waste_packaging_recycled_kg,6197.5,kg,Waste contractor manifest
+2024-09,1,electricity_kwh,6960.6,kWh,Utility sub-meter
+2024-09,1,waste_hazardous_kg,276.0,kg,Waste contractor manifest
+2024-09,1,waste_hazardous_recycled_kg,19.5,kg,Waste contractor manifest
+2024-09,2,electricity_kwh,9979.8,kWh,Utility sub-meter
+2024-09,4,electricity_kwh,5231.1,kWh,Utility sub-meter
+2024-09,5,electricity_kwh,9389.8,kWh,Utility sub-meter
+2024-09,6,electricity_kwh,10761.1,kWh,Utility sub-meter
+2024-09,7,electricity_kwh,10578.4,kWh,Utility sub-meter
+2024-09,7,waste_packaging_kg,1731.9,kg,Waste contractor manifest
+2024-09,7,waste_packaging_recycled_kg,1239.9,kg,Waste contractor manifest
+2024-09,,electricity_kwh,49295.8,kWh,Utility sub-meter
+2024-09,,natural_gas_kwh,9400.0,kWh,Utility sub-meter
+2024-09,,water_m3,191.8,m3,Utility sub-meter
+2024-09,,waste_general_kg,9799.7,kg,Waste contractor manifest
+2024-09,,waste_general_recycled_kg,1689.7,kg,Waste contractor manifest
+2024-10,10,electricity_kwh,66194.8,kWh,Utility sub-meter
+2024-10,10,waste_metal_kg,25691.2,kg,Waste contractor manifest
+2024-10,10,waste_metal_recycled_kg,24951.9,kg,Waste contractor manifest
+2024-10,10,waste_hazardous_kg,377.1,kg,Waste contractor manifest
+2024-10,10,waste_hazardous_recycled_kg,41.4,kg,Waste contractor manifest
+2024-10,20,electricity_kwh,134694.0,kWh,Utility sub-meter
+2024-10,20,waste_metal_kg,13193.0,kg,Waste contractor manifest
+2024-10,20,waste_metal_recycled_kg,12290.5,kg,Waste contractor manifest
+2024-10,20,waste_hazardous_kg,334.5,kg,Waste contractor manifest
+2024-10,20,waste_hazardous_recycled_kg,38.0,kg,Waste contractor manifest
+2024-10,30,electricity_kwh,43166.2,kWh,Utility sub-meter
+2024-10,30,waste_metal_kg,7699.0,kg,Waste contractor manifest
+2024-10,30,waste_metal_recycled_kg,7249.9,kg,Waste contractor manifest
+2024-10,30,waste_hazardous_kg,551.0,kg,Waste contractor manifest
+2024-10,30,waste_hazardous_recycled_kg,60.3,kg,Waste contractor manifest
+2024-10,40,electricity_kwh,69835.3,kWh,Utility sub-meter
+2024-10,40,natural_gas_kwh,68103.9,kWh,Utility sub-meter
+2024-10,40,water_m3,1372.7,m3,Utility sub-meter
+2024-10,40,voc_kg,2036.8,kg,Paint consumption log
+2024-10,40,waste_hazardous_kg,1260.1,kg,Waste contractor manifest
+2024-10,40,waste_hazardous_recycled_kg,157.1,kg,Waste contractor manifest
+2024-10,45,electricity_kwh,35130.5,kWh,Utility sub-meter
+2024-10,45,natural_gas_kwh,34477.6,kWh,Utility sub-meter
+2024-10,45,water_m3,360.2,m3,Utility sub-meter
+2024-10,45,voc_kg,1137.5,kg,Paint consumption log
+2024-10,45,waste_hazardous_kg,800.9,kg,Waste contractor manifest
+2024-10,45,waste_hazardous_recycled_kg,59.5,kg,Waste contractor manifest
+2024-10,50,electricity_kwh,22192.6,kWh,Utility sub-meter
+2024-10,50,waste_general_kg,2156.0,kg,Waste contractor manifest
+2024-10,50,waste_general_recycled_kg,412.4,kg,Waste contractor manifest
+2024-10,60,electricity_kwh,37453.0,kWh,Utility sub-meter
+2024-10,60,waste_packaging_kg,9190.3,kg,Waste contractor manifest
+2024-10,60,waste_packaging_recycled_kg,6430.9,kg,Waste contractor manifest
+2024-10,1,electricity_kwh,6607.3,kWh,Utility sub-meter
+2024-10,1,waste_hazardous_kg,257.0,kg,Waste contractor manifest
+2024-10,1,waste_hazardous_recycled_kg,30.8,kg,Waste contractor manifest
+2024-10,2,electricity_kwh,10497.7,kWh,Utility sub-meter
+2024-10,4,electricity_kwh,5185.4,kWh,Utility sub-meter
+2024-10,5,electricity_kwh,9614.2,kWh,Utility sub-meter
+2024-10,6,electricity_kwh,10283.3,kWh,Utility sub-meter
+2024-10,7,electricity_kwh,10651.0,kWh,Utility sub-meter
+2024-10,7,waste_packaging_kg,1965.3,kg,Waste contractor manifest
+2024-10,7,waste_packaging_recycled_kg,1467.6,kg,Waste contractor manifest
+2024-10,,electricity_kwh,47797.3,kWh,Utility sub-meter
+2024-10,,natural_gas_kwh,28557.0,kWh,Utility sub-meter
+2024-10,,water_m3,178.4,m3,Utility sub-meter
+2024-10,,waste_general_kg,10227.7,kg,Waste contractor manifest
+2024-10,,waste_general_recycled_kg,1924.9,kg,Waste contractor manifest
+2024-11,10,electricity_kwh,72785.2,kWh,Utility sub-meter
+2024-11,10,waste_metal_kg,25589.8,kg,Waste contractor manifest
+2024-11,10,waste_metal_recycled_kg,23760.8,kg,Waste contractor manifest
+2024-11,10,waste_hazardous_kg,406.0,kg,Waste contractor manifest
+2024-11,10,waste_hazardous_recycled_kg,39.5,kg,Waste contractor manifest
+2024-11,20,electricity_kwh,123852.0,kWh,Utility sub-meter
+2024-11,20,waste_metal_kg,13306.4,kg,Waste contractor manifest
+2024-11,20,waste_metal_recycled_kg,12831.6,kg,Waste contractor manifest
+2024-11,20,waste_hazardous_kg,336.2,kg,Waste contractor manifest
+2024-11,20,waste_hazardous_recycled_kg,47.8,kg,Waste contractor manifest
+2024-11,30,electricity_kwh,42847.2,kWh,Utility sub-meter
+2024-11,30,waste_metal_kg,7684.4,kg,Waste contractor manifest
+2024-11,30,waste_metal_recycled_kg,7355.8,kg,Waste contractor manifest
+2024-11,30,waste_hazardous_kg,549.1,kg,Waste contractor manifest
+2024-11,30,waste_hazardous_recycled_kg,63.2,kg,Waste contractor manifest
+2024-11,40,electricity_kwh,74628.2,kWh,Utility sub-meter
+2024-11,40,natural_gas_kwh,73817.0,kWh,Utility sub-meter
+2024-11,40,water_m3,1482.9,m3,Utility sub-meter
+2024-11,40,voc_kg,1666.8,kg,Paint consumption log
+2024-11,40,waste_hazardous_kg,1295.1,kg,Waste contractor manifest
+2024-11,40,waste_hazardous_recycled_kg,168.9,kg,Waste contractor manifest
+2024-11,45,electricity_kwh,34041.1,kWh,Utility sub-meter
+2024-11,45,natural_gas_kwh,36752.4,kWh,Utility sub-meter
+2024-11,45,water_m3,357.1,m3,Utility sub-meter
+2024-11,45,voc_kg,1148.2,kg,Paint consumption log
+2024-11,45,waste_hazardous_kg,783.7,kg,Waste contractor manifest
+2024-11,45,waste_hazardous_recycled_kg,65.9,kg,Waste contractor manifest
+2024-11,50,electricity_kwh,22498.5,kWh,Utility sub-meter
+2024-11,50,waste_general_kg,2243.5,kg,Waste contractor manifest
+2024-11,50,waste_general_recycled_kg,439.0,kg,Waste contractor manifest
+2024-11,60,electricity_kwh,39390.3,kWh,Utility sub-meter
+2024-11,60,waste_packaging_kg,9941.0,kg,Waste contractor manifest
+2024-11,60,waste_packaging_recycled_kg,7124.4,kg,Waste contractor manifest
+2024-11,1,electricity_kwh,6957.7,kWh,Utility sub-meter
+2024-11,1,waste_hazardous_kg,276.3,kg,Waste contractor manifest
+2024-11,1,waste_hazardous_recycled_kg,28.5,kg,Waste contractor manifest
+2024-11,2,electricity_kwh,10338.0,kWh,Utility sub-meter
+2024-11,4,electricity_kwh,5190.2,kWh,Utility sub-meter
+2024-11,5,electricity_kwh,10431.7,kWh,Utility sub-meter
+2024-11,6,electricity_kwh,10282.7,kWh,Utility sub-meter
+2024-11,7,electricity_kwh,10573.9,kWh,Utility sub-meter
+2024-11,7,waste_packaging_kg,1748.0,kg,Waste contractor manifest
+2024-11,7,waste_packaging_recycled_kg,1303.0,kg,Waste contractor manifest
+2024-11,,electricity_kwh,45602.3,kWh,Utility sub-meter
+2024-11,,natural_gas_kwh,50501.8,kWh,Utility sub-meter
+2024-11,,water_m3,177.5,m3,Utility sub-meter
+2024-11,,waste_general_kg,9691.0,kg,Waste contractor manifest
+2024-11,,waste_general_recycled_kg,1990.9,kg,Waste contractor manifest
+2024-12,10,electricity_kwh,73199.7,kWh,Utility sub-meter
+2024-12,10,waste_metal_kg,24008.1,kg,Waste contractor manifest
+2024-12,10,waste_metal_recycled_kg,22138.1,kg,Waste contractor manifest
+2024-12,10,waste_hazardous_kg,433.9,kg,Waste contractor manifest
+2024-12,10,waste_hazardous_recycled_kg,43.6,kg,Waste contractor manifest
+2024-12,20,electricity_kwh,131967.5,kWh,Utility sub-meter
+2024-12,20,waste_metal_kg,13909.8,kg,Waste contractor manifest
+2024-12,20,waste_metal_recycled_kg,12785.8,kg,Waste contractor manifest
+2024-12,20,waste_hazardous_kg,355.5,kg,Waste contractor manifest
+2024-12,20,waste_hazardous_recycled_kg,28.2,kg,Waste contractor manifest
+2024-12,30,electricity_kwh,47125.4,kWh,Utility sub-meter
+2024-12,30,waste_metal_kg,8234.8,kg,Waste contractor manifest
+2024-12,30,waste_metal_recycled_kg,7783.6,kg,Waste contractor manifest
+2024-12,30,waste_hazardous_kg,570.3,kg,Waste contractor manifest
+2024-12,30,waste_hazardous_recycled_kg,41.5,kg,Waste contractor manifest
+2024-12,40,electricity_kwh,70262.0,kWh,Utility sub-meter
+2024-12,40,natural_gas_kwh,87044.5,kWh,Utility sub-meter
+2024-12,40,water_m3,1555.5,m3,Utility sub-meter
+2024-12,40,voc_kg,1689.6,kg,Paint consumption log
+2024-12,40,waste_hazardous_kg,1304.7,kg,Waste contractor manifest
+2024-12,40,waste_hazardous_recycled_kg,141.4,kg,Waste contractor manifest
+2024-12,45,electricity_kwh,34752.0,kWh,Utility sub-meter
+2024-12,45,natural_gas_kwh,40078.1,kWh,Utility sub-meter
+2024-12,45,water_m3,403.0,m3,Utility sub-meter
+2024-12,45,voc_kg,1208.2,kg,Paint consumption log
+2024-12,45,waste_hazardous_kg,823.4,kg,Waste contractor manifest
+2024-12,45,waste_hazardous_recycled_kg,105.5,kg,Waste contractor manifest
+2024-12,50,electricity_kwh,22224.6,kWh,Utility sub-meter
+2024-12,50,waste_general_kg,2268.3,kg,Waste contractor manifest
+2024-12,50,waste_general_recycled_kg,340.8,kg,Waste contractor manifest
+2024-12,60,electricity_kwh,40424.0,kWh,Utility sub-meter
+2024-12,60,waste_packaging_kg,11170.7,kg,Waste contractor manifest
+2024-12,60,waste_packaging_recycled_kg,8190.0,kg,Waste contractor manifest
+2024-12,1,electricity_kwh,7066.5,kWh,Utility sub-meter
+2024-12,1,waste_hazardous_kg,278.9,kg,Waste contractor manifest
+2024-12,1,waste_hazardous_recycled_kg,21.2,kg,Waste contractor manifest
+2024-12,2,electricity_kwh,9764.0,kWh,Utility sub-meter
+2024-12,4,electricity_kwh,4952.8,kWh,Utility sub-meter
+2024-12,5,electricity_kwh,10884.6,kWh,Utility sub-meter
+2024-12,6,electricity_kwh,10330.6,kWh,Utility sub-meter
+2024-12,7,electricity_kwh,11578.4,kWh,Utility sub-meter
+2024-12,7,waste_packaging_kg,1812.0,kg,Waste contractor manifest
+2024-12,7,waste_packaging_recycled_kg,1301.6,kg,Waste contractor manifest
+2024-12,,electricity_kwh,50644.7,kWh,Utility sub-meter
+2024-12,,natural_gas_kwh,64886.1,kWh,Utility sub-meter
+2024-12,,water_m3,189.4,m3,Utility sub-meter
+2024-12,,waste_general_kg,10192.7,kg,Waste contractor manifest
+2024-12,,waste_general_recycled_kg,1828.4,kg,Waste contractor manifest
+2025-01,10,electricity_kwh,69621.9,kWh,Utility sub-meter
+2025-01,10,waste_metal_kg,21617.2,kg,Waste contractor manifest
+2025-01,10,waste_metal_recycled_kg,21216.6,kg,Waste contractor manifest
+2025-01,10,waste_hazardous_kg,372.5,kg,Waste contractor manifest
+2025-01,10,waste_hazardous_recycled_kg,32.9,kg,Waste contractor manifest
+2025-01,20,electricity_kwh,120799.3,kWh,Utility sub-meter
+2025-01,20,waste_metal_kg,11613.5,kg,Waste contractor manifest
+2025-01,20,waste_metal_recycled_kg,10850.5,kg,Waste contractor manifest
+2025-01,20,waste_hazardous_kg,342.9,kg,Waste contractor manifest
+2025-01,20,waste_hazardous_recycled_kg,39.8,kg,Waste contractor manifest
+2025-01,30,electricity_kwh,41590.0,kWh,Utility sub-meter
+2025-01,30,waste_metal_kg,7673.0,kg,Waste contractor manifest
+2025-01,30,waste_metal_recycled_kg,7276.4,kg,Waste contractor manifest
+2025-01,30,waste_hazardous_kg,514.6,kg,Waste contractor manifest
+2025-01,30,waste_hazardous_recycled_kg,60.7,kg,Waste contractor manifest
+2025-01,40,electricity_kwh,70737.1,kWh,Utility sub-meter
+2025-01,40,natural_gas_kwh,80669.6,kWh,Utility sub-meter
+2025-01,40,water_m3,1462.5,m3,Utility sub-meter
+2025-01,40,voc_kg,1585.8,kg,Paint consumption log
+2025-01,40,waste_hazardous_kg,1226.1,kg,Waste contractor manifest
+2025-01,40,waste_hazardous_recycled_kg,159.0,kg,Waste contractor manifest
+2025-01,45,electricity_kwh,31949.4,kWh,Utility sub-meter
+2025-01,45,natural_gas_kwh,41303.5,kWh,Utility sub-meter
+2025-01,45,water_m3,372.0,m3,Utility sub-meter
+2025-01,45,voc_kg,1197.4,kg,Paint consumption log
+2025-01,45,waste_hazardous_kg,761.9,kg,Waste contractor manifest
+2025-01,45,waste_hazardous_recycled_kg,70.5,kg,Waste contractor manifest
+2025-01,50,electricity_kwh,21203.7,kWh,Utility sub-meter
+2025-01,50,waste_general_kg,2293.4,kg,Waste contractor manifest
+2025-01,50,waste_general_recycled_kg,423.0,kg,Waste contractor manifest
+2025-01,60,electricity_kwh,35959.9,kWh,Utility sub-meter
+2025-01,60,waste_packaging_kg,10293.1,kg,Waste contractor manifest
+2025-01,60,waste_packaging_recycled_kg,7485.1,kg,Waste contractor manifest
+2025-01,1,electricity_kwh,6354.2,kWh,Utility sub-meter
+2025-01,1,waste_hazardous_kg,294.9,kg,Waste contractor manifest
+2025-01,1,waste_hazardous_recycled_kg,30.9,kg,Waste contractor manifest
+2025-01,2,electricity_kwh,10176.1,kWh,Utility sub-meter
+2025-01,4,electricity_kwh,5176.6,kWh,Utility sub-meter
+2025-01,5,electricity_kwh,10447.3,kWh,Utility sub-meter
+2025-01,6,electricity_kwh,9968.4,kWh,Utility sub-meter
+2025-01,7,electricity_kwh,10894.1,kWh,Utility sub-meter
+2025-01,7,waste_packaging_kg,1728.0,kg,Waste contractor manifest
+2025-01,7,waste_packaging_recycled_kg,1248.3,kg,Waste contractor manifest
+2025-01,,electricity_kwh,48251.5,kWh,Utility sub-meter
+2025-01,,natural_gas_kwh,65219.2,kWh,Utility sub-meter
+2025-01,,water_m3,180.4,m3,Utility sub-meter
+2025-01,,waste_general_kg,8846.8,kg,Waste contractor manifest
+2025-01,,waste_general_recycled_kg,2013.7,kg,Waste contractor manifest
+2025-02,10,electricity_kwh,78834.4,kWh,Utility sub-meter
+2025-02,10,waste_metal_kg,24074.1,kg,Waste contractor manifest
+2025-02,10,waste_metal_recycled_kg,22043.4,kg,Waste contractor manifest
+2025-02,10,waste_hazardous_kg,430.3,kg,Waste contractor manifest
+2025-02,10,waste_hazardous_recycled_kg,55.0,kg,Waste contractor manifest
+2025-02,20,electricity_kwh,131127.0,kWh,Utility sub-meter
+2025-02,20,waste_metal_kg,13819.6,kg,Waste contractor manifest
+2025-02,20,waste_metal_recycled_kg,13296.8,kg,Waste contractor manifest
+2025-02,20,waste_hazardous_kg,328.9,kg,Waste contractor manifest
+2025-02,20,waste_hazardous_recycled_kg,38.4,kg,Waste contractor manifest
+2025-02,30,electricity_kwh,47032.0,kWh,Utility sub-meter
+2025-02,30,waste_metal_kg,7660.4,kg,Waste contractor manifest
+2025-02,30,waste_metal_recycled_kg,7331.8,kg,Waste contractor manifest
+2025-02,30,waste_hazardous_kg,541.6,kg,Waste contractor manifest
+2025-02,30,waste_hazardous_recycled_kg,58.2,kg,Waste contractor manifest
+2025-02,40,electricity_kwh,77228.4,kWh,Utility sub-meter
+2025-02,40,natural_gas_kwh,76236.7,kWh,Utility sub-meter
+2025-02,40,water_m3,1514.0,m3,Utility sub-meter
+2025-02,40,voc_kg,1611.5,kg,Paint consumption log
+2025-02,40,waste_hazardous_kg,1382.5,kg,Waste contractor manifest
+2025-02,40,waste_hazardous_recycled_kg,160.0,kg,Waste contractor manifest
+2025-02,45,electricity_kwh,33996.2,kWh,Utility sub-meter
+2025-02,45,natural_gas_kwh,42123.0,kWh,Utility sub-meter
+2025-02,45,water_m3,379.9,m3,Utility sub-meter
+2025-02,45,voc_kg,1174.7,kg,Paint consumption log
+2025-02,45,waste_hazardous_kg,799.3,kg,Waste contractor manifest
+2025-02,45,waste_hazardous_recycled_kg,74.4,kg,Waste contractor manifest
+2025-02,50,electricity_kwh,22399.6,kWh,Utility sub-meter
+2025-02,50,waste_general_kg,2288.6,kg,Waste contractor manifest
+2025-02,50,waste_general_recycled_kg,397.0,kg,Waste contractor manifest
+2025-02,60,electricity_kwh,39854.3,kWh,Utility sub-meter
+2025-02,60,waste_packaging_kg,10574.6,kg,Waste contractor manifest
+2025-02,60,waste_packaging_recycled_kg,7344.7,kg,Waste contractor manifest
+2025-02,1,electricity_kwh,7166.6,kWh,Utility sub-meter
+2025-02,1,waste_hazardous_kg,287.4,kg,Waste contractor manifest
+2025-02,1,waste_hazardous_recycled_kg,29.9,kg,Waste contractor manifest
+2025-02,2,electricity_kwh,10412.1,kWh,Utility sub-meter
+2025-02,4,electricity_kwh,5003.5,kWh,Utility sub-meter
+2025-02,5,electricity_kwh,10566.4,kWh,Utility sub-meter
+2025-02,6,electricity_kwh,10507.0,kWh,Utility sub-meter
+2025-02,7,electricity_kwh,10999.0,kWh,Utility sub-meter
+2025-02,7,waste_packaging_kg,2057.3,kg,Waste contractor manifest
+2025-02,7,waste_packaging_recycled_kg,1452.7,kg,Waste contractor manifest
+2025-02,,electricity_kwh,50544.7,kWh,Utility sub-meter
+2025-02,,natural_gas_kwh,56243.2,kWh,Utility sub-meter
+2025-02,,water_m3,181.7,m3,Utility sub-meter
+2025-02,,waste_general_kg,10179.6,kg,Waste contractor manifest
+2025-02,,waste_general_recycled_kg,1647.6,kg,Waste contractor manifest
+2025-03,10,electricity_kwh,69189.4,kWh,Utility sub-meter
+2025-03,10,waste_metal_kg,24984.9,kg,Waste contractor manifest
+2025-03,10,waste_metal_recycled_kg,23793.1,kg,Waste contractor manifest
+2025-03,10,waste_hazardous_kg,419.9,kg,Waste contractor manifest
+2025-03,10,waste_hazardous_recycled_kg,46.0,kg,Waste contractor manifest
+2025-03,20,electricity_kwh,125756.2,kWh,Utility sub-meter
+2025-03,20,waste_metal_kg,12721.3,kg,Waste contractor manifest
+2025-03,20,waste_metal_recycled_kg,12160.3,kg,Waste contractor manifest
+2025-03,20,waste_hazardous_kg,316.5,kg,Waste contractor manifest
+2025-03,20,waste_hazardous_recycled_kg,40.4,kg,Waste contractor manifest
+2025-03,30,electricity_kwh,44323.4,kWh,Utility sub-meter
+2025-03,30,waste_metal_kg,7017.9,kg,Waste contractor manifest
+2025-03,30,waste_metal_recycled_kg,6751.1,kg,Waste contractor manifest
+2025-03,30,waste_hazardous_kg,577.6,kg,Waste contractor manifest
+2025-03,30,waste_hazardous_recycled_kg,28.2,kg,Waste contractor manifest
+2025-03,40,electricity_kwh,68061.3,kWh,Utility sub-meter
+2025-03,40,natural_gas_kwh,71633.7,kWh,Utility sub-meter
+2025-03,40,water_m3,1488.0,m3,Utility sub-meter
+2025-03,40,voc_kg,1540.0,kg,Paint consumption log
+2025-03,40,waste_hazardous_kg,1195.2,kg,Waste contractor manifest
+2025-03,40,waste_hazardous_recycled_kg,122.7,kg,Waste contractor manifest
+2025-03,45,electricity_kwh,32883.9,kWh,Utility sub-meter
+2025-03,45,natural_gas_kwh,39555.8,kWh,Utility sub-meter
+2025-03,45,water_m3,377.4,m3,Utility sub-meter
+2025-03,45,voc_kg,1155.3,kg,Paint consumption log
+2025-03,45,waste_hazardous_kg,713.2,kg,Waste contractor manifest
+2025-03,45,waste_hazardous_recycled_kg,46.1,kg,Waste contractor manifest
+2025-03,50,electricity_kwh,21993.0,kWh,Utility sub-meter
+2025-03,50,waste_general_kg,2182.1,kg,Waste contractor manifest
+2025-03,50,waste_general_recycled_kg,468.8,kg,Waste contractor manifest
+2025-03,60,electricity_kwh,36642.2,kWh,Utility sub-meter
+2025-03,60,waste_packaging_kg,9409.1,kg,Waste contractor manifest
+2025-03,60,waste_packaging_recycled_kg,6639.1,kg,Waste contractor manifest
+2025-03,1,electricity_kwh,6658.2,kWh,Utility sub-meter
+2025-03,1,waste_hazardous_kg,271.9,kg,Waste contractor manifest
+2025-03,1,waste_hazardous_recycled_kg,36.3,kg,Waste contractor manifest
+2025-03,2,electricity_kwh,10087.4,kWh,Utility sub-meter
+2025-03,4,electricity_kwh,4999.8,kWh,Utility sub-meter
+2025-03,5,electricity_kwh,10578.3,kWh,Utility sub-meter
+2025-03,6,electricity_kwh,10071.2,kWh,Utility sub-meter
+2025-03,7,electricity_kwh,10982.2,kWh,Utility sub-meter
+2025-03,7,waste_packaging_kg,1765.0,kg,Waste contractor manifest
+2025-03,7,waste_packaging_recycled_kg,1258.3,kg,Waste contractor manifest
+2025-03,,electricity_kwh,51389.5,kWh,Utility sub-meter
+2025-03,,natural_gas_kwh,49387.2,kWh,Utility sub-meter
+2025-03,,water_m3,174.5,m3,Utility sub-meter
+2025-03,,waste_general_kg,9797.1,kg,Waste contractor manifest
+2025-03,,waste_general_recycled_kg,2042.7,kg,Waste contractor manifest
+2025-04,10,electricity_kwh,76535.3,kWh,Utility sub-meter
+2025-04,10,waste_metal_kg,27211.0,kg,Waste contractor manifest
+2025-04,10,waste_metal_recycled_kg,25748.4,kg,Waste contractor manifest
+2025-04,10,waste_hazardous_kg,420.5,kg,Waste contractor manifest
+2025-04,10,waste_hazardous_recycled_kg,52.3,kg,Waste contractor manifest
+2025-04,20,electricity_kwh,131394.1,kWh,Utility sub-meter
+2025-04,20,waste_metal_kg,14120.1,kg,Waste contractor manifest
+2025-04,20,waste_metal_recycled_kg,13821.2,kg,Waste contractor manifest
+2025-04,20,waste_hazardous_kg,368.2,kg,Waste contractor manifest
+2025-04,20,waste_hazardous_recycled_kg,28.6,kg,Waste contractor manifest
+2025-04,30,electricity_kwh,46426.3,kWh,Utility sub-meter
+2025-04,30,waste_metal_kg,8126.7,kg,Waste contractor manifest
+2025-04,30,waste_metal_recycled_kg,7983.0,kg,Waste contractor manifest
+2025-04,30,waste_hazardous_kg,628.5,kg,Waste contractor manifest
+2025-04,30,waste_hazardous_recycled_kg,93.4,kg,Waste contractor manifest
+2025-04,40,electricity_kwh,79259.6,kWh,Utility sub-meter
+2025-04,40,natural_gas_kwh,78486.8,kWh,Utility sub-meter
+2025-04,40,water_m3,1597.0,m3,Utility sub-meter
+2025-04,40,voc_kg,1722.4,kg,Paint consumption log
+2025-04,40,waste_hazardous_kg,1417.6,kg,Waste contractor manifest
+2025-04,40,waste_hazardous_recycled_kg,118.8,kg,Waste contractor manifest
+2025-04,45,electricity_kwh,38030.3,kWh,Utility sub-meter
+2025-04,45,natural_gas_kwh,38693.2,kWh,Utility sub-meter
+2025-04,45,water_m3,387.2,m3,Utility sub-meter
+2025-04,45,voc_kg,1248.3,kg,Paint consumption log
+2025-04,45,waste_hazardous_kg,868.2,kg,Waste contractor manifest
+2025-04,45,waste_hazardous_recycled_kg,71.3,kg,Waste contractor manifest
+2025-04,50,electricity_kwh,22478.8,kWh,Utility sub-meter
+2025-04,50,waste_general_kg,2360.8,kg,Waste contractor manifest
+2025-04,50,waste_general_recycled_kg,413.0,kg,Waste contractor manifest
+2025-04,60,electricity_kwh,41736.9,kWh,Utility sub-meter
+2025-04,60,waste_packaging_kg,11250.4,kg,Waste contractor manifest
+2025-04,60,waste_packaging_recycled_kg,8105.5,kg,Waste contractor manifest
+2025-04,1,electricity_kwh,7533.5,kWh,Utility sub-meter
+2025-04,1,waste_hazardous_kg,305.9,kg,Waste contractor manifest
+2025-04,1,waste_hazardous_recycled_kg,32.5,kg,Waste contractor manifest
+2025-04,2,electricity_kwh,10593.1,kWh,Utility sub-meter
+2025-04,4,electricity_kwh,5510.3,kWh,Utility sub-meter
+2025-04,5,electricity_kwh,10590.4,kWh,Utility sub-meter
+2025-04,6,electricity_kwh,11234.6,kWh,Utility sub-meter
+2025-04,7,electricity_kwh,11709.8,kWh,Utility sub-meter
+2025-04,7,waste_packaging_kg,1972.9,kg,Waste contractor manifest
+2025-04,7,waste_packaging_recycled_kg,1388.1,kg,Waste contractor manifest
+2025-04,,electricity_kwh,48415.6,kWh,Utility sub-meter
+2025-04,,natural_gas_kwh,32286.7,kWh,Utility sub-meter
+2025-04,,water_m3,177.7,m3,Utility sub-meter
+2025-04,,waste_general_kg,10121.7,kg,Waste contractor manifest
+2025-04,,waste_general_recycled_kg,1757.7,kg,Waste contractor manifest
+2025-05,10,electricity_kwh,72174.8,kWh,Utility sub-meter
+2025-05,10,waste_metal_kg,25732.0,kg,Waste contractor manifest
+2025-05,10,waste_metal_recycled_kg,24073.5,kg,Waste contractor manifest
+2025-05,10,waste_hazardous_kg,421.4,kg,Waste contractor manifest
+2025-05,10,waste_hazardous_recycled_kg,34.4,kg,Waste contractor manifest
+2025-05,20,electricity_kwh,134549.9,kWh,Utility sub-meter
+2025-05,20,waste_metal_kg,13062.8,kg,Waste contractor manifest
+2025-05,20,waste_metal_recycled_kg,12456.2,kg,Waste contractor manifest
+2025-05,20,waste_hazardous_kg,395.8,kg,Waste contractor manifest
+2025-05,20,waste_hazardous_recycled_kg,35.8,kg,Waste contractor manifest
+2025-05,30,electricity_kwh,49585.8,kWh,Utility sub-meter
+2025-05,30,waste_metal_kg,8714.4,kg,Waste contractor manifest
+2025-05,30,waste_metal_recycled_kg,8082.0,kg,Waste contractor manifest
+2025-05,30,waste_hazardous_kg,627.7,kg,Waste contractor manifest
+2025-05,30,waste_hazardous_recycled_kg,58.0,kg,Waste contractor manifest
+2025-05,40,electricity_kwh,76607.1,kWh,Utility sub-meter
+2025-05,40,natural_gas_kwh,69642.2,kWh,Utility sub-meter
+2025-05,40,water_m3,1615.6,m3,Utility sub-meter
+2025-05,40,voc_kg,1741.5,kg,Paint consumption log
+2025-05,40,waste_hazardous_kg,1398.1,kg,Waste contractor manifest
+2025-05,40,waste_hazardous_recycled_kg,89.2,kg,Waste contractor manifest
+2025-05,45,electricity_kwh,37407.6,kWh,Utility sub-meter
+2025-05,45,natural_gas_kwh,34152.5,kWh,Utility sub-meter
+2025-05,45,water_m3,414.6,m3,Utility sub-meter
+2025-05,45,voc_kg,1235.3,kg,Paint consumption log
+2025-05,45,waste_hazardous_kg,848.3,kg,Waste contractor manifest
+2025-05,45,waste_hazardous_recycled_kg,93.4,kg,Waste contractor manifest
+2025-05,50,electricity_kwh,20357.2,kWh,Utility sub-meter
+2025-05,50,waste_general_kg,2460.1,kg,Waste contractor manifest
+2025-05,50,waste_general_recycled_kg,449.1,kg,Waste contractor manifest
+2025-05,60,electricity_kwh,43043.9,kWh,Utility sub-meter
+2025-05,60,waste_packaging_kg,12226.8,kg,Waste contractor manifest
+2025-05,60,waste_packaging_recycled_kg,9070.4,kg,Waste contractor manifest
+2025-05,1,electricity_kwh,6851.1,kWh,Utility sub-meter
+2025-05,1,waste_hazardous_kg,297.3,kg,Waste contractor manifest
+2025-05,1,waste_hazardous_recycled_kg,18.2,kg,Waste contractor manifest
+2025-05,2,electricity_kwh,11140.8,kWh,Utility sub-meter
+2025-05,4,electricity_kwh,5509.4,kWh,Utility sub-meter
+2025-05,5,electricity_kwh,11185.3,kWh,Utility sub-meter
+2025-05,6,electricity_kwh,10731.6,kWh,Utility sub-meter
+2025-05,7,electricity_kwh,11146.8,kWh,Utility sub-meter
+2025-05,7,waste_packaging_kg,2067.3,kg,Waste contractor manifest
+2025-05,7,waste_packaging_recycled_kg,1509.8,kg,Waste contractor manifest
+2025-05,,electricity_kwh,48630.7,kWh,Utility sub-meter
+2025-05,,natural_gas_kwh,15974.5,kWh,Utility sub-meter
+2025-05,,water_m3,187.0,m3,Utility sub-meter
+2025-05,,waste_general_kg,9769.7,kg,Waste contractor manifest
+2025-05,,waste_general_recycled_kg,1669.8,kg,Waste contractor manifest

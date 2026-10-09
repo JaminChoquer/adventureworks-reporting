@@ -1,0 +1,11 @@
+course_code,course_title,category,duration_hours,validity_months,required_for
+GEN-IND,General safety induction,General,4,36,ALL
+FIRE,Fire safety and evacuation,General,2,24,ALL
+PPE,PPE and hearing conservation,General,2,12,WC10;WC20;WC30;WC40;WC45;WC50;WC60;MNT
+LOTO,Lockout / Tagout,Machinery,4,12,WC10;WC20;WC30;MNT
+MACH,Machine guarding and press safety,Machinery,4,24,WC10;WC30
+WELD,Welding and hot work safety,Hot work,6,24,WC20;MNT
+CHEM,Chemical and paint handling (HazCom),Chemicals,4,12,WC40;WC45;LOG
+ERGO,Ergonomics and manual handling,Ergonomics,3,24,WC50;WC60;LOG
+FORK,Powered industrial truck (forklift),Logistics,8,36,LOG
+FAID,First aid and CPR,Emergency,8,24,VOLUNTEERS

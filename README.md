@@ -1,0 +1,60 @@
+# AdventureWorks, reporting mensuel
+
+Projet de portfolio : une chaîne data complète, du lac de données au dashboard, pour produire le reporting mensuel d'une entreprise industrielle sur quatre thématiques : **QHSE, Performance, Finance et RH**.
+
+L'entreprise est AdventureWorks Cycles, fabricant de vélos fictif de la base d'exemple **AdventureWorks** (Microsoft, licence MIT) : formage et soudure des cadres, ébavurage, peinture, sous-assemblage et assemblage final.
+
+## Sources
+
+| Source | Contenu | Thématiques |
+|---|---|---|
+| AdventureWorks (OLTP officiel) | Ventes, production, achats, produits, salariés | Performance, Finance, RH |
+| Données complémentaires générées | Santé-sécurité, formations, qualité, environnement, temps de travail, intérim | QHSE, RH |
+
+AdventureWorks ne couvre ni la santé-sécurité, ni l'environnement, ni le temps de travail. Ces données sont donc générées par `generator/`, de façon déterministe et rattachées aux référentiels réels d'AdventureWorks (salariés, équipes, ateliers, ordres de fabrication, commandes clients et fournisseurs).
+
+## Contenu actuel
+
+```
+data/raw/                   données complémentaires (CSV bruts)
+  ehs/                      incidents, training_catalog, training_records
+  hr/                       timesheet_monthly, temp_labor_monthly
+  quality/                  audits, nonconformities, customer_returns
+  environment/              monthly_readings
+  reference/                scenario_events
+docs/
+  dictionnaire_donnees.md   description de chaque fichier et colonne
+  regles_generation.md      règles et paramètres de génération
+  validation.md             contrôles d'intégrité et indicateurs de référence
+generator/
+  aw_loader.py              lecture des CSV officiels AdventureWorks
+  generate_complements.py          générateur des données complémentaires (déterministe)
+  validate.py               contrôles et rapport de validation
+```
+
+Fenêtre : juin 2022 à mai 2025 (36 mois), alignée sur les données de production d'AdventureWorks.
+
+## Régénérer les données complémentaires
+
+1. Télécharger l'export officiel AdventureWorks (OLTP) et le décompresser dans `aw/` :
+   https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks-oltp-install-script.zip
+2. Installer les dépendances : `pip install -r generator/requirements.txt`
+3. Lancer depuis la racine du dépôt :
+   ```
+   python generator/generate_complements.py
+   python generator/validate.py
+   ```
+
+Les chemins se règlent par variables d'environnement : `AW_DIR` (défaut `./aw`), `OUT_DIR` (défaut `./data/raw`), `DOC_DIR` (défaut `./docs`).
+
+## Feuille de route
+
+1. Données complémentaires générées et validées ✔
+2. Lac de données en Parquet et chargement dans BigQuery (couche bronze)
+3. Transformations dbt : couches silver et gold, tests de qualité
+4. Orchestration mensuelle avec GitHub Actions
+5. Dashboard de reporting mensuel branché en direct sur la couche gold
+
+## Avertissement
+
+Les données complémentaires sont entièrement fictives et générées à des fins de démonstration. Elles ne décrivent aucune entreprise réelle.
