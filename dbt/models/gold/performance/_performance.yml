@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: fct_sales_lines
+    description: Lignes de vente valorisées au mois d'expédition, avec coût standard en vigueur et marge.
+    columns:
+      - name: sales_order_detail_id
+        data_tests: [unique, not_null]
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}
+      - name: product_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_product'), field: product_id}
+      - name: customer_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_customer'), field: customer_id}
+      - name: territory_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_territory'), field: territory_id}
+      - name: sales_person_employee_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_employee'), field: employee_id}
+      - name: unit_standard_cost
+        data_tests: [not_null]
+
+  - name: fct_sales_quota
+    description: Objectifs de vente trimestriels des commerciaux.
+    columns:
+      - name: quota_key
+        data_tests: [unique, not_null]
+      - name: sales_person_employee_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_employee'), field: employee_id}
+
+  - name: fct_production_orders
+    description: Ordres de fabrication terminés, avec rebuts, retards et coûts de gamme.
+    columns:
+      - name: work_order_id
+        data_tests: [unique, not_null]
+      - name: product_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_product'), field: product_id}
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}
+
+  - name: fct_purchase_lines
+    description: Lignes d'achat au mois de réception prévue, avec quantités reçues et rejetées.
+    columns:
+      - name: purchase_order_detail_id
+        data_tests: [unique, not_null]
+      - name: vendor_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_vendor'), field: vendor_id}
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}

@@ -77,3 +77,23 @@ models:
     columns:
       - name: course_code
         data_tests: [unique, not_null]
+
+  - name: dim_territory
+    description: Territoires de vente et leur pays.
+    columns:
+      - name: territory_id
+        data_tests: [unique, not_null]
+
+  - name: dim_customer
+    description: Clients revendeurs et particuliers, sans données nominatives des particuliers.
+    columns:
+      - name: customer_id
+        data_tests: [unique, not_null]
+      - name: customer_type
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['Reseller', 'Individual']}
+      - name: territory_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_territory'), field: territory_id}

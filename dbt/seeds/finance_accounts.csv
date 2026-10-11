@@ -1,0 +1,10 @@
+account_code,account_name,account_group,is_cost,is_subtotal,sort_order
+NET_SALES,Net sales,Revenue,false,false,1
+FREIGHT_BILLED,Freight billed to customers,Revenue,false,false,2
+COST_OF_SALES_STD,Cost of sales at standard cost,Cost of sales,true,false,3
+GROSS_MARGIN_STD,Gross margin at standard cost,Margin,false,true,4
+PAYROLL,Payroll (estimated),Personnel,true,false,5
+TEMP_LABOR,Temporary labor,Personnel,true,false,6
+SCRAP_COST,Production scrap,Cost of non-quality,true,false,7
+CUSTOMER_RETURNS_COST,Customer returns (refunds and handling),Cost of non-quality,true,false,8
+PURCHASING_SPEND,Purchasing spend (received goods),Purchasing,true,false,9

@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: kpi_monthly
+    description: >
+      Indicateurs mensuels du reporting (QHSE, Performance, Finance, RH), avec numérateur,
+      dénominateur, mois précédent, même mois de l'année précédente et valeur sur 12 mois glissants.
+      Source unique du dashboard ; chaque indicateur indique sa table de faits d'origine.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [month_start, kpi_code]
+    columns:
+      - name: kpi_key
+        data_tests: [unique, not_null]
+      - name: theme
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['QHSE', 'Performance', 'Finance', 'HR']}
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}
+      - name: value
+        description: Valeur du mois. Vide uniquement quand le dénominateur est nul (par exemple aucun achat réceptionné dans le mois).

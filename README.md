@@ -24,8 +24,8 @@ pipeline/
   load_local.py             copie locale de la couche bronze dans DuckDB (développement)
 dbt/                        transformations SQL et tests
   models/silver/            une vue typée et renommée par table bronze
-  models/gold/              modèle en étoile du reporting (dimensions et faits)
-  seeds/                    référentiels : ateliers, zones, jours fériés
+  models/gold/              modèle en étoile du reporting (dimensions, faits par thématique, kpi_monthly)
+  seeds/                    référentiels : ateliers, zones, jours fériés, postes financiers, définitions des indicateurs
   tests/                    tests de qualité génériques et métier
 lake/                       lac de données : une table source = un fichier Parquet
   manifest.csv              inventaire (lignes, colonnes, empreinte de chaque fichier)
@@ -70,6 +70,14 @@ Données générées ─────┘                            (dbt : SQL et
 
 Contraintes assumées du sandbox BigQuery, utilisé pour rester gratuit : pas d'instructions de modification (`INSERT`, `UPDATE`, `MERGE`), donc des tables reconstruites entièrement à chaque exécution ; expiration automatique des tables au bout de 60 jours, compensée par l'exécution mensuelle du pipeline ; pas de Cloud Storage, d'où un lac versionné dans le dépôt.
 
+## Choix de modélisation
+
+- Chiffre d'affaires rattaché au mois d'expédition, coût des ventes au coût standard en vigueur à cette date.
+- Finance présentée en indicateurs de gestion juxtaposés (`fct_finance_monthly`), sans résultat global : AdventureWorks n'a pas de comptabilité générale et le coût standard inclut déjà la main-d'œuvre, un compte de résultat complet la compterait deux fois.
+- `kpi_monthly` regroupe 31 indicateurs mensuels avec numérateur et dénominateur : les valeurs sur 12 mois glissants sont recalculées à partir des sommes, jamais en moyennant des taux. Les définitions sont dans `dbt/seeds/kpi_definitions.csv`.
+- Masse salariale estimée : heures planifiées et heures supplémentaires majorées de 50 %, au taux horaire en vigueur.
+- Constats issus des données sources, conservés tels quels : les expéditions partent toutes 7 ou 8 jours après la commande, et les coûts de gamme réels égalent les coûts prévus. Ni le retard de livraison ni l'écart de coût de production ne sont donc présentés.
+
 ## Développer en local, sans cloud
 
 ```
@@ -84,9 +92,9 @@ La base `local.duckdb` reproduit la couche bronze : tout le projet dbt se constr
 ## Feuille de route
 
 1. Données complémentaires générées et validées ✔
-2. Lac de données en Parquet et chargement dans BigQuery (couche bronze)
-3. Transformations dbt : silver complète, dimensions et faits QHSE, tests de qualité
-4. Orchestration mensuelle avec GitHub Actions
+2. Lac de données en Parquet et chargement dans BigQuery (couche bronze) ✔
+3. Transformations dbt : silver, dimensions, faits QHSE, Performance, Finance et RH, table d'indicateurs `kpi_monthly`, tests de qualité ✔
+4. Orchestration mensuelle avec GitHub Actions ✔
 5. Dashboard de reporting mensuel branché en direct sur la couche gold
 
 ## Avertissement

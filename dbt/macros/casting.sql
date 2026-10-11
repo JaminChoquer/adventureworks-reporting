@@ -38,3 +38,8 @@ nullif(trim({{ adapter.quote(col) }}), '')
 {#- Mois au format AAAA-MM, converti en premier jour du mois -#}
 {{ dbt.safe_cast("concat(" ~ adapter.quote(col) ~ ", '-01')", 'date') }}
 {%- endmacro %}
+
+{# Nombre à virgule flottante double précision (FLOAT64 sur BigQuery, DOUBLE ailleurs) #}
+{% macro type_double() %}{{ return(adapter.dispatch('type_double')()) }}{% endmacro %}
+{% macro default__type_double() %}double{% endmacro %}
+{% macro bigquery__type_double() %}float64{% endmacro %}

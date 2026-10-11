@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: fct_payroll_monthly
+    description: Masse salariale estimée par salarié et par mois (heures planifiées et supplémentaires majorées, au taux en vigueur).
+    columns:
+      - name: payroll_key
+        data_tests: [unique, not_null]
+      - name: hourly_rate_usd
+        data_tests: [not_null]
+      - name: employee_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_employee'), field: employee_id}
+
+  - name: fct_finance_monthly
+    description: Indicateurs financiers de gestion par mois et par poste, chacun traçable jusqu'à sa table de faits.
+    columns:
+      - name: finance_key
+        data_tests: [unique, not_null]
+      - name: account_code
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['NET_SALES', 'FREIGHT_BILLED', 'COST_OF_SALES_STD', 'GROSS_MARGIN_STD', 'PAYROLL',
+                         'TEMP_LABOR', 'SCRAP_COST', 'CUSTOMER_RETURNS_COST', 'PURCHASING_SPEND']
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}

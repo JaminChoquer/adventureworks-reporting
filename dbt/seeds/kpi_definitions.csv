@@ -1,0 +1,32 @@
+kpi_code,theme,kpi_name,unit,factor,higher_is_better,sort_order,definition,source_model
+LTIFR,QHSE,Lost time injury frequency rate,per million hours,1000000,false,1,Lost time injuries x 1000000 / hours worked (employees and temporary workers),fct_safety_events / fct_hours_worked
+SEVERITY_RATE,QHSE,Severity rate,per thousand hours,1000,false,2,Days lost x 1000 / hours worked,fct_safety_events / fct_hours_worked
+TRIR,QHSE,Total recordable incident rate (OSHA),per 200000 hours,200000,false,3,(Lost time injuries + medical treatments) x 200000 / hours worked,fct_safety_events / fct_hours_worked
+LOST_TIME_INJURIES,QHSE,Lost time injuries,count,1,false,4,Number of lost time injuries,fct_safety_events
+PROACTIVE_REPORTS,QHSE,Near misses and hazards reported,count,1,true,5,Number of near misses and hazardous situations reported,fct_safety_events
+TRAINING_COMPLIANCE,QHSE,Safety training compliance,%,100,true,6,Required trainings valid at month end / required trainings,fct_training_compliance
+AUDIT_5S_SCORE,QHSE,Average 5S audit score,score /100,1,true,7,Average score of 5S audits,fct_audits
+NONCONFORMITIES,QHSE,Nonconformities opened,count,1,false,8,Number of nonconformities detected (all sources),fct_nonconformities
+CUSTOMER_RETURN_RATE,QHSE,Customer return rate,%,100,false,9,Units returned / units shipped,fct_customer_returns / fct_sales_lines
+COST_OF_NON_QUALITY,QHSE,Cost of non-quality,USD,1,false,10,Production scrap cost + customer returns cost,fct_production_orders / fct_customer_returns
+ENERGY_CONSUMPTION,QHSE,Energy consumption,kWh,1,false,11,Electricity + natural gas,fct_environment_readings
+VOC_EMISSIONS,QHSE,VOC emissions,kg,1,false,12,Volatile organic compounds from paint lines,fct_environment_readings
+WASTE_RECYCLING_RATE,QHSE,Waste recycling rate,%,100,true,13,Recycled waste / total waste,fct_environment_readings
+NET_SALES,Performance,Net sales,USD,1,true,20,Net sales of shipped order lines,fct_sales_lines
+UNITS_SHIPPED,Performance,Units shipped,count,1,true,21,Units shipped,fct_sales_lines
+ORDERS_SHIPPED,Performance,Orders shipped,count,1,true,22,Sales orders shipped,fct_sales_lines
+AVERAGE_ORDER_VALUE,Performance,Average order value,USD,1,true,23,Net sales / orders shipped,fct_sales_lines
+PRODUCTION_ON_TIME,Performance,Work orders completed on time,%,100,true,24,Work orders completed by their due date / work orders completed,fct_production_orders
+SCRAP_RATE,Performance,Scrap rate,%,100,false,25,Units scrapped / units ordered on completed work orders,fct_production_orders
+SUPPLIER_REJECT_RATE,Performance,Supplier reject rate,%,100,false,26,Units rejected at receipt / units received,fct_purchase_lines
+GROSS_MARGIN,Finance,Gross margin at standard cost,USD,1,true,30,Net sales - cost of sales at standard cost,fct_finance_monthly
+GROSS_MARGIN_RATE,Finance,Gross margin rate,%,100,true,31,Gross margin / net sales,fct_finance_monthly
+PAYROLL,Finance,Payroll (estimated),USD,1,false,32,Estimated payroll cost,fct_finance_monthly
+TEMP_LABOR_COST,Finance,Temporary labor cost,USD,1,false,33,Temporary labor invoiced,fct_finance_monthly
+NON_QUALITY_SHARE,Finance,Cost of non-quality as share of sales,%,100,false,34,(Scrap cost + returns cost) / net sales,fct_finance_monthly
+PURCHASING_SPEND,Finance,Purchasing spend,USD,1,false,35,Value of goods received,fct_finance_monthly
+HEADCOUNT,HR,Headcount,employees,1,true,40,Employees on payroll during the month,fct_hr_monthly
+ABSENTEEISM_RATE,HR,Absenteeism rate,%,100,false,41,(Sickness + work accident + other absences) / scheduled hours,fct_hr_monthly
+OVERTIME_RATE,HR,Overtime rate,%,100,false,42,Overtime hours / scheduled hours,fct_hr_monthly
+TEMP_LABOR_SHARE,HR,Temporary labor share,%,100,false,43,Temporary worker hours / total hours worked,fct_hours_worked
+TRAINING_HOURS_PER_EMPLOYEE,HR,Safety training hours per employee,hours,1,true,44,Safety training hours / headcount,fct_hr_monthly

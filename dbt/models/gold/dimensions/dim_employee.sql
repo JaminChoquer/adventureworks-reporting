@@ -33,7 +33,7 @@ base as (
         d.group_name                                                   as department_group,
         a.shift_id,
         case
-            when e.job_title like '%- WC%' then right(e.job_title, 4)
+            when e.job_title like '%- WC%' then substr(e.job_title, length(e.job_title) - 3, 4)
             when a.department_id = 15 then 'LOG'
             when a.department_id = 14 then 'MNT'
             when a.department_id in (12, 13) then 'QA'

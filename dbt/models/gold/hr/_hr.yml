@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_hr_monthly
+    description: Temps de travail, absences, formation et coût salarial par salarié et par mois.
+    columns:
+      - name: hr_key
+        data_tests: [unique, not_null]
+      - name: employee_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_employee'), field: employee_id}
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}
