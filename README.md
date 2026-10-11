@@ -16,6 +16,13 @@ AdventureWorks ne couvre ni la santé-sécurité, ni l'environnement, ni le temp
 ## Contenu actuel
 
 ```
+.github/workflows/
+  pipeline.yml              orchestration GitHub Actions (mensuelle et à la demande)
+pipeline/
+  build_lake.py             construction du lac de données en Parquet
+  load_bronze.py            chargement du lac dans la couche bronze de BigQuery
+lake/                       lac de données : une table source = un fichier Parquet
+  manifest.csv              inventaire (lignes, colonnes, empreinte de chaque fichier)
 data/raw/                   données complémentaires (CSV bruts)
   ehs/                      incidents, training_catalog, training_records
   hr/                       timesheet_monthly, temp_labor_monthly
@@ -46,6 +53,16 @@ Fenêtre : juin 2022 à mai 2025 (36 mois), alignée sur les données de product
    ```
 
 Les chemins se règlent par variables d'environnement : `AW_DIR` (défaut `./aw`), `OUT_DIR` (défaut `./data/raw`), `DOC_DIR` (défaut `./docs`).
+
+## Architecture
+
+```
+AdventureWorks (CSV) ─┐                                   BigQuery (EU)
+                      ├─> lake/ (Parquet) ─> bronze ─> silver ─> gold ─> dashboard
+Données générées ─────┘                            (dbt : SQL et tests)
+```
+
+Contraintes assumées du sandbox BigQuery, utilisé pour rester gratuit : pas d'instructions de modification (`INSERT`, `UPDATE`, `MERGE`), donc des tables reconstruites entièrement à chaque exécution ; expiration automatique des tables au bout de 60 jours, compensée par l'exécution mensuelle du pipeline ; pas de Cloud Storage, d'où un lac versionné dans le dépôt.
 
 ## Feuille de route
 
