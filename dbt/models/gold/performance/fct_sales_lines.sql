@@ -18,6 +18,7 @@ with lines as (
         h.sales_person_id,
         h.territory_id,
         h.ship_method_id,
+        h.ship_to_address_id,
         h.online_order_flag,
         h.sub_total,
         h.freight
@@ -36,6 +37,12 @@ costed as (
         and l.ship_date >= c.start_date
         and (c.end_date is null or l.ship_date < c.end_date)
     left join {{ ref('stg_aw_production__product') }} as p on p.product_id = l.product_id
+),
+
+located as (
+    select c.*, a.state_province_id as ship_to_state_province_id
+    from costed as c
+    left join {{ ref('stg_aw_person__address') }} as a on a.address_id = c.ship_to_address_id
 )
 
 select
@@ -47,6 +54,7 @@ select
     customer_id,
     sales_person_id                                                    as sales_person_employee_id,
     territory_id,
+    ship_to_state_province_id,
     product_id,
     special_offer_id,
     ship_method_id,
@@ -63,5 +71,5 @@ select
     order_qty * unit_standard_cost                                     as cost_of_sales_usd,
     line_total - order_qty * unit_standard_cost                        as gross_margin_usd,
     case when sub_total > 0 then freight * line_total / sub_total else 0 end as freight_billed_usd
-from costed
+from located
 where {{ month_start('ship_date') }} between date '{{ var("calendar_start") }}' and date '{{ var("reporting_month") }}'

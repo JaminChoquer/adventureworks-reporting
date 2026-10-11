@@ -1,0 +1,33 @@
+version: 2
+
+# Couche mart : agrégats mensuels par axe de filtre, lus par le dashboard (version live)
+# et exportés pour la version publique. Les totaux sont rapprochés des faits gold par des tests.
+models:
+  - name: mart_sales_monthly
+    description: Ventes par mois, pays, État, territoire, canal, catégorie et type de client.
+    columns:
+      - name: month_start
+        data_tests: [not_null]
+      - name: state_province_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_geography'), field: state_province_id}
+  - name: mart_production_monthly
+    description: Ordres de fabrication par mois, catégorie de produit et motif de rebut.
+  - name: mart_purchasing_monthly
+    description: Achats par mois, fournisseur localisé et catégorie de produit.
+    columns:
+      - name: vendor_id
+        data_tests: [not_null]
+  - name: mart_safety_monthly
+    description: Événements sécurité par mois, atelier, zone, équipe, type de travailleur, type, gravité, cause et nature.
+  - name: mart_hours_monthly
+    description: Heures travaillées par mois, atelier, équipe et type de travailleur, dénominateur des taux de sécurité.
+  - name: mart_hr_monthly
+    description: Effectifs, heures, absences, formation et masse salariale par mois et axe RH.
+  - name: mart_training_monthly
+    description: Conformité des habilitations par mois, atelier, équipe et formation.
+  - name: mart_quality_monthly
+    description: Non-conformités par mois, source, gravité, atelier et cause racine.
+  - name: mart_returns_monthly
+    description: Retours clients par mois, motif, catégorie de produit et pays.

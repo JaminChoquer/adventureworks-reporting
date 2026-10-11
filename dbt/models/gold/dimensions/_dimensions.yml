@@ -97,3 +97,9 @@ models:
         data_tests:
           - relationships:
               arguments: {to: ref('dim_territory'), field: territory_id}
+
+  - name: dim_geography
+    description: États et provinces avec pays, territoire et coordonnées publiques (licence ODbL).
+    columns:
+      - name: state_province_id
+        data_tests: [unique, not_null]

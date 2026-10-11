@@ -25,7 +25,8 @@ pipeline/
 dbt/                        transformations SQL et tests
   models/silver/            une vue typée et renommée par table bronze
   models/gold/              modèle en étoile du reporting (dimensions, faits par thématique, kpi_monthly)
-  seeds/                    référentiels : ateliers, zones, jours fériés, postes financiers, définitions des indicateurs
+  models/mart/              agrégats mensuels par axe de filtre, lus par le dashboard
+  seeds/                    référentiels : ateliers, zones, plan de l'usine, géographie, jours fériés, postes financiers, indicateurs
   tests/                    tests de qualité génériques et métier
 lake/                       lac de données : une table source = un fichier Parquet
   manifest.csv              inventaire (lignes, colonnes, empreinte de chaque fichier)
@@ -64,7 +65,7 @@ Les chemins se règlent par variables d'environnement : `AW_DIR` (défaut `./aw`
 
 ```
 AdventureWorks (CSV) ─┐                                   BigQuery (EU)
-                      ├─> lake/ (Parquet) ─> bronze ─> silver ─> gold ─> dashboard
+                      ├─> lake/ (Parquet) ─> bronze ─> silver ─> gold ─> mart ─> dashboard
 Données générées ─────┘                            (dbt : SQL et tests)
 ```
 
@@ -96,6 +97,11 @@ La base `local.duckdb` reproduit la couche bronze : tout le projet dbt se constr
 3. Transformations dbt : silver, dimensions, faits QHSE, Performance, Finance et RH, table d'indicateurs `kpi_monthly`, tests de qualité ✔
 4. Orchestration mensuelle avec GitHub Actions ✔
 5. Dashboard de reporting mensuel branché en direct sur la couche gold
+
+## Sources de référence
+
+- Coordonnées des pays, États et provinces : jeu public *countries-states-cities-database* (dr5hn, licence ODbL), dans `dbt/seeds/geo_*.csv`.
+- Plan de l'usine : plan schématique illustratif des zones d'AdventureWorks (`dbt/seeds/plant_layout.csv`), sans valeur d'échelle.
 
 ## Avertissement
 
