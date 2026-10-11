@@ -1,0 +1,33 @@
+name: adventureworks_reporting
+version: '1.0.0'
+config-version: 2
+profile: adventureworks_reporting
+
+model-paths: ['models']
+seed-paths: ['seeds']
+macro-paths: ['macros']
+test-paths: ['tests']
+target-path: target
+clean-targets: ['target', 'dbt_packages']
+
+vars:
+  # Dernier mois clôturé du reporting (premier jour du mois). Les faits gold s'arrêtent à ce mois.
+  reporting_month: '2025-05-01'
+  # Bornes du calendrier, alignées sur les 36 mois de production d'AdventureWorks.
+  calendar_start: '2022-06-01'
+  calendar_end: '2025-05-31'
+
+seeds:
+  adventureworks_reporting:
+    +schema: silver
+    company_holidays:
+      +column_types: {holiday_date: date}
+
+models:
+  adventureworks_reporting:
+    silver:
+      +schema: silver
+      +materialized: view
+    gold:
+      +schema: gold
+      +materialized: table

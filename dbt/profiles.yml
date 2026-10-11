@@ -1,0 +1,19 @@
+# Connexions dbt. Aucun secret ici : BigQuery utilise les identifiants Google
+# fournis par l'environnement (GitHub Actions ou GOOGLE_APPLICATION_CREDENTIALS).
+adventureworks_reporting:
+  target: prod
+  outputs:
+    prod:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('GCP_PROJECT_ID') }}"
+      dataset: silver
+      location: EU
+      threads: 4
+      job_execution_timeout_seconds: 300
+      priority: interactive
+    local:
+      type: duckdb
+      path: "{{ env_var('LOCAL_DUCKDB', '../local.duckdb') }}"
+      schema: silver
+      threads: 4

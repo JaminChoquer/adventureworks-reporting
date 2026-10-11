@@ -15,6 +15,7 @@ jobs:
     env:
       GCP_PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
       BQ_LOCATION: EU
+      DBT_PROFILES_DIR: ${{ github.workspace }}/dbt
     steps:
       - name: Récupération du dépôt
         uses: actions/checkout@v4
@@ -36,3 +37,18 @@ jobs:
 
       - name: Chargement de la couche bronze
         run: python pipeline/load_bronze.py
+
+      - name: Transformations et tests dbt (silver et gold)
+        working-directory: dbt
+        run: dbt build --target prod
+
+      - name: Conservation des artefacts dbt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dbt-artifacts
+          path: |
+            dbt/target/run_results.json
+            dbt/target/manifest.json
+            dbt/logs/dbt.log
+          if-no-files-found: ignore

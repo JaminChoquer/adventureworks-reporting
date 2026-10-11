@@ -14,7 +14,12 @@ __pycache__/
 # macOS
 .DS_Store
 
+# Base locale de développement
+*.duckdb
+*.duckdb.wal
+
 # dbt
 target/
 dbt_packages/
 logs/
+.user.yml

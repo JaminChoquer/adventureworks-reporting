@@ -1,0 +1,51 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: Tables sources brutes chargées depuis le lac de données (toutes les colonnes en texte).
+    schema: bronze
+    tables:
+      - name: aw_hr__department
+      - name: aw_hr__employee
+      - name: aw_hr__employee_department_history
+      - name: aw_hr__employee_pay_history
+      - name: aw_hr__shift
+      - name: aw_person__address
+      - name: aw_person__business_entity_address
+      - name: aw_person__country_region
+      - name: aw_person__person
+      - name: aw_person__state_province
+      - name: aw_production__location
+      - name: aw_production__product
+      - name: aw_production__product_category
+      - name: aw_production__product_cost_history
+      - name: aw_production__product_inventory
+      - name: aw_production__product_list_price_history
+      - name: aw_production__product_model
+      - name: aw_production__product_subcategory
+      - name: aw_production__scrap_reason
+      - name: aw_production__work_order
+      - name: aw_production__work_order_routing
+      - name: aw_purchasing__product_vendor
+      - name: aw_purchasing__purchase_order_detail
+      - name: aw_purchasing__purchase_order_header
+      - name: aw_purchasing__vendor
+      - name: aw_sales__customer
+      - name: aw_sales__sales_order_detail
+      - name: aw_sales__sales_order_header
+      - name: aw_sales__sales_person
+      - name: aw_sales__sales_person_quota_history
+      - name: aw_sales__sales_territory
+      - name: aw_sales__ship_method
+      - name: aw_sales__special_offer
+      - name: aw_sales__store
+      - name: cx_ehs__incidents
+      - name: cx_ehs__training_catalog
+      - name: cx_ehs__training_records
+      - name: cx_environment__monthly_readings
+      - name: cx_hr__temp_labor_monthly
+      - name: cx_hr__timesheet_monthly
+      - name: cx_quality__audits
+      - name: cx_quality__customer_returns
+      - name: cx_quality__nonconformities
+      - name: cx_reference__scenario_events

@@ -1,0 +1,130 @@
+version: 2
+
+models:
+  - name: fct_safety_events
+    description: Registre des événements santé-sécurité, des accidents avec arrêt aux situations dangereuses.
+    columns:
+      - name: event_id
+        data_tests: [unique, not_null]
+      - name: event_type
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['Lost time injury', 'Medical treatment', 'First aid', 'Near miss', 'Hazardous situation']}
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}
+      - name: location_key
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_location'), field: location_key}
+      - name: work_center_code
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_work_center'), field: work_center_code}
+      - name: injured_employee_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_employee'), field: employee_id}
+      - name: shift_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_shift'), field: shift_id}
+
+  - name: fct_hours_worked
+    description: Heures travaillées et absences des salariés et intérimaires, dénominateur des taux de fréquence et de gravité.
+    columns:
+      - name: hours_key
+        data_tests: [unique, not_null]
+      - name: worker_type
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['Employee', 'Temporary']}
+      - name: work_center_code
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_work_center'), field: work_center_code}
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}
+
+  - name: fct_training_sessions
+    description: Sessions de formation sécurité suivies pendant la période.
+    columns:
+      - name: session_id
+        data_tests: [unique, not_null]
+      - name: employee_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_employee'), field: employee_id}
+      - name: course_code
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_training_course'), field: course_code}
+
+  - name: fct_training_compliance
+    description: Conformité de chaque habilitation requise en fin de mois.
+    columns:
+      - name: compliance_key
+        data_tests: [unique, not_null]
+      - name: employee_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_employee'), field: employee_id}
+
+  - name: fct_audits
+    description: Audits 5S, ISO 9001 et ISO 14001, internes et externes.
+    columns:
+      - name: audit_id
+        data_tests: [unique, not_null]
+      - name: location_key
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_location'), field: location_key}
+
+  - name: fct_nonconformities
+    description: Non-conformités de production, fournisseurs, audits et clients.
+    columns:
+      - name: nc_id
+        data_tests: [unique, not_null]
+      - name: nc_source
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['Production', 'Supplier', 'Internal audit', 'External audit', 'Customer']}
+      - name: severity
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['Minor', 'Major', 'Critical']}
+      - name: product_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_product'), field: product_id}
+      - name: vendor_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_vendor'), field: vendor_id}
+      - name: location_key
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_location'), field: location_key}
+
+  - name: fct_customer_returns
+    description: Retours clients rattachés à leur ligne de commande.
+    columns:
+      - name: rma_id
+        data_tests: [unique, not_null]
+      - name: product_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_product'), field: product_id}
+
+  - name: fct_environment_readings
+    description: Relevés environnementaux mensuels par zone et indicateur.
+    columns:
+      - name: reading_key
+        data_tests: [unique, not_null]
+      - name: location_key
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_location'), field: location_key}

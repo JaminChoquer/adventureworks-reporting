@@ -1,0 +1,12 @@
+work_center_code,work_center_name,area,main_location_id,sort_order
+WC10,Frame Forming,Production,10,1
+WC20,Frame Welding,Production,20,2
+WC30,Debur and Polish,Production,30,3
+WC40,Paint,Production,40,4
+WC45,Specialized Paint,Production,45,5
+WC50,Subassembly,Production,50,6
+WC60,Final Assembly,Production,60,7
+LOG,Logistics,Logistics,7,8
+MNT,Maintenance,Support,1,9
+QA,Quality Assurance,Support,,10
+OFF,Offices and administration,Support,,11

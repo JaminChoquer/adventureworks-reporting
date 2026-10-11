@@ -1,0 +1,28 @@
+-- Silver : aw_production__product (AdventureWorks), typée et renommée, sans règle métier.
+select
+    {{ to_int('ProductID') }}            as product_id,
+    {{ txt('Name') }}                    as name,
+    {{ txt('ProductNumber') }}           as product_number,
+    {{ to_bool('MakeFlag') }}            as make_flag,
+    {{ to_bool('FinishedGoodsFlag') }}   as finished_goods_flag,
+    {{ txt('Color') }}                   as color,
+    {{ to_int('SafetyStockLevel') }}     as safety_stock_level,
+    {{ to_int('ReorderPoint') }}         as reorder_point,
+    {{ to_num('StandardCost') }}         as standard_cost,
+    {{ to_num('ListPrice') }}            as list_price,
+    {{ txt('Size') }}                    as size,
+    {{ txt('SizeUnitMeasureCode') }}     as size_unit_measure_code,
+    {{ txt('WeightUnitMeasureCode') }}   as weight_unit_measure_code,
+    {{ to_num('Weight') }}               as weight,
+    {{ to_int('DaysToManufacture') }}    as days_to_manufacture,
+    {{ txt('ProductLine') }}             as product_line,
+    {{ txt('Class') }}                   as class,
+    {{ txt('Style') }}                   as style,
+    {{ to_int('ProductSubcategoryID') }} as product_subcategory_id,
+    {{ to_int('ProductModelID') }}       as product_model_id,
+    {{ to_date('SellStartDate') }}       as sell_start_date,
+    {{ to_date('SellEndDate') }}         as sell_end_date,
+    {{ txt('DiscontinuedDate') }}        as discontinued_date,
+    {{ to_datetime('ModifiedDate') }}    as modified_date,
+    _source
+from {{ source('bronze', 'aw_production__product') }}

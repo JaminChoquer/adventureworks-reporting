@@ -21,6 +21,12 @@ AdventureWorks ne couvre ni la santé-sécurité, ni l'environnement, ni le temp
 pipeline/
   build_lake.py             construction du lac de données en Parquet
   load_bronze.py            chargement du lac dans la couche bronze de BigQuery
+  load_local.py             copie locale de la couche bronze dans DuckDB (développement)
+dbt/                        transformations SQL et tests
+  models/silver/            une vue typée et renommée par table bronze
+  models/gold/              modèle en étoile du reporting (dimensions et faits)
+  seeds/                    référentiels : ateliers, zones, jours fériés
+  tests/                    tests de qualité génériques et métier
 lake/                       lac de données : une table source = un fichier Parquet
   manifest.csv              inventaire (lignes, colonnes, empreinte de chaque fichier)
 data/raw/                   données complémentaires (CSV bruts)
@@ -64,11 +70,22 @@ Données générées ─────┘                            (dbt : SQL et
 
 Contraintes assumées du sandbox BigQuery, utilisé pour rester gratuit : pas d'instructions de modification (`INSERT`, `UPDATE`, `MERGE`), donc des tables reconstruites entièrement à chaque exécution ; expiration automatique des tables au bout de 60 jours, compensée par l'exécution mensuelle du pipeline ; pas de Cloud Storage, d'où un lac versionné dans le dépôt.
 
+## Développer en local, sans cloud
+
+```
+pip install -r requirements-dev.txt
+python pipeline/load_local.py
+cd dbt
+dbt build --target local --profiles-dir .
+```
+
+La base `local.duckdb` reproduit la couche bronze : tout le projet dbt se construit et se teste en quelques secondes. Les macros de `dbt/macros` rendent le SQL identique sur DuckDB et BigQuery.
+
 ## Feuille de route
 
 1. Données complémentaires générées et validées ✔
 2. Lac de données en Parquet et chargement dans BigQuery (couche bronze)
-3. Transformations dbt : couches silver et gold, tests de qualité
+3. Transformations dbt : silver complète, dimensions et faits QHSE, tests de qualité
 4. Orchestration mensuelle avec GitHub Actions
 5. Dashboard de reporting mensuel branché en direct sur la couche gold
 

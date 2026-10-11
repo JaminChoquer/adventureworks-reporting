@@ -1,0 +1,407 @@
+version: 2
+
+models:
+  - name: stg_aw_hr__department
+    description: "aw_hr__department (AdventureWorks), typée et renommée."
+    columns:
+      - name: department_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_hr__employee
+    description: "aw_hr__employee (AdventureWorks), typée et renommée."
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_hr__employee_department_history
+    description: "aw_hr__employee_department_history (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [business_entity_id, department_id, shift_id, start_date]
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - not_null
+      - name: department_id
+        data_tests:
+          - not_null
+      - name: shift_id
+        data_tests:
+          - not_null
+      - name: start_date
+        data_tests:
+          - not_null
+  - name: stg_aw_hr__employee_pay_history
+    description: "aw_hr__employee_pay_history (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [business_entity_id, rate_change_date]
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - not_null
+      - name: rate_change_date
+        data_tests:
+          - not_null
+  - name: stg_aw_hr__shift
+    description: "aw_hr__shift (AdventureWorks), typée et renommée."
+    columns:
+      - name: shift_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_person__address
+    description: "aw_person__address (AdventureWorks), typée et renommée."
+    columns:
+      - name: address_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_person__business_entity_address
+    description: "aw_person__business_entity_address (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [business_entity_id, address_id, address_type_id]
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - not_null
+      - name: address_id
+        data_tests:
+          - not_null
+      - name: address_type_id
+        data_tests:
+          - not_null
+  - name: stg_aw_person__country_region
+    description: "aw_person__country_region (AdventureWorks), typée et renommée."
+    columns:
+      - name: country_region_code
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_person__person
+    description: "aw_person__person (AdventureWorks), typée et renommée."
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_person__state_province
+    description: "aw_person__state_province (AdventureWorks), typée et renommée."
+    columns:
+      - name: state_province_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__location
+    description: "aw_production__location (AdventureWorks), typée et renommée."
+    columns:
+      - name: location_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__product
+    description: "aw_production__product (AdventureWorks), typée et renommée."
+    columns:
+      - name: product_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__product_category
+    description: "aw_production__product_category (AdventureWorks), typée et renommée."
+    columns:
+      - name: product_category_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__product_cost_history
+    description: "aw_production__product_cost_history (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [product_id, start_date]
+    columns:
+      - name: product_id
+        data_tests:
+          - not_null
+      - name: start_date
+        data_tests:
+          - not_null
+  - name: stg_aw_production__product_inventory
+    description: "aw_production__product_inventory (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [product_id, location_id]
+    columns:
+      - name: product_id
+        data_tests:
+          - not_null
+      - name: location_id
+        data_tests:
+          - not_null
+  - name: stg_aw_production__product_list_price_history
+    description: "aw_production__product_list_price_history (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [product_id, start_date]
+    columns:
+      - name: product_id
+        data_tests:
+          - not_null
+      - name: start_date
+        data_tests:
+          - not_null
+  - name: stg_aw_production__product_model
+    description: "aw_production__product_model (AdventureWorks), typée et renommée."
+    columns:
+      - name: product_model_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__product_subcategory
+    description: "aw_production__product_subcategory (AdventureWorks), typée et renommée."
+    columns:
+      - name: product_subcategory_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__scrap_reason
+    description: "aw_production__scrap_reason (AdventureWorks), typée et renommée."
+    columns:
+      - name: scrap_reason_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__work_order
+    description: "aw_production__work_order (AdventureWorks), typée et renommée."
+    columns:
+      - name: work_order_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_production__work_order_routing
+    description: "aw_production__work_order_routing (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [work_order_id, product_id, operation_sequence]
+    columns:
+      - name: work_order_id
+        data_tests:
+          - not_null
+      - name: product_id
+        data_tests:
+          - not_null
+      - name: operation_sequence
+        data_tests:
+          - not_null
+  - name: stg_aw_purchasing__product_vendor
+    description: "aw_purchasing__product_vendor (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [product_id, business_entity_id]
+    columns:
+      - name: product_id
+        data_tests:
+          - not_null
+      - name: business_entity_id
+        data_tests:
+          - not_null
+  - name: stg_aw_purchasing__purchase_order_detail
+    description: "aw_purchasing__purchase_order_detail (AdventureWorks), typée et renommée."
+    columns:
+      - name: purchase_order_detail_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_purchasing__purchase_order_header
+    description: "aw_purchasing__purchase_order_header (AdventureWorks), typée et renommée."
+    columns:
+      - name: purchase_order_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_purchasing__vendor
+    description: "aw_purchasing__vendor (AdventureWorks), typée et renommée."
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__customer
+    description: "aw_sales__customer (AdventureWorks), typée et renommée."
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__sales_order_detail
+    description: "aw_sales__sales_order_detail (AdventureWorks), typée et renommée."
+    columns:
+      - name: sales_order_detail_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__sales_order_header
+    description: "aw_sales__sales_order_header (AdventureWorks), typée et renommée."
+    columns:
+      - name: sales_order_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__sales_person
+    description: "aw_sales__sales_person (AdventureWorks), typée et renommée."
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__sales_person_quota_history
+    description: "aw_sales__sales_person_quota_history (AdventureWorks), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [business_entity_id, quota_date]
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - not_null
+      - name: quota_date
+        data_tests:
+          - not_null
+  - name: stg_aw_sales__sales_territory
+    description: "aw_sales__sales_territory (AdventureWorks), typée et renommée."
+    columns:
+      - name: territory_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__ship_method
+    description: "aw_sales__ship_method (AdventureWorks), typée et renommée."
+    columns:
+      - name: ship_method_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__special_offer
+    description: "aw_sales__special_offer (AdventureWorks), typée et renommée."
+    columns:
+      - name: special_offer_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_aw_sales__store
+    description: "aw_sales__store (AdventureWorks), typée et renommée."
+    columns:
+      - name: business_entity_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_cx_ehs__incidents
+    description: "cx_ehs__incidents (données complémentaires), typée et renommée."
+    columns:
+      - name: incident_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_cx_ehs__training_catalog
+    description: "cx_ehs__training_catalog (données complémentaires), typée et renommée."
+    columns:
+      - name: course_code
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_cx_ehs__training_records
+    description: "cx_ehs__training_records (données complémentaires), typée et renommée."
+    columns:
+      - name: training_record_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_cx_environment__monthly_readings
+    description: "cx_environment__monthly_readings (données complémentaires), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [month, location_id, indicator]
+    columns:
+      - name: month
+        data_tests:
+          - not_null
+      - name: indicator
+        data_tests:
+          - not_null
+  - name: stg_cx_hr__temp_labor_monthly
+    description: "cx_hr__temp_labor_monthly (données complémentaires), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [month, work_center, shift_id, agency]
+    columns:
+      - name: month
+        data_tests:
+          - not_null
+      - name: work_center
+        data_tests:
+          - not_null
+      - name: shift_id
+        data_tests:
+          - not_null
+      - name: agency
+        data_tests:
+          - not_null
+  - name: stg_cx_hr__timesheet_monthly
+    description: "cx_hr__timesheet_monthly (données complémentaires), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [month, business_entity_id]
+    columns:
+      - name: month
+        data_tests:
+          - not_null
+      - name: business_entity_id
+        data_tests:
+          - not_null
+  - name: stg_cx_quality__audits
+    description: "cx_quality__audits (données complémentaires), typée et renommée."
+    columns:
+      - name: audit_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_cx_quality__customer_returns
+    description: "cx_quality__customer_returns (données complémentaires), typée et renommée."
+    columns:
+      - name: rma_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_cx_quality__nonconformities
+    description: "cx_quality__nonconformities (données complémentaires), typée et renommée."
+    columns:
+      - name: nc_id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_cx_reference__scenario_events
+    description: "cx_reference__scenario_events (données complémentaires), typée et renommée."
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [event_date, event]
+    columns:
+      - name: event_date
+        data_tests:
+          - not_null
+      - name: event
+        data_tests:
+          - not_null

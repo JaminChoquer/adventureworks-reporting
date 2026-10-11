@@ -1,0 +1,25 @@
+-- Silver : cx_quality__nonconformities (données complémentaires), typée et renommée, sans règle métier.
+select
+    {{ txt('nc_id') }}                       as nc_id,
+    {{ to_date('detected_on') }}             as detected_on,
+    {{ txt('source') }}                      as source,
+    {{ txt('severity') }}                    as severity,
+    {{ txt('description') }}                 as description,
+    {{ txt('work_center') }}                 as work_center,
+    {{ to_int('location_id') }}              as location_id,
+    {{ to_int('work_order_id') }}            as work_order_id,
+    {{ to_int('purchase_order_id') }}        as purchase_order_id,
+    {{ to_int('purchase_order_detail_id') }} as purchase_order_detail_id,
+    {{ to_int('vendor_id') }}                as vendor_id,
+    {{ txt('audit_id') }}                    as audit_id,
+    {{ txt('rma_id') }}                      as rma_id,
+    {{ to_int('sales_order_id') }}           as sales_order_id,
+    {{ to_int('product_id') }}               as product_id,
+    {{ to_int('scrap_reason_id') }}          as scrap_reason_id,
+    {{ to_int('qty_affected') }}             as qty_affected,
+    {{ to_num('estimated_cost_usd') }}       as estimated_cost_usd,
+    {{ txt('root_cause_category') }}         as root_cause_category,
+    {{ txt('status') }}                      as status,
+    {{ to_date('closed_on') }}               as closed_on,
+    _source
+from {{ source('bronze', 'cx_quality__nonconformities') }}

@@ -1,0 +1,4 @@
+# Outils de développement local (en plus du pipeline) : base DuckDB pour tester dbt sans cloud.
+-r pipeline/requirements.txt
+dbt-duckdb~=1.11.0
+duckdb>=1.1

@@ -1,0 +1,79 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: Calendrier quotidien de la période, avec jours ouvrés et fériés de l'entreprise.
+    columns:
+      - name: date_day
+        data_tests: [unique, not_null]
+      - name: month_start
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_month'), field: month_start}
+
+  - name: dim_month
+    description: Axe mensuel commun du reporting. is_closed indique les mois clôturés (jusqu'à la variable reporting_month).
+    columns:
+      - name: month_start
+        data_tests: [unique, not_null]
+      - name: working_days
+        data_tests: [not_null]
+
+  - name: dim_work_center
+    description: Ateliers de production et services support.
+    columns:
+      - name: work_center_code
+        data_tests: [unique, not_null]
+      - name: area
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['Production', 'Logistics', 'Support']}
+
+  - name: dim_location
+    description: Zones physiques du site ; la clé 0 représente le bâtiment et les services généraux.
+    columns:
+      - name: location_key
+        data_tests: [unique, not_null]
+      - name: work_center_code
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_work_center'), field: work_center_code}
+
+  - name: dim_shift
+    description: Équipes de travail.
+    columns:
+      - name: shift_id
+        data_tests: [unique, not_null]
+
+  - name: dim_employee
+    description: Salariés avec affectation actuelle, atelier, tranches d'âge et d'ancienneté au dernier mois clôturé.
+    columns:
+      - name: employee_id
+        data_tests: [unique, not_null]
+      - name: work_center_code
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_work_center'), field: work_center_code}
+      - name: shift_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_shift'), field: shift_id}
+
+  - name: dim_product
+    description: Produits et leur hiérarchie de catégories.
+    columns:
+      - name: product_id
+        data_tests: [unique, not_null]
+
+  - name: dim_vendor
+    description: Fournisseurs.
+    columns:
+      - name: vendor_id
+        data_tests: [unique, not_null]
+
+  - name: dim_training_course
+    description: Catalogue des formations sécurité.
+    columns:
+      - name: course_code
+        data_tests: [unique, not_null]

@@ -1,0 +1,27 @@
+-- Silver : aw_sales__sales_order_header (AdventureWorks), typée et renommée, sans règle métier.
+select
+    {{ to_int('SalesOrderID') }}     as sales_order_id,
+    {{ to_int('RevisionNumber') }}   as revision_number,
+    {{ to_date('OrderDate') }}       as order_date,
+    {{ to_date('DueDate') }}         as due_date,
+    {{ to_date('ShipDate') }}        as ship_date,
+    {{ to_int('Status') }}           as status,
+    {{ to_bool('OnlineOrderFlag') }} as online_order_flag,
+    {{ txt('SalesOrderNumber') }}    as sales_order_number,
+    {{ txt('PurchaseOrderNumber') }} as purchase_order_number,
+    {{ txt('AccountNumber') }}       as account_number,
+    {{ to_int('CustomerID') }}       as customer_id,
+    {{ to_int('SalesPersonID') }}    as sales_person_id,
+    {{ to_int('TerritoryID') }}      as territory_id,
+    {{ to_int('BillToAddressID') }}  as bill_to_address_id,
+    {{ to_int('ShipToAddressID') }}  as ship_to_address_id,
+    {{ to_int('ShipMethodID') }}     as ship_method_id,
+    {{ to_int('CurrencyRateID') }}   as currency_rate_id,
+    {{ to_num('SubTotal') }}         as sub_total,
+    {{ to_num('TaxAmt') }}           as tax_amt,
+    {{ to_num('Freight') }}          as freight,
+    {{ to_num('TotalDue') }}         as total_due,
+    {{ txt('Comment') }}             as comment,
+    {{ to_date('ModifiedDate') }}    as modified_date,
+    _source
+from {{ source('bronze', 'aw_sales__sales_order_header') }}
